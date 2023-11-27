@@ -1,0 +1,6 @@
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\bin\Debug\ZurichNA.Retro.LINQ.dll.config
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\bin\Debug\ZurichNA.Retro.LINQ.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\bin\Debug\ZurichNA.Retro.LINQ.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\obj\Debug\ZurichNA.Retro.LINQ.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.LINQ\obj\Debug\ZurichNA.Retro.LINQ.pdb

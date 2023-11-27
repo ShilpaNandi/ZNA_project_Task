@@ -1,0 +1,592 @@
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojResolveAssemblyReference.cache
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojAssemblyReference.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojAssemblyReference.cache
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll.config
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.Logic.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\log4net.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.AIS.Exception.dll.config
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csprojAssemblyReference.cache
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CoreCompileInputs.cache
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\obj\Debug\AIS.DAL.Logic.csproj.CopyComplete
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\obj\Debug\ZurichNA.AIS.DAL.Logic.pdb

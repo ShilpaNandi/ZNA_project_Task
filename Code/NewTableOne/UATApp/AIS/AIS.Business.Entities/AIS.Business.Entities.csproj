@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD4A78D3-0B06-4BD7-BBFF-FDFB8EEAD733}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZurichNA.AIS.Business.Entities</RootNamespace>
+    <AssemblyName>ZurichNA.AIS.Business.Entities</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZurichNA.LSP.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\ZurichNA.LSP.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountBE.cs" />
+    <Compile Include="AdjustmentManagementBE.cs" />
+    <Compile Include="AdjustmentParameterDetailBE.cs" />
+    <Compile Include="AdjustmentParameterSetupBE.cs" />
+    <Compile Include="AdjustmentParameterPolicyBE.cs" />
+    <Compile Include="AdjustmentRetroInfo.cs" />
+    <Compile Include="AdjustmentReviewCommentsBE.cs" />
+    <Compile Include="ApplicationStatusLogBE.cs" />
+    <Compile Include="AriesClearingBE.cs" />
+    <Compile Include="ARMISLossDetailBE.cs" />
+    <Compile Include="ARMISLossBE.cs" />
+    <Compile Include="AssignContactsBE.cs" />
+    <Compile Include="AssignERPFormulaBE.cs" />
+    <Compile Include="BusinessUnitOfficeBE.cs" />
+    <Compile Include="Coml_AgmtBE.cs" />
+    <Compile Include="Coml_Agmt_AuDtBE.cs" />
+    <Compile Include="CustomerCommentsBE.cs" />
+    <Compile Include="CustomerDocumentIssuesBE.cs" />
+    <Compile Include="ExcessNonBillableBE.cs" />
+    <Compile Include="ILRFFormulaBE.cs" />
+    <Compile Include="InvoiceInquiryBE.cs" />
+    <Compile Include="InvoiceExhibitBE.cs" />
+    <Compile Include="InvoiceMailingDtlsBE.cs" />
+    <Compile Include="KYORSetupBE.cs" />
+    <Compile Include="LossInfoBE.cs" />
+    <Compile Include="LSICustomerBE.cs" />
+    <Compile Include="NonAisCustomerBE.cs" />
+    <Compile Include="PaidLossBillingBE.cs" />
+    <Compile Include="PremiumAdjCombElementsBE.cs" />
+    <Compile Include="PremiumAdjLRFPostingBE.cs" />
+    <Compile Include="PremiumAdjMiscInvoiceBE.cs" />
+    <Compile Include="PremiumAdjNYScndInjuryFundBE.cs" />
+    <Compile Include="PremiumAdjustmentBE.cs" />
+    <Compile Include="PremiumAdjustmentCommentBE.cs" />
+    <Compile Include="PremiumAdjustmentEscrowBE.cs" />
+    <Compile Include="PremiumAdjustmentLBABE.cs" />
+    <Compile Include="PremiumAdjustmentLBADetailBE.cs" />
+    <Compile Include="PremiumAdjustmentPeriodBE.cs" />
+    <Compile Include="PremiumAdjustmentProgramStatusBE.cs" />
+    <Compile Include="PremiumAdjustmentRetroBE.cs" />
+    <Compile Include="PremiumAdjustmentStatusBE.cs" />
+    <Compile Include="Prem_Adj_PgmBE.cs" />
+    <Compile Include="QCMasterIssueListBE.cs" />
+    <Compile Include="Qtly_Cntrl_ChklistBE.cs" />
+    <Compile Include="RetroInfoBE.cs" />
+    <Compile Include="TPAManualPostingsBE.cs" />
+    <Compile Include="TPAManualPostingsDetailBE.cs" />
+    <Compile Include="ApplWebPageAudtBE.cs" />
+    <Compile Include="BrokerBE.cs" />
+    <Compile Include="CombinedElementsBE.cs" />
+    <Compile Include="PolicyAuditBE.cs" />
+    <Compile Include="CustomerContactBE.cs" />
+    <Compile Include="CustomerDocumentBE.cs" />
+    <Compile Include="LookupBE.cs" />
+    <Compile Include="LookUpTypeBE.cs" />
+    <Compile Include="MasterERPFormulaBE.cs" />
+    <Compile Include="ApplMenuBE.cs" />
+    <Compile Include="NonSubjectAuditPremiumBE.cs" />
+    <Compile Include="PersonBE.cs" />
+    <Compile Include="PolicyBE.cs" />
+    <Compile Include="PostalAddressBE.cs" />
+    <Compile Include="PostingTransactionTypeBE.cs" />
+    <Compile Include="ProgramPeriodBE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualityControlChecklistBE.cs" />
+    <Compile Include="SteppedFactorBE.cs" />
+    <Compile Include="SubjectAuditPremiumBE.cs" />
+    <Compile Include="ApplWebPageAuthBE.cs" />
+    <Compile Include="ZDWSearchBE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIS.DAL.LINQModel\AIS.DAL.LINQModel.csproj">
+      <Project>{8C68BDA1-6658-41B4-8C5C-8CDCEED21FBF}</Project>
+      <Name>AIS.DAL.LINQModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Adjustment.cd" />
+    <None Include="Contact.cd" />
+    <None Include="Customer.cd" />
+    <None Include="PageAuthorization.cd" />
+    <None Include="Policy.cd" />
+    <None Include="QualityControl.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

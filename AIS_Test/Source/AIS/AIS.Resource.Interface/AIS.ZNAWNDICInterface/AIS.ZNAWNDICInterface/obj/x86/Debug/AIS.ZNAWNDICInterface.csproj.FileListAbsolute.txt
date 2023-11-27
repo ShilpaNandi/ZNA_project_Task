@@ -1,0 +1,52 @@
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+C:\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+C:\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+C:\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+C:\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+C:\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+D:\Workspace\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+D:\Workspace\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+D:\Workspace\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+D:\Workspace\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+D:\Workspace\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csprojResolveAssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.AssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.CoreCompileInputs.cache
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.CoreCompileInputs.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.exe
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Debug\AIS.ZNAWNDICInterface.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.exe
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Debug\AIS.ZNAWNDICInterface.csproj.AssemblyReference.cache

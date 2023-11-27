@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetCommentBE" Collapsed="true">
+    <Position X="18" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentCommentBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetStatusBE" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentStatusBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetPeriodBE" Collapsed="true">
+    <Position X="15" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentPeriodBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntity&lt;TEntity&gt;" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntityBase" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetLBADetailBE" Collapsed="true">
+    <Position X="18" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentLBADetailBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetRetroBE" Collapsed="true">
+    <Position X="12" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentRetroBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetBE" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetEscrowBE" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentEscrowBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PremiumAdjustmetLBABE" Collapsed="true">
+    <Position X="15" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PremiumAdjustmentLBABE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

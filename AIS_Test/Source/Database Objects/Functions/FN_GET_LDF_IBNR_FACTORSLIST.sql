@@ -1,0 +1,66 @@
+if exists (select 1 from sysobjects 
+		where name = 'FN_GET_LDF_IBNR_FACTORSLIST' and type = 'FN')
+	drop function fn_GetActiveLCF
+GO
+
+SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+---------------------------------------------------------------------
+-----
+----- PROC NAME:  fn_GET_LDF_IBNR_FACTORSLIST
+-----
+----- VERSION:  SQL SERVER 2005
+-----
+----- CREATED:  CSC
+-----
+----- DESCRIPTION: RETRIEVES THE CURRENT ADJUSTMENT ID FOR A GIVEN VALUATION AND CUSTOMER 
+-----
+----- MODIFIED: 
+-----
+---------------------------------------------------------------------
+CREATE FUNCTION [dbo].[FN_GET_LDF_IBNR_FACTORSLIST]
+   (
+ @ADJNO INT, 
+ @PGMID INT
+ )
+RETURNS VARCHAR(MAX)
+--WITH SCHEMABINDING
+AS
+BEGIN
+ DECLARE @SSTRING VARCHAR(MAX)
+ SET @SSTRING = NULL
+ DECLARE  @FACTORS TABLE (FACTOR varchar(20))										
+											
+INSERT INTO @FACTORS(FACTOR)
+SELECT 
+DISTINCT CASE WHEN LOS_DEV_FCTR_RT IS NOT NULL THEN
+CONVERT(NVARCHAR(30),LEFT(LOS_DEV_FCTR_RT, LEN(LOS_DEV_FCTR_RT) - 2)) + '('+LKUP_TXT+')'
+ELSE CONVERT(NVARCHAR(30),LEFT(INCUR_BUT_NOT_RPTD_FCTR_RT,LEN(INCUR_BUT_NOT_RPTD_FCTR_RT)-2)) + '('+LKUP_TXT+')' END AS FACTOR
+FROM PREM_ADJ_RETRO_DTL 
+inner join LKUP on LKUP_ID=PREM_ADJ_RETRO_DTL.LN_OF_BSN_ID
+WHERE PREM_ADJ_ID=@ADJNO AND PREM_ADJ_PGM_ID=@PGMID AND LKUP_TYP_ID=51
+
+ SELECT @SSTRING =COALESCE(@SSTRING + ', ', '') + FACTOR FROM @FACTORS 
+
+
+
+ RETURN @SSTRING
+--RETURN SUBSTRING(@SSTRING,1,78)
+END
+
+go
+
+if object_id('FN_GET_LDF_IBNR_FACTORSLIST') is not null
+	print 'Created function FN_GET_LDF_IBNR_FACTORSLIST'
+else
+	print 'Failed Creating function FN_GET_LDF_IBNR_FACTORSLIST'
+go
+
+if object_id('FN_GET_LDF_IBNR_FACTORSLIST') is not null
+	grant exec on fn_ComputeLossIBNR_LDF to public
+go
+

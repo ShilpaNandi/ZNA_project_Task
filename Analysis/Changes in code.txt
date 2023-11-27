@@ -1,0 +1,461 @@
+// C:\Workspace\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx
+#L1679
+<th>
+	Use Deposit
+</th>
+
+#L1731
+<td style="vertical-align: middle">
+    <asp:HiddenField ID="hidrowCHFUseDeposit" runat="server" />
+	<asp:ImageButton ID="imgbtnCHFUseDeposit" OnCommand='CHFUseDepositfirstRow' CommandArgument='<%# Bind("adjt_param_dtl_id") %>'
+	runat="server" />
+</td>
+
+#L1786
+<td style="vertical-align: middle">
+	<asp:HiddenField ID="hidrow2CHFUseDeposit" runat="server" />
+	<asp:ImageButton ID="imgbtn2CHFUseDeposit" OnCommand='CHFUseDepositSecndRow' CommandArgument='<%# Bind("adjt_param_dtl_id") %>'
+	runat="server" />  
+</td>
+
+#L153
+var lbldpstInd = $get('<%=hidrowCHFUseDeposit.ClientID%>');
+lbldpstInd.value = 1;
+if (lbldpstInd.value == "1") {
+	for (var i = 0; i < chkBoxCount2.length; i++) {
+		if ((chkBoxCount[i].checked == true)) {
+			chkBoxCount2[i].checked = false;
+            }
+        }
+    }
+
+#L127
+var lbldpstInd = $get('<%=hidrow2CHFUseDeposit.ClientID%>');
+if (lbldpstInd.value == "1") {
+    for (var i = 0; i < chkBoxCount.length; i++) {
+        if ((chkBoxCount2[i].checked == true)) {
+			chkBoxCount[i].checked = false;
+            }
+        }
+    }
+
+// C:\Workspace\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx.cs
+#L2969
+hidrowCHFUseDeposit.Value = "1";
+
+#L2992
+hidrowCHFUseDeposit.Value = "0";
+
+#L2477
+imgbtnCHFUseDeposit.Visible = false;
+
+#L2961
+imgbtnCHFUseDeposit.Visible = true;
+
+#L2972
+imgbtnCHFUseDeposit.ImageUrl = "~/images/disabled.GIF";
+imgbtnCHFUseDeposit.Attributes.Add("onclick", "return confirm('Are you sure you want to Disable this record?');");
+
+#L2997
+imgbtnCHFUseDeposit.ImageUrl = "~/images/disabled.GIF";
+imgbtnCHFUseDeposit.Attributes.Add("onclick", "return confirm('Are you sure you want to Disable this record?');");
+
+#L3045
+hidrow2CHFUseDeposit.Value = "1";
+
+#L3070
+hidrow2CHFUseDeposit.Value = "0";
+
+#L2480
+imgbtn2CHFUseDeposit.Visible = false;
+
+#L3039
+Imgbtn2CHFUseDeposit.Visible = false;
+
+#L3050
+imgbtn2CHFUseDeposit.ImageUrl = "~/images/disabled.GIF";
+imgbtn2CHFUseDeposit.Attributes.Add("onclick", "return confirm('Are you sure you want to Disable this record?');");
+
+#L3077
+imgbtn2CHFUseDeposit.ImageUrl = "~/images/disabled.GIF";
+imgbtn2CHFUseDeposit.Attributes.Add("onclick", "return confirm('Are you sure you want to Disable this record?');");
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx.cs
+
+
+// C:\Workspace\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.DAL.LINQModel\AISDatabaseLINQ.designer.cs
+L223, L791, L13298, L13403, L14230, L15006, L22427, L22471, L22489
+
+#L38632
+private EntitySet<PREM_ADJ_DPST_CHBX> _PREM_ADJ_DPST_CHBXs;
+
+#L38716
+this._PREM_ADJ_DPST_CHBXs = new EntitySet<PREM_ADJ_DPST_CHBX>(new Action<PREM_ADJ_DPST_CHBX>(this.attach_PREM_ADJ_DPST_CHBXs), new Action<PREM_ADJ_DPST_CHBX>(this.detach_PREM_ADJ_DPST_CHBXs));
+
+#L39362
+[Association(Name = "PREM_ADJ_PGM_SETUP_PREM_ADJ_DPST_CHBX", Storage = "_PREM_ADJ_DPST_CHBXs", ThisKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", OtherKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id")]
+public EntitySet<PREM_ADJ_DPST_CHBX> PREM_ADJ_DPST_CHBXs
+        {
+            get
+            {
+                return this._PREM_ADJ_DPST_CHBXs;
+            }
+            set
+            {
+                this._PREM_ADJ_DPST_CHBXs.Assign(value);
+            }
+        }
+
+#L39631
+private void attach_PREM_ADJ_DPST_CHBXs(PREM_ADJ_DPST_CHBX entity)
+        {
+            this.SendPropertyChanging();
+            entity.PREM_ADJ_PGM_SETUP = this;
+        }
+private void detach_PREM_ADJ_DPST_CHBXs(PREM_ADJ_DPST_CHBX entity)
+        {
+            this.SendPropertyChanging();
+            entity.PREM_ADJ_PGM_SETUP = null;
+        }
+
+#L39614
+[Table(Name = "dbo.PREM_ADJ_DPST_CHBX")]
+    public partial class PREM_ADJ_DPST_CHBX : LinqEntity, INotifyPropertyChanging, INotifyPropertyChanged
+    {
+
+        private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+
+        private int _prem_adj_dpst_chbx_id;
+
+        private int _prem_adj_pgm_setup_id;
+
+        private int _prem_adj_pgm_id;
+
+        private int _custmr_id;
+
+        private System.Nullable<int> _adj_parmet_typ_id;
+
+        private System.Nullable<int> _updt_user_id;
+
+        private System.Nullable<System.DateTime> _updt_dt;
+
+        private int _crte_user_id;
+
+        private System.DateTime _crte_dt;
+
+        private System.Nullable<bool> _dpst_ind;
+
+        private EntityRef<PREM_ADJ_PGM_SETUP> _PREM_ADJ_PGM_SETUP;
+
+        private EntityRef<LKUP> _LKUP;
+
+        #region Extensibility Method Definitions
+        partial void OnLoaded();
+        partial void OnValidate(System.Data.Linq.ChangeAction action);
+        partial void OnCreated();
+        partial void Onprem_adj_dpst_chbx_idChanging(int value);
+        partial void Onprem_adj_dpst_chbx_idChanged();
+        partial void Onprem_adj_pgm_setup_idChanging(int value);
+        partial void Onprem_adj_pgm_setup_idChanged();
+        partial void Onprem_adj_pgm_idChanging(int value);
+        partial void Onprem_adj_pgm_idChanged();
+        partial void Oncustmr_idChanging(int value);
+        partial void Oncustmr_idChanged();
+        partial void Onadj_parmet_typ_idChanging(System.Nullable<int> value);
+        partial void Onadj_parmet_typ_idChanged();
+        partial void Onupdt_user_idChanging(System.Nullable<int> value);
+        partial void Onupdt_user_idChanged();
+        partial void Onupdt_dtChanging(System.Nullable<System.DateTime> value);
+        partial void Onupdt_dtChanged();
+        partial void Oncrte_user_idChanging(int value);
+        partial void Oncrte_user_idChanged();
+        partial void Oncrte_dtChanging(System.DateTime value);
+        partial void Oncrte_dtChanged();
+        partial void Ondpst_indChanging(System.Nullable<bool> value);
+        partial void Ondpst_indChanged();
+        #endregion
+
+        public PREM_ADJ_DPST_CHBX()
+        {
+            this._LKUP = default(EntityRef<LKUP>);
+            this._PREM_ADJ_PGM_SETUP = default(EntityRef<PREM_ADJ_PGM_SETUP>);
+            OnCreated();
+        }
+
+        [Column(Storage = "_prem_adj_dpst_chbx_id", AutoSync = AutoSync.OnInsert, DbType = "Int NOT NULL IDENTITY", IsPrimaryKey = true, IsDbGenerated = true)]
+        public int prem_adj_dpst_chbx_id
+        {
+            get
+            {
+                return this._prem_adj_dpst_chbx_id;
+            }
+            set
+            {
+                if ((this._prem_adj_dpst_chbx_id != value))
+                {
+                    this.Onprem_adj_dpst_chbx_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_dpst_chbx_id = value;
+                    this.SendPropertyChanged("prem_adj_dpst_chbx_id");
+                    this.Onprem_adj_dpst_chbx_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_prem_adj_pgm_setup_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int prem_adj_pgm_setup_id
+        {
+            get
+            {
+                return this._prem_adj_pgm_setup_id;
+            }
+            set
+            {
+                if ((this._prem_adj_pgm_setup_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onprem_adj_pgm_setup_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_pgm_setup_id = value;
+                    this.SendPropertyChanged("prem_adj_pgm_setup_id");
+                    this.Onprem_adj_pgm_setup_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_prem_adj_pgm_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int prem_adj_pgm_id
+        {
+            get
+            {
+                return this._prem_adj_pgm_id;
+            }
+            set
+            {
+                if ((this._prem_adj_pgm_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onprem_adj_pgm_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_pgm_id = value;
+                    this.SendPropertyChanged("prem_adj_pgm_id");
+                    this.Onprem_adj_pgm_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_custmr_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int custmr_id
+        {
+            get
+            {
+                return this._custmr_id;
+            }
+            set
+            {
+                if ((this._custmr_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Oncustmr_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._custmr_id = value;
+                    this.SendPropertyChanged("custmr_id");
+                    this.Oncustmr_idChanged();
+                }
+            }
+        }
+
+
+        [Column(Storage = "_adj_parmet_typ_id", DbType = "Int")]
+        public System.Nullable<int> adj_parmet_typ_id
+        {
+            get
+            {
+                return this._adj_parmet_typ_id;
+            }
+            set
+            {
+                if ((this._adj_parmet_typ_id != value))
+                {
+                    if (this._LKUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onadj_parmet_typ_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._adj_parmet_typ_id = value;
+                    this.SendPropertyChanged("adj_parmet_typ_id");
+                    this.Onadj_parmet_typ_idChanged();
+                }
+            }
+        }
+
+
+        [Column(Storage = "_updt_user_id", DbType = "Int")]
+        public System.Nullable<int> updt_user_id
+        {
+            get
+            {
+                return this._updt_user_id;
+            }
+            set
+            {
+                if ((this._updt_user_id != value))
+                {
+                    this.Onupdt_user_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._updt_user_id = value;
+                    this.SendPropertyChanged("updt_user_id");
+                    this.Onupdt_user_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_updt_dt", DbType = "DateTime")]
+        public System.Nullable<System.DateTime> updt_dt
+        {
+            get
+            {
+                return this._updt_dt;
+            }
+            set
+            {
+                if ((this._updt_dt != value))
+                {
+                    this.Onupdt_dtChanging(value);
+                    this.SendPropertyChanging();
+                    this._updt_dt = value;
+                    this.SendPropertyChanged("updt_dt");
+                    this.Onupdt_dtChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_crte_user_id", DbType = "Int NOT NULL")]
+        public int crte_user_id
+        {
+            get
+            {
+                return this._crte_user_id;
+            }
+            set
+            {
+                if ((this._crte_user_id != value))
+                {
+                    this.Oncrte_user_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._crte_user_id = value;
+                    this.SendPropertyChanged("crte_user_id");
+                    this.Oncrte_user_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_crte_dt", DbType = "DateTime NOT NULL")]
+        public System.DateTime crte_dt
+        {
+            get
+            {
+                return this._crte_dt;
+            }
+            set
+            {
+                if ((this._crte_dt != value))
+                {
+                    this.Oncrte_dtChanging(value);
+                    this.SendPropertyChanging();
+                    this._crte_dt = value;
+                    this.SendPropertyChanged("crte_dt");
+                    this.Oncrte_dtChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_dpst_ind", DbType = "Bit")]
+        public System.Nullable<bool> dpst_ind
+        {
+            get
+            {
+                return this._dpst_ind;
+            }
+            set
+            {
+                if ((this._dpst_ind != value))
+                {
+                    this.Ondpst_indChanging(value);
+                    this.SendPropertyChanging();
+                    this._dpst_ind = value;
+                    this.SendPropertyChanged("dpst_ind");
+                    this.Ondpst_indChanged();
+                }
+            }
+        }
+
+
+        [Association(Name = "PREM_ADJ_PGM_SETUP_PREM_ADJ_DPST_CHBX", Storage = "_PREM_ADJ_PGM_SETUP", ThisKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", OtherKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", IsForeignKey = true)]
+        public PREM_ADJ_PGM_SETUP PREM_ADJ_PGM_SETUP
+        {
+            get
+            {
+                return this._PREM_ADJ_PGM_SETUP.Entity;
+            }
+            set
+            {
+                PREM_ADJ_PGM_SETUP previousValue = this._PREM_ADJ_PGM_SETUP.Entity;
+                if (((previousValue != value)
+                            || (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue == false)))
+                {
+                    this.SendPropertyChanging();
+                    if ((previousValue != null))
+                    {
+                        this._PREM_ADJ_PGM_SETUP.Entity = null;
+                        previousValue.PREM_ADJ_DPST_CHBXs.Remove(this);
+                    }
+                    this._PREM_ADJ_PGM_SETUP.Entity = value;
+                    if ((value != null))
+                    {
+                        value.PREM_ADJ_DPST_CHBXs.Add(this);
+                        this._prem_adj_pgm_setup_id = value.prem_adj_pgm_setup_id;
+                        this._prem_adj_pgm_id = value.prem_adj_pgm_id;
+                        this._custmr_id = value.custmr_id;
+                    }
+                    else
+                    {
+                        this._prem_adj_pgm_setup_id = default(int);
+                        this._prem_adj_pgm_id = default(int);
+                        this._custmr_id = default(int);
+                    }
+                    this.SendPropertyChanged("PREM_ADJ_PGM_SETUP");
+                }
+            }
+        }
+               
+        public event PropertyChangingEventHandler PropertyChanging;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void SendPropertyChanging()
+        {
+            if ((this.PropertyChanging != null))
+            {
+                this.PropertyChanging(this, emptyChangingEventArgs);
+            }
+        }
+
+        protected virtual void SendPropertyChanged(String propertyName)
+        {
+            if ((this.PropertyChanged != null))
+            {
+                this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }

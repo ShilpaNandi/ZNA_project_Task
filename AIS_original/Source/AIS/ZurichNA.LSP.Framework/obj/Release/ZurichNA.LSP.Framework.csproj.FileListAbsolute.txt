@@ -1,0 +1,32 @@
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\bin\Release\log4net.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CopyComplete
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\bin\Release\log4net.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CopyComplete
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\bin\Release\log4net.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CopyComplete
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\bin\Release\ZurichNA.LSP.Framework.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\bin\Release\log4net.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CoreCompileInputs.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.csproj.CopyComplete
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\ZurichNA.LSP.Framework\obj\Release\ZurichNA.LSP.Framework.pdb

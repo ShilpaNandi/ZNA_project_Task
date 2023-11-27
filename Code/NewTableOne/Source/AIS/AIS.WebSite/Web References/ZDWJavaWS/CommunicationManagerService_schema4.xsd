@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_ActivityConditionPlace" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Language">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="chinese" />
+      <xs:enumeration value="dutch" />
+      <xs:enumeration value="french" />
+      <xs:enumeration value="german" />
+      <xs:enumeration value="japanese" />
+      <xs:enumeration value="spanish" />
+      <xs:enumeration value="ukEnglish" />
+      <xs:enumeration value="usEnglish" />
+      <xs:enumeration value="welsh" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

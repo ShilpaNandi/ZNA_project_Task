@@ -1,0 +1,55 @@
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+c:\users\v.dhalavaipettailaks\documents\visual studio 2010\Projects\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+C:\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+C:\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+C:\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+C:\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+C:\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+C:\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csprojResolveAssemblyReference.cache
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+\\uszzaschnas01.amer.zurich.corp\shared\Cognizant\AIS\NDIC\JOBS\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csprojResolveAssemblyReference.cache
+D:\Workspace\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+D:\Workspace\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+D:\Workspace\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+D:\Workspace\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+D:\Workspace\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csprojResolveAssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.AssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.CoreCompileInputs.cache
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.CoreCompileInputs.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.AssemblyReference.cache
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csprojAssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.exe
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\bin\Debug\AIS.NDICExtract.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.exe
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Resource.Interface\AIS.NDICExtract\AIS.NDICExtract\obj\x86\Debug\AIS.NDICExtract.pdb

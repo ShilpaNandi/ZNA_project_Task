@@ -1,0 +1,60 @@
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\log4net.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csprojResolveAssemblyReference.cache
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\log4net.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.CopyComplete
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.dll
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.AssemblyReference.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\AISInvoiceSearch.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\log4net.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.DAL.Logic.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\bin\ZurichNA.AIS.Exception.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.AssemblyReference.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISWebService.csproj.CopyComplete
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS.sln\AISInvoiceSearch\obj\Release\AISInvoiceSearch.pdb

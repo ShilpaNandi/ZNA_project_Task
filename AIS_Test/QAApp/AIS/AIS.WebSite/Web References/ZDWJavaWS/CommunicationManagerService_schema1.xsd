@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" xmlns:ns2="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" xmlns:ns1="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="CommunicationManagerService_schema2.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" />
+  <xs:import schemaLocation="CommunicationManagerService_schema3.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" />
+  <xs:element name="CountDocumentsRequest" nillable="true" type="tns:CountDocumentsRequest" />
+  <xs:element name="CountDocumentsResponse" nillable="true" type="tns:CountDocumentsResponse" />
+  <xs:element name="EstablishDocumentRequest" nillable="true" type="tns:EstablishDocumentRequest" />
+  <xs:element name="EstablishDocumentResponse" nillable="true" type="tns:EstablishDocumentResponse" />
+  <xs:element name="GetDocumentTemplatePropertyValuesRequest" nillable="true" type="tns:GetDocumentTemplatePropertyValuesRequest" />
+  <xs:element name="GetDocumentTemplatePropertyValuesResponse" nillable="true" type="tns:GetDocumentTemplatePropertyValuesResponse" />
+  <xs:element name="ModifyDocumentRequest" nillable="true" type="tns:ModifyDocumentRequest" />
+  <xs:element name="ModifyDocumentResponse" nillable="true" type="tns:ModifyDocumentResponse" />
+  <xs:element name="ModifyDocumentsPropertyValuesRequest" nillable="true" type="tns:ModifyDocumentsPropertyValuesRequest" />
+  <xs:element name="ModifyDocumentsPropertyValuesResponse" nillable="true" type="tns:ModifyDocumentsPropertyValuesResponse" />
+  <xs:element name="RetrieveDocumentRequest" nillable="true" type="tns:RetrieveDocumentRequest" />
+  <xs:element name="RetrieveDocumentResponse" nillable="true" type="tns:RetrieveDocumentResponse" />
+  <xs:element name="RetrieveDocumentsRequest" nillable="true" type="tns:RetrieveDocumentsRequest" />
+  <xs:element name="RetrieveDocumentsResponse" nillable="true" type="tns:RetrieveDocumentsResponse" />
+  <xs:element name="TerminateDocumentRequest" nillable="true" type="tns:TerminateDocumentRequest" />
+  <xs:element name="TerminateDocumentResponse" nillable="true" type="tns:TerminateDocumentResponse" />
+  <xs:complexType name="ModifyDocumentsPropertyValuesRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="documents" nillable="true" type="ns1:ElectronicDocument" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="properties" nillable="true" type="ns2:Property" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ModifyDocumentsPropertyValuesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="documents" nillable="true" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CountDocumentsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="documentClass" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="properties" nillable="true" type="ns2:Property" />
+      <xs:element minOccurs="0" name="groupBy" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CountDocumentsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="documentCountSet" nillable="true" type="ns1:DocumentCountSet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ModifyDocumentRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="document" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ModifyDocumentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="document" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RetrieveDocumentRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="externalReference" type="xs:string" />
+      <xs:element minOccurs="0" name="retrieveOption" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RetrieveDocumentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="document" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RetrieveDocumentsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="documentTemplate" type="ns1:DocumentTemplate" />
+      <xs:element minOccurs="0" name="operator" type="ns2:Operator" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="propertySearchCriteriaSet" nillable="true" type="ns2:PropertySearchCriteriaSet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RetrieveDocumentsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="documents" nillable="true" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDocumentTemplatePropertyValuesRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="documentTemplate" nillable="true" type="ns1:DocumentTemplate" />
+      <xs:element minOccurs="0" name="propertyName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetDocumentTemplatePropertyValuesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="properties" nillable="true" type="ns2:Property" />
+      <xs:element minOccurs="0" name="propertyName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateDocumentRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="documentId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TerminateDocumentResponse" />
+  <xs:complexType name="EstablishDocumentRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="document" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EstablishDocumentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="document" type="ns1:ElectronicDocument" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

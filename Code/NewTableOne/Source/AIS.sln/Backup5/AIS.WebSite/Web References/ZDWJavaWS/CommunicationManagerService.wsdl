@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" xmlns:ns1="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" name="CommunicationManagerService" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="CommunicationManagerService_schema1.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="CommunicationManagerService_schema2.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="CommunicationManagerService_schema3.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="CommunicationManagerService_schema4.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_ActivityConditionPlace" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="CommunicationManagerService_schema5.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" />
+    </xsd:schema>
+  </types>
+  <message name="retrieveSecureDocument">
+    <part name="parameters" element="tns:RetrieveSecureDocumentRequest" />
+  </message>
+  <message name="retrieveSecureDocumentResponse">
+    <part name="parameters" element="tns:RetrieveSecureDocumentResponse" />
+  </message>
+  <message name="modifySecureDocument">
+    <part name="parameters" element="tns:ModifySecureDocumentRequest" />
+  </message>
+  <message name="modifySecureDocumentResponse">
+    <part name="parameters" element="tns:ModifySecureDocumentResponse" />
+  </message>
+  <message name="countDocumentsResponse">
+    <part name="parameters" element="tns:CountDocumentsResponse" />
+  </message>
+  <message name="countDocuments">
+    <part name="parameters" element="tns:CountDocumentsRequest" />
+  </message>
+  <message name="getDocumentTemplatePropertyValues">
+    <part name="parameters" element="tns:GetDocumentTemplatePropertyValuesRequest" />
+  </message>
+  <message name="getDocumentTemplatePropertyValuesResponse">
+    <part name="parameters" element="tns:GetDocumentTemplatePropertyValuesResponse" />
+  </message>
+  <message name="removeSecurityType">
+    <part name="parameters" element="tns:RemoveSecurityTypeRequest" />
+  </message>
+  <message name="removeSecurityTypeResponse">
+    <part name="parameters" element="tns:RemoveSecurityTypeResponse" />
+  </message>
+  <message name="terminateDocument">
+    <part name="parameters" element="tns:TerminateDocumentRequest" />
+  </message>
+  <message name="retrieveDocuments">
+    <part name="parameters" element="tns:RetrieveDocumentsRequest" />
+  </message>
+  <message name="terminateDocumentResponse">
+    <part name="parameters" element="tns:TerminateDocumentResponse" />
+  </message>
+  <message name="retrieveDocumentsResponse">
+    <part name="parameters" element="tns:RetrieveDocumentsResponse" />
+  </message>
+  <message name="retrieveDocumentResponse">
+    <part name="parameters" element="tns:RetrieveDocumentResponse" />
+  </message>
+  <message name="modifyDocumentsPropertyValuesResponse">
+    <part name="parameters" element="tns:ModifyDocumentsPropertyValuesResponse" />
+  </message>
+  <message name="ErrorInfo">
+    <part name="fault" element="ns1:ErrorInfo" />
+  </message>
+  <message name="modifyDocumentResponse">
+    <part name="parameters" element="tns:ModifyDocumentResponse" />
+  </message>
+  <message name="retrieveDocument">
+    <part name="parameters" element="tns:RetrieveDocumentRequest" />
+  </message>
+  <message name="establishDocument">
+    <part name="parameters" element="tns:EstablishDocumentRequest" />
+  </message>
+  <message name="establishDocumentResponse">
+    <part name="parameters" element="tns:EstablishDocumentResponse" />
+  </message>
+  <message name="modifyDocument">
+    <part name="parameters" element="tns:ModifyDocumentRequest" />
+  </message>
+  <message name="modifyDocumentsPropertyValues">
+    <part name="parameters" element="tns:ModifyDocumentsPropertyValuesRequest" />
+  </message>
+  <portType name="CommunicationManager">
+    <operation name="countDocuments">
+      <input message="tns:countDocuments" />
+      <output message="tns:countDocumentsResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="establishDocument">
+      <input message="tns:establishDocument" />
+      <output message="tns:establishDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="getDocumentTemplatePropertyValues">
+      <input message="tns:getDocumentTemplatePropertyValues" />
+      <output message="tns:getDocumentTemplatePropertyValuesResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="modifyDocument">
+      <input message="tns:modifyDocument" />
+      <output message="tns:modifyDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="modifySecureDocument">
+      <input message="tns:modifySecureDocument" />
+      <output message="tns:modifySecureDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="modifyDocumentsPropertyValues">
+      <input message="tns:modifyDocumentsPropertyValues" />
+      <output message="tns:modifyDocumentsPropertyValuesResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="retrieveDocument">
+      <input message="tns:retrieveDocument" />
+      <output message="tns:retrieveDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="retrieveSecureDocument">
+      <input message="tns:retrieveSecureDocument" />
+      <output message="tns:retrieveSecureDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="retrieveDocuments">
+      <input message="tns:retrieveDocuments" />
+      <output message="tns:retrieveDocumentsResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="terminateDocument">
+      <input message="tns:terminateDocument" />
+      <output message="tns:terminateDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="removeSecurityType">
+      <input message="tns:removeSecurityType" />
+      <output message="tns:removeSecurityTypeResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+  </portType>
+  <binding name="CommunicationManagerSOAPPortBinding" type="tns:CommunicationManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="countDocuments">
+      <soap:operation soapAction="http://www.ibm.com/countDocuments" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="establishDocument">
+      <soap:operation soapAction="http://www.ibm.com/establishDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getDocumentTemplatePropertyValues">
+      <soap:operation soapAction="http://www.ibm.com/getDocumentTemplatePropertyValues" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modifyDocument">
+      <soap:operation soapAction="http://www.ibm.com/modifyDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modifySecureDocument">
+      <soap:operation soapAction="http://www.ibm.com/modifySecureDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modifyDocumentsPropertyValues">
+      <soap:operation soapAction="http://www.ibm.com/modifyDocumentsPropertyValues" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="retrieveDocument">
+      <soap:operation soapAction="http://www.ibm.com/retrieveDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="retrieveSecureDocument">
+      <soap:operation soapAction="http://www.ibm.com/retrieveSecureDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="retrieveDocuments">
+      <soap:operation soapAction="http://www.ibm.com/retrieveDocuments" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="terminateDocument">
+      <soap:operation soapAction="http://www.ibm.com/terminateDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="removeSecurityType">
+      <soap:operation soapAction="http://www.ibm.com/removeSecurityType" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="CommunicationManagerService">
+    <port name="CommunicationManagerSOAPPort" binding="tns:CommunicationManagerSOAPPortBinding">
+      <soap:address location="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService" />
+    </port>
+  </service>
+</definitions>

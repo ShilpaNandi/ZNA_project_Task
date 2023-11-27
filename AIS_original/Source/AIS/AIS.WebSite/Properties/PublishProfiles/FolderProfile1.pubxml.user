@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\AIS_FIX_LATEST_JAN31_PUBLISH</_PublishTargetUrl>
+    <History>True|2023-01-31T09:59:11.4637509Z;True|2023-01-31T03:58:39.6749699-06:00;True|2022-12-20T02:15:18.0787539-06:00;True|2022-12-20T02:13:58.1066371-06:00;True|2022-12-20T02:13:36.5241440-06:00;True|2022-12-20T02:12:11.1847885-06:00;True|2022-12-14T04:30:12.1084598-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutAIS.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/AccountAssignment.aspx">
+      <publishTime>10/26/2021 10:06:29</publishTime>
+    </File>
+    <File Include="AcctMgmt/AccountDashboard.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/AcctSetupProcChklst.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/AdjustmentQC.aspx">
+      <publishTime>01/30/2023 05:11:23</publishTime>
+    </File>
+    <File Include="AcctMgmt/AriesClearing.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/DocumentTracking.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/PostingTransactionType.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctMgmt/QCDetails.aspx">
+      <publishTime>01/30/2023 04:29:22</publishTime>
+    </File>
+    <File Include="AcctMgmt/ReconReview.aspx">
+      <publishTime>01/30/2023 04:33:57</publishTime>
+    </File>
+    <File Include="AcctSearch.aspx">
+      <publishTime>02/18/2022 09:26:00</publishTime>
+    </File>
+    <File Include="AcctSetup/AcctInfo.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AcctSetup/AssignContacts.aspx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="AcctSetup/ExtContacts.aspx">
+      <publishTime>03/09/2022 05:07:01</publishTime>
+    </File>
+    <File Include="AcctSetup/InternalContacts.aspx">
+      <publishTime>10/11/2021 06:43:50</publishTime>
+    </File>
+    <File Include="AcctSetup/PolicyInfo.aspx">
+      <publishTime>10/26/2021 07:39:57</publishTime>
+    </File>
+    <File Include="AcctSetup/ProgramPeriod.aspx">
+      <publishTime>06/26/2022 08:15:20</publishTime>
+    </File>
+    <File Include="AdjCalc/AdjustmentNumberTextMaintenance.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/AdjustmentReview.aspx">
+      <publishTime>01/30/2023 04:34:44</publishTime>
+    </File>
+    <File Include="AdjCalc/AdjustProcessingChklst.aspx">
+      <publishTime>03/07/2022 09:53:13</publishTime>
+    </File>
+    <File Include="AdjCalc/BuBrokerReview.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/CombinedElements.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/EscrowAdjustment.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/InvoicingDashboard.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/LRFPostingDetails.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/MiscInvoicing.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/NY-SIF.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/PaidLossBilling.aspx">
+      <publishTime>01/30/2023 04:46:54</publishTime>
+    </File>
+    <File Include="AdjCalc/PreviewInvoice.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/SurchargeAssesmentReview.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjCalc/SurchargeReviewComments.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjParams/AssignERPFormula.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjParams/AuditInfo.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="AdjParams/CombinedElements.aspx">
+      <publishTime>12/20/2022 02:09:49</publishTime>
+    </File>
+    <File Include="AdjParams/CustomerComments.aspx">
+      <publishTime>01/30/2023 01:26:02</publishTime>
+    </File>
+    <File Include="AdjParams/ParameterSetup.aspx">
+      <publishTime>01/31/2023 03:28:19</publishTime>
+    </File>
+    <File Include="AdjParams/RetroInfo.aspx">
+      <publishTime>12/20/2022 02:08:56</publishTime>
+    </File>
+    <File Include="AppError/GeneralError.aspx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="AppMgmt/InterfaceStatus.aspx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="AppMgmt/InvoiceExhibit.aspx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="AppMgmt/MasterAdjustInfo.aspx">
+      <publishTime>12/14/2022 04:21:53</publishTime>
+    </File>
+    <File Include="AppMgmt/TransactionMaintenance.aspx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Code/AISAmountTextbox.cs">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="App_Code/AISHMenu.cs">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="App_Code/AISListView.cs">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="App_Shared/AccountInfoHeader.ascx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="App_Shared/AccountList.ascx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="App_Shared/AdjustmentReviewSearch.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/AISModalUpdateProgress.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/AlertSessionTimeOut.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/LSIAccountList.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/NonAISAcctList.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/ProgramPeriod.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/RelatedAccountList.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Shared/SaveCancel.ascx">
+      <publishTime>09/23/2020 06:12:36</publishTime>
+    </File>
+    <File Include="App_Themes/RetroTheme/RetroSkin.skin">
+      <publishTime>06/10/2022 14:26:00</publishTime>
+    </File>
+    <File Include="AutoComplete.asmx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/16/2022 12:39:53</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>03/23/2020 05:06:23</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>03/23/2020 05:06:22</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>03/23/2020 05:06:22</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Web.dll">
+      <publishTime>03/23/2020 05:06:22</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>09/23/2020 06:12:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Services3.dll">
+      <publishTime>09/23/2020 06:12:39</publishTime>
+    </File>
+    <File Include="bin/Reports/rptARiESMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptARiESMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptBrokerMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptBrokerMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCesarCodingMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCesarCodingMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCHFMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCHFMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCodingMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCodingMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCombinedElementsMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCombinedElementsMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCumulativeMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptCumulativeMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptEscrowMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptEscrowMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptExcessMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptExcessMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFExternalMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFExternalMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFExternalTaxMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFInternalMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFInternalMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptILRFInternalTaxMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptIntExtlMasterReport.rpt">
+      <publishTime>04/16/2021 04:01:30</publishTime>
+    </File>
+    <File Include="bin/Reports/rptIntExtlMasterReport1.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptInvoiceMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptInvoiceMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptLBAMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptLBAMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptProcessChecklistRetroMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptProcessChecklistRetroMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRemittanceMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRemittanceMasterReport2.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRetroLegendMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRetroLegendMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRetroMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRetroMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRevisionMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRevisionMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRMLMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptRMLMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptSurchargesMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptSurchargesMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptVoidMasterReport.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/rptVoidMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptAdjInvCombinedElements.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptAdjInvCombinedElements.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptAdjusInvoice.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptAdjusInvoice.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptARiEsPostingDetails.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptARiEsPostingDetails.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptBrokerLetter.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptBrokerLetter.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCalcInfoLegend.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCalcInfoLegend.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCesarCodingWorksheet.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCesarCodingWorksheet.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptClaimHandlingFeeSummary.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptClaimHandlingFeeSummary.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCombinedElements.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCombinedElements.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCumTotalsWorksheet.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptCumTotalsWorksheet.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptEscrowFundAdjustment.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptEscrowFundAdjustment.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptExcessLoss.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptExcessLoss.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLegendSecond.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLossBasedAssessmentsCalculation.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLossBasedAssessmentsCalculation.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFExternal.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFExternal.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFExternaTax.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFInternal.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFInternal.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptLRFInternaTax.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptProcessingCheckList.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptProcessingCheckList.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRemittance.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRemittance.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptResidualMarkSubCharge.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptResidualMarkSubCharge.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRetroPremAdjLegend.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRetroPremAdjLegend.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRetroPremAdjustmentMain.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptRetroPremAdjustmentMain.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptWorkerCompTaxAssessKentOreg.cs">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/Reports/srptWorkerCompTaxAssessKentOreg.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="bin/SpreadsheetGear2012.dll">
+      <publishTime>09/23/2020 06:12:39</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>10/04/2021 02:36:55</publishTime>
+    </File>
+    <File Include="bin/System.Data.Linq.dll">
+      <publishTime>03/26/2018 16:24:54</publishTime>
+    </File>
+    <File Include="bin/System.dll">
+      <publishTime>03/18/2010 19:31:26</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Business.Entities.dll">
+      <publishTime>01/31/2023 03:58:31</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Business.Entities.pdb">
+      <publishTime>01/31/2023 03:58:31</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Business.Logic.dll">
+      <publishTime>01/31/2023 03:58:33</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Business.Logic.dll.config">
+      <publishTime>09/21/2021 07:54:19</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Business.Logic.pdb">
+      <publishTime>01/31/2023 03:58:33</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.LINQ.dll">
+      <publishTime>01/31/2023 03:58:31</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.LINQ.dll.config">
+      <publishTime>09/21/2021 07:55:31</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.LINQ.pdb">
+      <publishTime>01/31/2023 03:58:31</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.Logic.dll">
+      <publishTime>01/31/2023 03:58:33</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.Logic.dll.config">
+      <publishTime>09/21/2021 07:56:29</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.DAL.Logic.pdb">
+      <publishTime>01/31/2023 03:58:33</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Exception.dll">
+      <publishTime>01/24/2023 09:47:26</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Exception.dll.config">
+      <publishTime>09/21/2021 07:58:48</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.Exception.pdb">
+      <publishTime>01/24/2023 09:47:26</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.WebSite.dll">
+      <publishTime>01/31/2023 03:58:36</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.WebSite.pdb">
+      <publishTime>01/31/2023 03:58:36</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.AIS.WebSite.XmlSerializers.dll">
+      <publishTime>01/31/2023 03:58:37</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.LSP.Framework.dll">
+      <publishTime>01/24/2023 09:47:24</publishTime>
+    </File>
+    <File Include="bin/ZurichNA.LSP.Framework.pdb">
+      <publishTime>01/24/2023 09:47:24</publishTime>
+    </File>
+    <File Include="CSS/retro.center.css">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="CSS/retro.css">
+      <publishTime>06/10/2022 14:26:00</publishTime>
+    </File>
+    <File Include="CSS/TabContainer.css">
+      <publishTime>03/08/2022 08:10:32</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="images/ArrowDown.bmp">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ArrowUp.bmp">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ascending.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Calendar_scheduleHS.png">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/collapse.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ContinueButton.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/cp.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/descending.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Disabled.GIF">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Enabled.GIF">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/expand.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/headerzurichna.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/indicator.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/LOB_VertSep.JPG">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Magnifier.ico">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ProgressBar.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ScreenWhite.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/seperator.JPG">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-active-left.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-active-right.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-active.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-left.GIF">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-line.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab-right.GIF">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/tab.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/thick seperator.JPG">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/VertSep.JPG">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/wait.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Warning.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Zurich PSD.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Zurich-Large.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/Zurich-Small.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ZurichLogo.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/ZurichLogo_CANADA.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/zurich_logo.gif">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/zurich_logo.JPG">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/z_logo_135_8.png">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/z_logo_170x106_16.png">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/z_logo_170x106_32x100.png">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/z_logo_170x106_8.png">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="images/z_logo_170x106_wb.jpg">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Invoice/AdjustmentMgmt.aspx">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Invoice/DownloadFile.aspx">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Invoice/InvoiceInquiry.aspx">
+      <publishTime>01/12/2023 04:52:00</publishTime>
+    </File>
+    <File Include="Invoice/InvoiceMailingDtls.aspx">
+      <publishTime>01/30/2023 04:51:12</publishTime>
+    </File>
+    <File Include="JavaScript/AISAmount.js">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="JavaScript/Pagescript.js">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="JavaScript/RetroScript.js">
+      <publishTime>01/30/2023 01:27:42</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="Loss/ExcessNonBillable.aspx">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Loss/LossesReport.aspx">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Loss/LossFundInfo.aspx">
+      <publishTime>01/06/2023 05:50:57</publishTime>
+    </File>
+    <File Include="Loss/LossInfo.aspx">
+      <publishTime>09/23/2020 06:12:37</publishTime>
+    </File>
+    <File Include="Menu.xslt">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="Reports/rptARiESMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptBrokerMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptCesarCodingMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptCHFMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptCodingMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptCombinedElementsMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptCumulativeMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptEscrowMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptExcessMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptILRFExternalMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptILRFExternalTaxMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptILRFInternalMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptILRFInternalTaxMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptIntExtlMasterReport.rpt">
+      <publishTime>04/16/2021 04:01:30</publishTime>
+    </File>
+    <File Include="Reports/rptInvoiceMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptLBAMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptProcessChecklistRetroMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptRemittanceMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptRetroLegendMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptRetroMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptRevisionMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptRMLMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptSurchargesMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/rptVoidMasterReport.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptAdjInvCombinedElements.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptAdjusInvoice.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptARiEsPostingDetails.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptBrokerLetter.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptCalcInfoLegend.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptCesarCodingWorksheet.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptClaimHandlingFeeSummary.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptCombinedElements.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptCumTotalsWorksheet.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptEscrowFundAdjustment.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptExcessLoss.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLegendSecond.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLossBasedAssessmentsCalculation.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLRFExternal.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLRFExternaTax.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLRFInternal.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptLRFInternaTax.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptProcessingCheckList.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptRemittance.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptResidualMarkSubCharge.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptRetroPremAdjLegend.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptRetroPremAdjustmentMain.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Reports/srptWorkerCompTaxAssessKentOreg.rpt">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Retro.master">
+      <publishTime>09/23/2020 06:12:35</publishTime>
+    </File>
+    <File Include="TPAManual/TPAManualPosting.aspx">
+      <publishTime>01/30/2023 05:30:29</publishTime>
+    </File>
+    <File Include="TPAManual/TPAPostingMgmt.aspx">
+      <publishTime>09/23/2020 06:12:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/31/2023 02:47:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

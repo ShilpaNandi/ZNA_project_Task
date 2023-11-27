@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZurichNA.AIS.Business.Entities.ApplMenuBE" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgBAAAAAAAAAAAAQAAAQAgAAAEAA=</HashCode>
+      <FileName>ApplMenuBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.ApplWebPageAuthBE" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAABAAAAAAAAAAAAQCAAQAwAAAEAA=</HashCode>
+      <FileName>ApplWebPageAuthBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntity&lt;TEntity&gt;" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntityBase" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

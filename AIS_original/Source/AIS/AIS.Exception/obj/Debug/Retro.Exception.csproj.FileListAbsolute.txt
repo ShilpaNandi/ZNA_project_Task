@@ -1,0 +1,14 @@
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\ZurichNA.Retro.Exception.dll.config
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\ZurichNA.Retro.Exception.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\ZurichNA.Retro.Exception.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\obj\Debug\ZurichNA.Retro.Exception.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.Exception\obj\Debug\ZurichNA.Retro.Exception.pdb

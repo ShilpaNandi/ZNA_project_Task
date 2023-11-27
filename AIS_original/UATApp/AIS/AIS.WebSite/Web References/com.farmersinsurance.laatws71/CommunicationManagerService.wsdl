@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CommunicationManagerService" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laatws71.farmersinsurance.com:9081/JWS/CommunicationManagerService/CommunicationManagerService_schema1.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_WS" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laatws71.farmersinsurance.com:9081/JWS/CommunicationManagerService/CommunicationManagerService_schema2.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laatws71.farmersinsurance.com:9081/JWS/CommunicationManagerService/CommunicationManagerService_schema3.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laatws71.farmersinsurance.com:9081/JWS/CommunicationManagerService/CommunicationManagerService_schema4.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_ActivityConditionPlace" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://laatws71.farmersinsurance.com:9081/JWS/CommunicationManagerService/CommunicationManagerService_schema5.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" />
+    </xsd:schema>
+  </types>
+  <message name="establishDocumentResponse">
+    <part name="parameters" element="tns:EstablishDocumentResponse" />
+  </message>
+  <message name="getDocumentTemplatePropertyValuesResponse">
+    <part name="parameters" element="tns:GetDocumentTemplatePropertyValuesResponse" />
+  </message>
+  <message name="retrieveDocuments">
+    <part name="parameters" element="tns:RetrieveDocumentsRequest" />
+  </message>
+  <message name="retrieveDocumentResponse">
+    <part name="parameters" element="tns:RetrieveDocumentResponse" />
+  </message>
+  <message name="establishDocument">
+    <part name="parameters" element="tns:EstablishDocumentRequest" />
+  </message>
+  <message name="countDocuments">
+    <part name="parameters" element="tns:CountDocumentsRequest" />
+  </message>
+  <message name="modifyDocumentsPropertyValues">
+    <part name="parameters" element="tns:ModifyDocumentsPropertyValuesRequest" />
+  </message>
+  <message name="countDocumentsResponse">
+    <part name="parameters" element="tns:CountDocumentsResponse" />
+  </message>
+  <message name="modifyDocumentResponse">
+    <part name="parameters" element="tns:ModifyDocumentResponse" />
+  </message>
+  <message name="retrieveDocument">
+    <part name="parameters" element="tns:RetrieveDocumentRequest" />
+  </message>
+  <message name="terminateDocumentResponse">
+    <part name="parameters" element="tns:TerminateDocumentResponse" />
+  </message>
+  <message name="terminateDocument">
+    <part name="parameters" element="tns:TerminateDocumentRequest" />
+  </message>
+  <message name="getDocumentTemplatePropertyValues">
+    <part name="parameters" element="tns:GetDocumentTemplatePropertyValuesRequest" />
+  </message>
+  <message name="modifyDocumentsPropertyValuesResponse">
+    <part name="parameters" element="tns:ModifyDocumentsPropertyValuesResponse" />
+  </message>
+  <message name="retrieveDocumentsResponse">
+    <part name="parameters" element="tns:RetrieveDocumentsResponse" />
+  </message>
+  <message name="ErrorInfo">
+    <part name="fault" element="ns1:ErrorInfo" />
+  </message>
+  <message name="modifyDocument">
+    <part name="parameters" element="tns:ModifyDocumentRequest" />
+  </message>
+  <portType name="CommunicationManager">
+    <operation name="countDocuments">
+      <input message="tns:countDocuments" />
+      <output message="tns:countDocumentsResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="establishDocument">
+      <input message="tns:establishDocument" />
+      <output message="tns:establishDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="getDocumentTemplatePropertyValues">
+      <input message="tns:getDocumentTemplatePropertyValues" />
+      <output message="tns:getDocumentTemplatePropertyValuesResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="modifyDocument">
+      <input message="tns:modifyDocument" />
+      <output message="tns:modifyDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="modifyDocumentsPropertyValues">
+      <input message="tns:modifyDocumentsPropertyValues" />
+      <output message="tns:modifyDocumentsPropertyValuesResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="retrieveDocument">
+      <input message="tns:retrieveDocument" />
+      <output message="tns:retrieveDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="retrieveDocuments">
+      <input message="tns:retrieveDocuments" />
+      <output message="tns:retrieveDocumentsResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+    <operation name="terminateDocument">
+      <input message="tns:terminateDocument" />
+      <output message="tns:terminateDocumentResponse" />
+      <fault name="ErrorInfo" message="tns:ErrorInfo" />
+    </operation>
+  </portType>
+  <binding name="CommunicationManagerSOAPPortBinding" type="tns:CommunicationManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="countDocuments">
+      <soap:operation soapAction="http://www.ibm.com/countDocuments" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="establishDocument">
+      <soap:operation soapAction="http://www.ibm.com/establishDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getDocumentTemplatePropertyValues">
+      <soap:operation soapAction="http://www.ibm.com/getDocumentTemplatePropertyValues" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modifyDocument">
+      <soap:operation soapAction="http://www.ibm.com/modifyDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="modifyDocumentsPropertyValues">
+      <soap:operation soapAction="http://www.ibm.com/modifyDocumentsPropertyValues" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="retrieveDocument">
+      <soap:operation soapAction="http://www.ibm.com/retrieveDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="retrieveDocuments">
+      <soap:operation soapAction="http://www.ibm.com/retrieveDocuments" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+    <operation name="terminateDocument">
+      <soap:operation soapAction="http://www.ibm.com/terminateDocument" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ErrorInfo">
+        <soap:fault use="literal" name="ErrorInfo" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <wsdl:service xmlns:ap="http://namespace.amberpoint.com/amf" xmlns:apwsdl="urn:com.amberpoint.wsdl" name="CommunicationManagerService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:port name="CommunicationManagerSOAPPort" binding="tns:CommunicationManagerSOAPPortBinding">
+      <soap:address location="http://laatws71.farmersinsurance.com:9081/eProxy/service/CommunicationManager" />
+      <apwsdl:targetWSDL>
+        <apwsdl:URL>ARECQVBBRVMCX2FwXzEyOAN0IsKlrg3ZUiuF4UEqlsrp6D9HafA5uxOE3tQUB3sZL1Lh9LWU4JPXYe/GRgiqrN16vfDcgp5AbzWfSsio8FSaFSwq+Eej073WpdGBL3WLxcR2x2pVK6xdTyDpkKstlnkrYnSKl1yTcM3g9nRTuZdim5AFNIr27l3eHcCuCTW1MA==</apwsdl:URL>
+        <apwsdl:agentID>uuid:0D907245-1DF7-11DD-AD0B-45E2FF96AA77</apwsdl:agentID>
+        <apwsdl:uwsID>uuid:2A08E6D9-1E07-11DD-AD0B-45E2FF96AA77</apwsdl:uwsID>
+        <apwsdl:uwsLocalname>CommunicationManager</apwsdl:uwsLocalname>
+      </apwsdl:targetWSDL>
+    </wsdl:port>
+  </wsdl:service>
+</definitions>

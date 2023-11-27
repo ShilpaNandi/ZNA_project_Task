@@ -1,0 +1,132 @@
+﻿        /* 	Tabcontainer CSS template
+	style sheet copyright 2007
+	Comments: CSS template for retro web application
+*/
+
+.CustomTabs .ajax__tab_header {
+    background: url(../images/tab-line.gif) no-repeat bottom !important;
+    font-family: verdana,tahoma,helvetica !important;
+    font-size: 11px !important;
+}
+
+    .CustomTabs .ajax__tab_header .ajax__tab_outer {
+        background: url(../images/tab-right.gif) no-repeat right !important;
+        height: 29px !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_inner {
+        background: url(../images/tab-left.gif) no-repeat !important;
+        padding-left: 3px !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_tab {
+        color: White;
+        background: url(../images/tab.gif) repeat-x !important;
+        padding: 8px 7px !important;
+        width: 145px !important;
+        height: 13px !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_outer {
+        text-decoration: underline !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_inner {
+        text-decoration: underline !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_tab {
+        text-decoration: underline !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_active .ajax__tab_outer {
+        background: url(../images/tab-active-right.gif) no-repeat right !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+        background: url(../images/tab-active-left.gif) no-repeat !important;
+    }
+
+    .CustomTabs .ajax__tab_header .ajax__tab_active .ajax__tab_tab {
+        color: Black;
+        background: url(../images/tab-active.gif) repeat-x !important;
+    }
+
+.CustomTabs .ajax__tab_body {
+    min-width: 885px !important;
+    min-height: 300px !important;
+    border: none !important;
+    padding: 8px 0px !important;
+}
+
+/*This id based style is for the AdjParms CombinedElements page. it had a different UI design so had to create this custom style */
+#ctl00_MainPlaceHolder_tabcontCombinedElements_body {
+    min-height: 25px !important;
+}
+        
+        .MMCustomTabs .ajax__tab_header					    { background:url(../images/tab-line.gif) repeat-x bottom;background-image:repeat-x;font-family:verdana,tahoma,helvetica;font-size:11px; }
+        .MMCustomTabs .ajax__tab_outer						{ background:url(../images/tab-right.gif) no-repeat right;height:29px; }
+        .MMCustomTabs .ajax__tab_inner						{ background:url(../images/tab-left.gif) no-repeat;padding-left:3px; }
+        .MMCustomTabs .ajax__tab_tab						{ color:White;background:url(../images/tab.gif) repeat-x; padding:8px 7px;margin:1;width:160px;}
+        .MMCustomTabs .ajax__tab_hover .ajax__tab_outer	    { text-decoration:underline; }
+        .MMCustomTabs .ajax__tab_hover .ajax__tab_inner	    { text-decoration:underline; }
+        .MMCustomTabs .ajax__tab_hover .ajax__tab_tab		    { text-decoration:underline; }
+        .MMCustomTabs .ajax__tab_active .ajax__tab_outer	    { background:url(../images/tab-active-right.gif) no-repeat right; }
+        .MMCustomTabs .ajax__tab_active .ajax__tab_inner	    { background:url(../images/tab-active-left.gif) no-repeat; }
+        .MMCustomTabs .ajax__tab_active .ajax__tab_tab		{ color:Black;background:url(../images/tab-active.gif) repeat-x; }
+
+
+.VariableTabs .ajax__tab_header {
+    background: url(../images/tab-line.gif) no-repeat bottom !important;
+    font-family: verdana,tahoma,helvetica !important;
+    font-size: 11px !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_outer {
+    background: url(../images/tab-right.gif) no-repeat right !important;
+    height: 29px !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_inner {
+    background: url(../images/tab-left.gif) no-repeat !important;
+    padding-left: 3px !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_tab {
+    color: White !important;
+    background: url(../images/tab.gif) repeat-x !important;
+    padding: 8px 7px !important;
+    height: 13px !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_outer {
+    text-decoration: underline !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_inner {
+    text-decoration: underline !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_hover .ajax__tab_tab {
+    text-decoration: underline !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_active .ajax__tab_outer {
+    background: url(../images/tab-active-right.gif) no-repeat right !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+    background: url(../images/tab-active-left.gif) no-repeat !important;
+}
+
+.VariableTabs .ajax__tab_header .ajax__tab_active .ajax__tab_tab {
+    color: Black !important;
+    background: url(../images/tab-active.gif) repeat-x !important;
+}
+
+.VariableTabs .ajax__tab_body {
+    min-width: 885px !important;
+    min-height: 300px !important;
+    border: none !important;
+    padding: 8px 0px !important;
+}

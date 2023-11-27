@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ZurichNA.AIS.WebSite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ZurichNA_AIS_WebSite_corp_zurich_amer_shlddw01_CommunicationManagerService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://shlddw01.amer.zurich.corp:9082/JWS/CommunicationManagerService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

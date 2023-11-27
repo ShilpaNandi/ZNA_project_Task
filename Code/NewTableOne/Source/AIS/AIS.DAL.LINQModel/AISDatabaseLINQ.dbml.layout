@@ -1,0 +1,1489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 40.375, 119.25" name="AISDatabaseLINQ">
+  <DataContextMoniker Name="/AISDatabaseLINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6ee2edc7-76a6-449d-aae0-1c3ba54fd9c3" absoluteBounds="0.75, 0.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ADJ_NBR_LKUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09ec1ac1-4e3e-42ce-949b-157d951edca2" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfe3096c-1001-4729-a035-1d96b6567ffc" absoluteBounds="14.75, 101.5, 2, 3.7257104492187523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/THRD_PTY_ADMIN_MNL_INVC_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1f49764-31bf-4d70-a270-200079719e9c" absoluteBounds="14.765, 101.96, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="88bfc018-a5b2-48d7-9db5-e7a8705d2ad7" absoluteBounds="6.5, 84.25, 2, 2.7396264648437523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/APLCTN_MENU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52d85125-e1c2-4e3e-bac2-dbf91a64a107" absoluteBounds="6.515, 84.71, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="302f694d-ab13-4cda-bacd-5d323af1a29b" absoluteBounds="3.75, 0.75, 2, 2.24658447265625">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/APLCTN_STS_LOG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4c1c2e9-ab5b-4016-8bf1-5d71d368b391" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e628f8d-9968-452b-8c7a-5d39d7d8594e" absoluteBounds="9, 99.25, 2, 1.9178898111979095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/APLCTN_WEB_PAGE_AUDT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3a85a99-a598-49a5-bebf-0c651a3b5488" absoluteBounds="9.015, 99.71, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af34c98a-a863-4b0d-8598-50d7c284b434" absoluteBounds="9.25, 94.5, 2, 2.2465844726562523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/APLCTN_WEB_PAGE_AUTH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92ac5aed-5bdc-4ea8-874f-e9767226009f" absoluteBounds="9.265, 94.96, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e4082886-2e05-4558-a99b-bb66de8deff2" absoluteBounds="0.75, 3.75, 2, 4.0544051106770826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_INTRFC37" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ea5dab5-ecd6-41b8-a63c-2167cf9a6369" absoluteBounds="0.765, 4.21, 1.9700000000000002, 3.494405110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01eccd29-4576-4842-a0e7-4249eac354b9" absoluteBounds="3.75, 3.75, 2, 4.2187524414062487">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_INTRFC37_ERR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ebc7657-093c-411b-86ed-26b778c0d0cf" absoluteBounds="3.765, 4.21, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="422fae8f-64bc-488f-9d5a-0a786c4d23f4" absoluteBounds="6.75, 0.75, 2, 5.5335310872395826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_INTRFC38" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afeb4c8d-4c1f-42eb-b7f4-87b43497501e" absoluteBounds="6.765, 1.21, 1.9700000000000002, 4.973531087239583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d73a6187-5a86-4961-b17f-ae942fabb2d0" absoluteBounds="6.75, 7.75, 2, 5.6978784179687487">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_INTRFC38_ERR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36e22bd8-759a-4c1a-85cc-d489d433c263" absoluteBounds="6.765, 8.21, 1.9700000000000002, 5.13787841796875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a048c41d-74b1-432d-9483-4625ffceca52" absoluteBounds="15, 85.625, 2, 7.1770043945312523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_LOS_EXC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c2f4b497-bd63-42bd-b443-c396df03c786" absoluteBounds="15.015, 86.085, 1.9700000000000002, 6.61700439453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53e36f18-546b-49ac-ba39-ad487657100e" absoluteBounds="12.25, 84.625, 2, 6.0265730794270951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARMIS_LOS_POL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd982234-ffe4-4b75-876a-35a8c2054f97" absoluteBounds="12.265, 85.085, 1.9700000000000002, 5.466573079427083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cf6ab6a3-1b36-4318-9763-0c42c5a07b19" absoluteBounds="9.25, 85.125, 2, 3.0683211263020951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/COMB_ELEMT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b0f33f68-9970-4b5d-8ceb-13c4e85c44a1" absoluteBounds="9.265, 85.585, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" absoluteBounds="6.25, 105.375, 2, 3.7257104492187381">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/CUSTMR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3dd2de8-1640-45c6-8648-664f97728512" absoluteBounds="6.265, 105.835, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="725d9186-d34c-497b-bc6f-156355dc99f5" absoluteBounds="9, 102.125, 2, 2.0822371419270951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/CUSTMR_CMMNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="293dd654-7018-43a7-bf7a-194c3cbc8fcc" absoluteBounds="9.015, 102.585, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08a2a72c-ed1c-401f-915f-5b1302be1350" absoluteBounds="14.75, 95.875, 2, 4.2187524414062523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/CUSTMR_DOC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c0f2078-440f-456d-a6ee-77cbd28382df" absoluteBounds="14.765, 96.335, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00907cc3-29f2-4190-8eec-c107f6be31e4" absoluteBounds="17.5, 102.75, 2, 1.9178898111979095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/CUSTMR_DOC_ISSUS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1992e206-605b-45b9-bf67-b20ce429eb81" absoluteBounds="17.515, 103.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3994ad7b-9a77-4643-a9e8-bb16b753ea55" absoluteBounds="11.75, 98, 2, 2.0822371419270951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/CUSTMR_PERS_REL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ee12973-2831-4390-b953-a939941d07c9" absoluteBounds="11.765, 98.46, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" absoluteBounds="6.25, 88.375, 2, 2.0822371419270951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/EXTRNL_ORG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4aa1dd74-c67c-457c-a2a5-97216dc2cda8" absoluteBounds="6.265, 88.835, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a75abb29-4420-47ad-ba5b-e5abbb26b239" absoluteBounds="23.5, 104, 2, 2.7396264648437523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/INCUR_LOS_REIM_FUND_FRMLA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcb946ed-102a-40dc-9870-fd4adc3633b8" absoluteBounds="23.515, 104.46, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f15ca69f-78e6-4a3f-9c0e-782b578e3b1b" absoluteBounds="0.75, 8.75, 2, 2.5752791341145844">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/INVC_EXHIBIT_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05a0fc46-da54-47ab-a758-9fa3e320a6f8" absoluteBounds="0.765, 9.21, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="10009d93-45ef-4f20-bf7c-cf6a28314252" absoluteBounds="9.75, 0.75, 2, 2.0822371419270826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/KY_OR_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d5a6927-2ada-49bd-92d1-912240eb8ee2" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1623247b-1b41-4c62-8dc4-fbe79159645b" absoluteBounds="3.5, 91.375, 2, 2.5752791341145951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/LKUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff9e21d5-1132-4b27-aaed-62db1785dbe7" absoluteBounds="3.515, 91.835, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1327b5c1-d50d-4f16-a924-4dd76c4419d8" absoluteBounds="0.75, 91.625, 2, 1.9178898111979095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/LKUP_TYP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f1da5f8-b733-404a-8b72-3f0eebabf994" absoluteBounds="0.765, 92.085, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f1aea75-aa54-49b2-af75-0661e94ad861" absoluteBounds="9, 111.625, 2, 2.4109318033854095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/LSI_CUSTMR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7885d26e-940d-49f8-9a52-c90def29bbf7" absoluteBounds="9.015, 112.085, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bdf83026-d4af-4949-b2be-2386f8786106" absoluteBounds="15, 111.125, 2, 2.2465844726562523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/MSTR_ERND_RETRO_PREM_FRMLA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10328492-2b69-490e-bb82-5012fa3cf8b7" absoluteBounds="15.015, 111.585, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c162ab5-997c-4018-8b99-697362eef1eb" absoluteBounds="26, 95.75, 2, 2.7396264648437523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/NON_SUBJ_PREM_AUDT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1098ab7b-a2ee-421b-9e35-584d328cd6f8" absoluteBounds="26.015, 96.21, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bdf6caac-8202-481c-92d9-bb8761254cf9" absoluteBounds="12, 110.125, 2, 1.7535424804687523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/NONAIS_CUSTMR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="474aa827-08b2-4812-a9bb-3e103b930295" absoluteBounds="12.015, 110.585, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="917a9da5-5a7d-4b88-a17d-9dfd1dd33a51" absoluteBounds="17.75, 88.125, 2, 2.5752791341145951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/POST_ADDR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f1aa664-1f0c-4d70-9c84-9f78525cc459" absoluteBounds="17.765, 88.585, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="57179629-cbd1-4dd0-925b-1beba6c962f1" absoluteBounds="6.25, 101.125, 2, 3.3970157877604095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/POST_TRNS_TYP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="debe665c-36cf-40d8-8d12-f7c3053135a9" absoluteBounds="6.265, 101.585, 1.9700000000000002, 2.8370157877604165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5c9f301b-5a51-4764-ab1c-63fdbc22832f" absoluteBounds="17.5, 105.875, 2, 3.7257104492187523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_ARIES_CLRING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00e7b15b-cf6c-4a9a-88a3-157f48009163" absoluteBounds="17.515, 106.335, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b582a355-0b09-438a-9604-36a10a681a4a" absoluteBounds="20.5, 104.75, 2, 2.5752791341145951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_CMMNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6853fbf1-c1e7-43f7-b042-23fc82f1a8a5" absoluteBounds="20.515, 105.21, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca6f3579-7309-4fa2-bb4c-ced255701a82" absoluteBounds="29.25, 115, 2, 3.3970157877604095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_COMB_ELEMT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50246f2e-3bf6-420c-a631-d6b5b3cf51f9" absoluteBounds="29.265, 115.46, 1.9700000000000002, 2.8370157877604165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d705610-b5a8-4e52-ab2a-9d54011f07f8" absoluteBounds="32.25, 99.5, 2, 3.2326684570312523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_LOS_REIM_FUND_POST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0618bce-2d7d-41a6-b597-3c2215d7e38b" absoluteBounds="32.265, 99.96, 1.9700000000000002, 2.67266845703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb196b86-b62c-497b-acc3-80fa21badb68" absoluteBounds="32.25, 103.625, 2, 3.0683211263020951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_MISC_INVC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4bdf2ad-1f97-4bcc-ace8-f1301ca2847e" absoluteBounds="32.265, 104.085, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56276631-c6a7-4251-90d3-b83e18c8c699" absoluteBounds="29.25, 90, 2, 4.8761417643229095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_NY_SCND_INJR_FUND" />
+      <nestedChildShapes>
+        <elementListCompartment Id="499ca47d-5b35-41a9-a0ee-fc7221436587" absoluteBounds="29.265, 90.46, 1.9700000000000002, 4.3161417643229161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d388b459-9fa7-421c-927a-fdd92cbdcee4" absoluteBounds="26.25, 90.375, 2, 4.2187524414062523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PAID_LOS_BIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6afeb288-5b59-4055-911b-7dc422306858" absoluteBounds="26.265, 90.835, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="09149c7c-c34b-426d-9a6c-921f068dc595" absoluteBounds="23.25, 86, 2, 5.0404890950520951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PARMET_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be1b3f54-2066-442a-8432-e5b6ebccf4fe" absoluteBounds="23.265, 86.46, 1.9700000000000002, 4.480489095052083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fcebdcd6-a634-4728-8d83-8032c1eb1a19" absoluteBounds="35.25, 100.875, 2, 4.5474471028645951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PARMET_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3c82808-6309-4a31-b54b-ab3d0c31b9d1" absoluteBounds="35.265, 101.335, 1.9700000000000002, 3.987447102864583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2a71f3c-5135-4675-ba50-9af7fe0ca826" absoluteBounds="29.25, 106, 2, 2.4109318033854095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD_TOT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="187f6608-a94d-4340-92bc-5d4115576589" absoluteBounds="29.265, 106.46, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68ce14f6-47f0-4948-baff-06c11502c26f" absoluteBounds="35.25, 96.375, 2, 3.7257104492187523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f306613-715a-4c9c-ae82-a875a9dba6e3" absoluteBounds="35.265, 96.835, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2d360e7f-a5a5-4b48-af0b-264d30d992d0" absoluteBounds="20.5, 100.875, 2, 2.5752791341145951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_PERS_REL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b566f680-e677-46f1-9897-be606c51776f" absoluteBounds="20.515, 101.335, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6759c9fd-a310-430f-9c13-a9a61417ecb9" absoluteBounds="26.5, 85.5, 2, 3.8900577799479095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_RETRO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="910ce84b-293e-4c80-8e13-93c0b0dc0e24" absoluteBounds="26.515, 85.96, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="638ae682-ce9f-4741-96ed-bef8e4a67920" absoluteBounds="23.875, 92.125, 2, 2.2465844726562523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_SETUP_POL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33f1eb83-1911-4e0d-8972-8aadfdc0f782" absoluteBounds="23.89, 92.585, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c8248ce-58d8-416e-9c11-e0e6ba3ded44" absoluteBounds="20.5, 89.25, 2, 2.2465844726562523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_ST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20161503-f9f7-40a1-a0ed-89bfd95dd629" absoluteBounds="20.515, 89.71, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="721a2e7e-4e9c-41d5-8895-702af7d216d7" absoluteBounds="14.5, 106.25, 2, 3.0683211263020951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_ST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="963e98c7-8a6b-4aa1-ac60-83cbc15d75e4" absoluteBounds="14.515, 106.71, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abac3543-a536-4164-9034-6a406cd757fd" absoluteBounds="20.5, 108.25, 2, 3.0683211263020951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/QLTY_CNTRL_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b677c78f-ef3f-4b73-ac95-ad29ad6623ad" absoluteBounds="20.515, 108.71, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60f463f3-2c3d-438a-8f21-5c1c51feca4d" absoluteBounds="6.25, 94.25, 2, 2.4109318033854095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/QLTY_CNTRL_MSTR_ISSU_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c25a341-f953-40bd-8681-c081200ae60d" absoluteBounds="6.265, 94.71, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="216c9c6a-0415-4010-9d7b-fa162ba283b4" absoluteBounds="23.25, 95.75, 2, 2.7396264648437523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/STEPPED_FCTR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66897222-6667-4faa-b545-0224b4924759" absoluteBounds="23.265, 96.21, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="41ce9f01-fe6f-4b7e-9700-eb2591c67b58" absoluteBounds="29, 95.75, 2, 2.7396264648437523">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/SUBJ_PREM_AUDT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3fc18ee-3b4e-4bcd-b62a-34f2f8e8f8ac" absoluteBounds="29.015, 96.21, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.05692307692308 : 86.9896264648438); (7.05692307692308 : 87.2396264648438); (7.5 : 87.2396264648438); (7.5 : 86.9896264648438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/APLCTN_MENU/APLCTN_MENU_APLCTN_MENU" />
+      <nodes>
+        <classShapeMoniker Id="88bfc018-a5b2-48d7-9db5-e7a8705d2ad7" />
+        <classShapeMoniker Id="88bfc018-a5b2-48d7-9db5-e7a8705d2ad7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 86.9896264648438); (7.5 : 88.125); (8.5 : 88.125); (8.5 : 95.281250625); (8.69791666666667 : 95.281250625 : JumpStart); (9.00520833333333 : 95.281250625 : JumpEnd); (9.25 : 95.281250625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/APLCTN_MENU/APLCTN_MENU_APLCTN_WEB_PAGE_AUTH" />
+      <nodes>
+        <classShapeMoniker Id="88bfc018-a5b2-48d7-9db5-e7a8705d2ad7" />
+        <classShapeMoniker Id="af34c98a-a863-4b0d-8598-50d7c284b434" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 88.1382865397135); (14.3003166666667 : 88.1382865397135 : JumpStart); (14.8958333333333 : 88.1382865397135 : JumpEnd); (15 : 88.1382865397135)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/ARMIS_LOS_POL/ARMIS_LOS_POL_ARMIS_LOS_EXC" />
+      <nodes>
+        <classShapeMoniker Id="53e36f18-546b-49ac-ba39-ad487657100e" />
+        <classShapeMoniker Id="a048c41d-74b1-432d-9483-4625ffceca52" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.20076923076923 : 105.375); (8.69107443490112 : 104.884694795868 : JumpStart); (8.80892556509888 : 104.76684366567 : JumpEnd); (8.8125 : 104.763269230769); (8.8125 : 100.208944905599); (9 : 100.208944905599)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_APLCTN_WEB_PAGE_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="6e628f8d-9968-452b-8c7a-5d39d7d8594e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.95923076923077 : 109.100710449219); (6.95923076923077 : 109.350710449219); (7.55461538461539 : 109.350710449219); (7.55461538461539 : 109.100710449219)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_CUSTMR" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 107.338804382141); (8.66666666666667 : 107.338804382141 : JumpStart); (8.86458333333333 : 107.338804382141 : JumpEnd); (9.22916666666667 : 107.338804382141 : JumpStart); (9.39583333333333 : 107.338804382141 : JumpEnd); (10.15625 : 107.338804382141); (10.15625 : 104.207237141927)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_CUSTMR_CMMNT" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="725d9186-d34c-497b-bc6f-156355dc99f5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 106.422300709924); (8.66666666666667 : 106.422300709924 : JumpStart); (8.86458333333333 : 106.422300709924 : JumpEnd); (9.22916666666667 : 106.422300709924 : JumpStart); (9.39583333333333 : 106.422300709924 : JumpEnd); (10.0729166666667 : 106.422300709924 : JumpStart); (10.2395833333333 : 106.422300709924 : JumpEnd); (11.625 : 106.422300709924); (11.625 : 101.25); (11.6682041282051 : 101.25 : JumpStart); (11.8348707948718 : 101.25 : JumpEnd); (13.8541666666667 : 101.25 : JumpStart); (14.0833333333333 : 101.25 : JumpEnd); (14.2246666666667 : 101.25 : JumpStart); (14.5520833333333 : 101.25 : JumpEnd); (14.6510416666667 : 101.25 : JumpStart); (14.8177083333333 : 101.25 : JumpEnd); (15.718748 : 101.25); (15.718748 : 100.093752441406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_CUSTMR_DOC" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.75 : 100.093752441406); (16.8473244349011 : 100.191076876307 : JumpStart); (17.0589255650989 : 100.402678006505 : JumpEnd); (17.125 : 100.468752441406); (17.125 : 103.708944905599); (17.1666666666667 : 103.708944905599 : JumpStart); (17.3958333333333 : 103.708944905599 : JumpEnd); (17.5 : 103.708944905599)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR_DOC/CUSTMR_DOC_CUSTMR_DOC_ISSUS" />
+      <nodes>
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+        <classShapeMoniker Id="00907cc3-29f2-4190-8eec-c107f6be31e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 105.425768230769); (8.66666666666667 : 105.425768230769 : JumpStart); (8.86458333333333 : 105.425768230769 : JumpEnd); (9.22916666666667 : 105.425768230769 : JumpStart); (9.39583333333333 : 105.425768230769 : JumpEnd); (10.0729166666667 : 105.425768230769 : JumpStart); (10.2395833333333 : 105.425768230769 : JumpEnd); (11.5416666666667 : 105.425768230769 : JumpStart); (11.7083333333333 : 105.425768230769 : JumpEnd); (11.7515374615385 : 105.425768230769); (11.7515374615385 : 100.082237141927)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_CUSTMR_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="3994ad7b-9a77-4643-a9e8-bb16b753ea55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.56959564892578 : 93.9502791341146); (3.56959564892578 : 100.1562505); (3.60184950840251 : 100.1562505 : JumpStart); (3.99969056068929 : 100.1562505 : JumpEnd); (4.06419827964274 : 100.1562505 : JumpStart); (4.57762652473958 : 100.1562505 : JumpEnd); (4.67801256022135 : 100.1562505 : JumpStart); (4.97820557796224 : 100.1562505 : JumpEnd); (5.07859161344401 : 100.1562505 : JumpStart); (5.24525828011068 : 100.1562505 : JumpEnd); (5.34564431559245 : 100.1562505 : JumpStart); (5.54356348225911 : 100.1562505 : JumpEnd); (7.16666666666667 : 100.1562505 : JumpStart); (7.33333333333333 : 100.1562505 : JumpEnd); (8.29166666666667 : 100.1562505 : JumpStart); (8.86458333333333 : 100.1562505 : JumpEnd); (9 : 100.1562505)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_APLCTN_WEB_PAGE_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="6e628f8d-9968-452b-8c7a-5d39d7d8594e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.42897764892578 : 93.9502791341146); (5.42897764892578 : 96.9734318033854); (5.54166666666667 : 96.9734318033854 : JumpStart); (5.70833333333333 : 96.9734318033854 : JumpEnd); (5.72916666666667 : 96.9734318033854 : JumpStart); (5.89583333333333 : 96.9734318033854 : JumpEnd); (5.91666666666667 : 96.9734318033854 : JumpStart); (6.08333333333333 : 96.9734318033854 : JumpEnd); (7.16666666666667 : 96.9734318033854 : JumpStart); (7.33333333333333 : 96.9734318033854 : JumpEnd); (8.29166666666667 : 96.9734318033854 : JumpStart); (8.64583333333333 : 96.9734318033854 : JumpEnd); (8.69791666666667 : 96.9734318033854 : JumpStart); (8.98958333333333 : 96.9734318033854 : JumpEnd); (9.125 : 96.9734318033854); (9.125 : 96.0451695488281); (9.25 : 96.0451695488281)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_APLCTN_WEB_PAGE_AUTH" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="af34c98a-a863-4b0d-8598-50d7c284b434" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.765626 : 91.375); (4.765626 : 87.8125); (5.08073166666667 : 87.8125 : JumpStart); (5.24739833333333 : 87.8125 : JumpEnd); (7.41666666666667 : 87.8125 : JumpStart); (7.58333333333333 : 87.8125 : JumpEnd); (8.875 : 87.8125); (8.875 : 88.4433211263021); (8.91666666666667 : 88.4433211263021 : JumpStart); (9.20833333333333 : 88.4433211263021 : JumpEnd); (9.96786716666667 : 88.4433211263021 : JumpStart); (10.1345338333333 : 88.4433211263021 : JumpEnd); (11.7291666666667 : 88.4433211263021 : JumpStart); (11.8958333333333 : 88.4433211263021 : JumpEnd); (12.0625 : 88.4433211263021); (12.0625 : 90.9015730794271); (14.4629166666667 : 90.9015730794271 : JumpStart); (14.6295833333333 : 90.9015730794271 : JumpEnd); (14.6875 : 90.9015730794271); (14.6875 : 88.1695370397135); (14.6979166666667 : 88.1695370397135 : JumpStart); (14.9583333333333 : 88.1695370397135 : JumpEnd); (15 : 88.1695370397135)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_ARMIS_LOS_EXC" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="a048c41d-74b1-432d-9483-4625ffceca52" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.234374 : 91.375); (4.234374 : 88.284160563151); (4.28385366666667 : 88.284160563151 : JumpStart); (4.45052033333333 : 88.284160563151 : JumpEnd); (4.54947966666667 : 88.284160563151 : JumpStart); (4.98177233333333 : 88.284160563151 : JumpEnd); (5.08073166666667 : 88.284160563151 : JumpStart); (5.24739833333333 : 88.284160563151 : JumpEnd); (5.34635766666667 : 88.284160563151 : JumpStart); (5.51302433333333 : 88.284160563151 : JumpEnd); (8.41666666666667 : 88.284160563151 : JumpStart); (8.58333333333333 : 88.284160563151 : JumpEnd); (8.66666666666667 : 88.284160563151 : JumpStart); (9.20833333333333 : 88.284160563151 : JumpEnd); (9.96786716666667 : 88.284160563151 : JumpStart); (10.1345338333333 : 88.284160563151 : JumpEnd); (11.7291666666667 : 88.284160563151 : JumpStart); (11.8958333333333 : 88.284160563151 : JumpEnd); (12.25 : 88.284160563151)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_ARMIS_LOS_POL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="53e36f18-546b-49ac-ba39-ad487657100e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.164065 : 91.375); (5.164065 : 87.6823132324219); (7.41666666666667 : 87.6823132324219 : JumpStart); (7.58333333333333 : 87.6823132324219 : JumpEnd); (9.25 : 87.6823132324219)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COMB_ELEMT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="cf6ab6a3-1b36-4318-9763-0c42c5a07b19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.429691 : 91.375); (5.429691 : 87.9349091162109); (7.41666666666667 : 87.9349091162109 : JumpStart); (7.58333333333333 : 87.9349091162109 : JumpEnd); (8.79166666666667 : 87.9349091162109 : JumpStart); (8.95833333333333 : 87.9349091162109 : JumpEnd); (9.25 : 87.9349091162109)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COMB_ELEMT1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="cf6ab6a3-1b36-4318-9763-0c42c5a07b19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.49429319140625 : 93.9502791341146); (4.49429319140625 : 107.237855224609); (6.25 : 107.237855224609)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_CUSTMR" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 92.6626395670573); (5.54166666666667 : 92.6626395670573 : JumpStart); (5.70833333333333 : 92.6626395670573 : JumpEnd); (5.72916666666667 : 92.6626395670573 : JumpStart); (5.89583333333333 : 92.6626395670573 : JumpEnd); (5.91666666666667 : 92.6626395670573 : JumpStart); (6.08333333333333 : 92.6626395670573 : JumpEnd); (7.16666666666667 : 92.6626395670573 : JumpStart); (7.33333333333333 : 92.6626395670573 : JumpEnd); (7.66666616666667 : 92.6626395670573 : JumpStart); (7.83333283333333 : 92.6626395670573 : JumpEnd); (8.375 : 92.6626395670573); (8.375 : 101.75); (8.44791666666667 : 101.75 : JumpStart); (8.89583333333333 : 101.75 : JumpEnd); (10 : 101.75); (10 : 102.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_CUSTMR_CMMNT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="725d9186-d34c-497b-bc6f-156355dc99f5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.42897764892578 : 93.9502791341146); (5.42897764892578 : 97.863994547526); (7.16666666666667 : 97.863994547526 : JumpStart); (7.33333333333333 : 97.863994547526 : JumpEnd); (8.29166666666667 : 97.863994547526 : JumpStart); (8.92708333333333 : 97.863994547526 : JumpEnd); (13.9166666666667 : 97.863994547526 : JumpStart); (14.7083333333333 : 97.863994547526 : JumpEnd); (14.75 : 97.863994547526)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_CUSTMR_DOC" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.42897764892578 : 93.9502791341146); (5.42897764892578 : 104.58451578776); (8.54166666666667 : 104.58451578776 : JumpStart); (8.89583333333333 : 104.58451578776 : JumpEnd); (9.05763505573285 : 104.58451578776 : JumpStart); (9.22430172239952 : 104.58451578776 : JumpEnd); (10.0729166666667 : 104.58451578776 : JumpStart); (10.2395833333333 : 104.58451578776 : JumpEnd); (11.1666666666667 : 104.58451578776 : JumpStart); (11.3333333333333 : 104.58451578776 : JumpEnd); (11.3729166666667 : 104.58451578776 : JumpStart); (11.8833333333333 : 104.58451578776 : JumpEnd); (11.90625 : 104.58451578776); (11.90625 : 102.125); (13.8541666666667 : 102.125 : JumpStart); (14.0833333333333 : 102.125 : JumpEnd); (14.21875 : 102.125); (14.21875 : 105.475710449219); (14.2246666666667 : 105.475710449219 : JumpStart); (14.7583333333333 : 105.475710449219 : JumpEnd); (16.4322916666667 : 105.475710449219 : JumpStart); (16.5989583333333 : 105.475710449219 : JumpEnd); (16.8229166666667 : 105.475710449219 : JumpStart); (16.9895833333333 : 105.475710449219 : JumpEnd); (17.25 : 105.475710449219); (17.25 : 103.198220452799); (17.5 : 103.198220452799)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_CUSTMR_DOC_ISSUS" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00907cc3-29f2-4190-8eec-c107f6be31e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.62781954248047 : 93.9502791341146); (4.62781954248047 : 98.59375); (4.67801256022135 : 98.59375 : JumpStart); (4.97820557796224 : 98.59375 : JumpEnd); (5.07859161344401 : 98.59375 : JumpStart); (5.24525828011068 : 98.59375 : JumpEnd); (5.34564431559245 : 98.59375 : JumpStart); (5.54356348225911 : 98.59375 : JumpEnd); (7.16666666666667 : 98.59375 : JumpStart); (7.33333333333333 : 98.59375 : JumpEnd); (8.29166666666667 : 98.59375 : JumpStart); (8.86458333333333 : 98.59375 : JumpEnd); (11.75 : 98.59375)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_CUSTMR_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="3994ad7b-9a77-4643-a9e8-bb16b753ea55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.703122 : 91.375); (3.703122 : 89.4161185709635); (3.75260166666667 : 89.4161185709635 : JumpStart); (3.91926833333333 : 89.4161185709635 : JumpEnd); (4.15104066666667 : 89.4161185709635 : JumpStart); (4.31770733333333 : 89.4161185709635 : JumpEnd); (6.25 : 89.4161185709635)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_EXTRNL_ORG" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.56959564892578 : 93.9502791341146); (3.56959564892578 : 105.125); (3.83302389402262 : 105.125 : JumpStart); (3.99969056068929 : 105.125 : JumpEnd); (4.06419827964274 : 105.125 : JumpStart); (4.23086494630941 : 105.125 : JumpEnd); (4.29537266526286 : 105.125 : JumpStart); (4.57762652473958 : 105.125 : JumpEnd); (4.81153891129557 : 105.125 : JumpStart); (4.97820557796224 : 105.125 : JumpEnd); (7.44058209214744 : 105.125 : JumpStart); (7.6072487588141 : 105.125 : JumpEnd); (8.3674358974359 : 105.125 : JumpStart); (8.58487079487179 : 105.125 : JumpEnd); (8.66666666666667 : 105.125 : JumpStart); (8.86458333333333 : 105.125 : JumpEnd); (9.22916666666667 : 105.125 : JumpStart); (9.39583333333333 : 105.125 : JumpEnd); (10.0729166666667 : 105.125 : JumpStart); (10.2395833333333 : 105.125 : JumpEnd); (11.5 : 105.125); (11.5 : 102.625); (11.5416666666667 : 102.625 : JumpStart); (12.0670833333333 : 102.625 : JumpEnd); (13.5729186666667 : 102.625 : JumpStart); (13.7395853333333 : 102.625 : JumpEnd); (13.9166666666667 : 102.625 : JumpStart); (14.0833333333333 : 102.625 : JumpEnd); (14.1354166666667 : 102.625 : JumpStart); (14.5520833333333 : 102.625 : JumpEnd); (14.5625 : 102.625); (14.5625 : 105.413210449219); (14.5916666666667 : 105.413210449219 : JumpStart); (14.7583333333333 : 105.413210449219 : JumpEnd); (16.4322916666667 : 105.413210449219 : JumpStart); (16.5989583333333 : 105.413210449219 : JumpEnd); (16.8229166666667 : 105.413210449219 : JumpStart); (16.9895833333333 : 105.413210449219 : JumpEnd); (17.2291666666667 : 105.413210449219 : JumpStart); (17.3958333333333 : 105.413210449219 : JumpEnd); (19.5729166666667 : 105.413210449219 : JumpStart); (19.7708358333333 : 105.413210449219 : JumpEnd); (19.7916666666667 : 105.413210449219 : JumpStart); (19.9583333333333 : 105.413210449219 : JumpEnd); (20 : 105.413210449219); (20 : 104.5); (20.0416666666667 : 104.5 : JumpStart); (20.2708333333333 : 104.5 : JumpEnd); (20.3541666666667 : 104.5 : JumpStart); (20.5208333333333 : 104.5 : JumpEnd); (23.0182291666667 : 104.5 : JumpStart); (23.1848958333333 : 104.5 : JumpEnd); (23.25 : 104.5); (23.25 : 105.369813232422); (23.5 : 105.369813232422)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_INCUR_LOS_REIM_FUND_FRMLA" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="a75abb29-4420-47ad-ba5b-e5abbb26b239" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 92.583944905599); (3.5 : 92.583944905599)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP_TYP/LKUP_TYP_LKUP" />
+      <nodes>
+        <classShapeMoniker Id="1327b5c1-d50d-4f16-a924-4dd76c4419d8" />
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.57336288461538 : 109.100710449219); (6.57336288461538 : 112.830465901693); (9 : 112.830465901693)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_LSI_CUSTMR" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="6f1aea75-aa54-49b2-af75-0661e94ad861" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 96.06250025); (5.54166666666667 : 96.06250025 : JumpStart); (5.70833333333333 : 96.06250025 : JumpEnd); (5.72916666666667 : 96.06250025 : JumpStart); (5.89583333333333 : 96.06250025 : JumpEnd); (5.91666666666667 : 96.06250025 : JumpStart); (6.08333333333333 : 96.06250025 : JumpEnd); (8.29166666666667 : 96.06250025 : JumpStart); (8.64583333333333 : 96.06250025 : JumpEnd); (8.69791666666667 : 96.06250025 : JumpStart); (9.00520833333333 : 96.06250025 : JumpEnd); (11.4791666666667 : 96.06250025 : JumpStart); (11.6458333333333 : 96.06250025 : JumpEnd); (11.7291666666667 : 96.06250025 : JumpStart); (11.8958333333333 : 96.06250025 : JumpEnd); (12.2886666666667 : 96.06250025 : JumpStart); (12.4553333333333 : 96.06250025 : JumpEnd); (16.9166666666667 : 96.06250025 : JumpStart); (17.0833333333333 : 96.06250025 : JumpEnd); (17.2291666666667 : 96.06250025 : JumpStart); (17.3958333333333 : 96.06250025 : JumpEnd); (25.1672916666667 : 96.06250025 : JumpStart); (25.3958333333333 : 96.06250025 : JumpEnd); (26 : 96.06250025)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_NON_SUBJ_PREM_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="4c162ab5-997c-4018-8b99-697362eef1eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 111.073445858724); (14.6666666666667 : 111.073445858724 : JumpStart); (14.8333333333333 : 111.073445858724 : JumpEnd); (16.515625 : 111.073445858724); (16.515625 : 105.241335449219); (14.734375 : 105.241335449219); (14.734375 : 100.117189941406); (15.75 : 100.117189941406); (15.75 : 100.093752441406)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/NONAIS_CUSTMR/NONAIS_CUSTMR_CUSTMR_DOC" />
+      <nodes>
+        <classShapeMoniker Id="bdf6caac-8202-481c-92d9-bb8761254cf9" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 91.4812639458821); (5.54166666666667 : 91.4812639458821 : JumpStart); (5.70833333333333 : 91.4812639458821 : JumpEnd); (5.72916666666667 : 91.4812639458821 : JumpStart); (5.89583333333333 : 91.4812639458821 : JumpEnd); (5.91666666666667 : 91.4812639458821 : JumpStart); (6.08333333333333 : 91.4812639458821 : JumpEnd); (7.66666616666667 : 91.4812639458821 : JumpStart); (7.83333283333333 : 91.4812639458821 : JumpEnd); (8.41666666666667 : 91.4812639458821 : JumpStart); (8.61458333333333 : 91.4812639458821 : JumpEnd); (8.6875 : 91.4812639458821); (8.6875 : 89.8125); (10.8315666666667 : 89.8125 : JumpStart); (10.9982333333333 : 89.8125 : JumpEnd); (11.4791666666667 : 89.8125 : JumpStart); (11.7083333333333 : 89.8125 : JumpEnd); (11.7291666666667 : 89.8125 : JumpStart); (12.1458333333333 : 89.8125 : JumpEnd); (12.1875 : 89.8125); (12.1875 : 90.7140730794271); (14.3691666666667 : 90.7140730794271 : JumpStart); (14.9583333333333 : 90.7140730794271 : JumpEnd); (14.96875 : 90.7140730794271); (14.96875 : 92.8645043945313); (17.9061283170573 : 92.8645043945313 : JumpStart); (18.0727949837239 : 92.8645043945313 : JumpEnd); (18.208093967448 : 92.8645043945313 : JumpStart); (18.3747606341146 : 92.8645043945313 : JumpEnd); (18.5100596178386 : 92.8645043945313 : JumpStart); (18.6767262845052 : 92.8645043945313 : JumpEnd); (18.8328536015625 : 92.8645043945313); (18.8328536015625 : 90.7002791341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_POST_ADDR" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="917a9da5-5a7d-4b88-a17d-9dfd1dd33a51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 101.96875); (8.44791666666667 : 101.96875 : JumpStart); (8.89583333333333 : 101.96875 : JumpEnd); (9.91666666666667 : 101.96875 : JumpStart); (10.0833333333333 : 101.96875 : JumpEnd); (11.1666666666667 : 101.96875 : JumpStart); (11.3333333333333 : 101.96875 : JumpEnd); (11.5416666666667 : 101.96875 : JumpStart); (11.8348707948718 : 101.96875 : JumpEnd); (11.9004166666667 : 101.96875 : JumpStart); (12.0670833333333 : 101.96875 : JumpEnd); (13.8541666666667 : 101.96875 : JumpStart); (14.0833333333333 : 101.96875 : JumpEnd); (14.2246666666667 : 101.96875 : JumpStart); (14.5520833333333 : 101.96875 : JumpEnd); (14.75 : 101.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/POST_TRNS_TYP/POST_TRNS_TYP_THRD_PTY_ADMIN_MNL_INVC_DTL" />
+      <nodes>
+        <classShapeMoniker Id="57179629-cbd1-4dd0-925b-1beba6c962f1" />
+        <classShapeMoniker Id="cfe3096c-1001-4729-a035-1d96b6567ffc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.89487224462891 : 93.9502791341146); (4.89487224462891 : 102.82350789388); (5.07859161344401 : 102.82350789388 : JumpStart); (5.24525828011068 : 102.82350789388 : JumpEnd); (5.34564431559245 : 102.82350789388 : JumpStart); (5.54356348225911 : 102.82350789388 : JumpEnd); (6.25 : 102.82350789388)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_POST_TRNS_TYP" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="57179629-cbd1-4dd0-925b-1beba6c962f1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.89487224462891 : 93.9502791341146); (4.89487224462891 : 105.25); (7.44058209214744 : 105.25 : JumpStart); (7.6072487588141 : 105.25 : JumpEnd); (8.2424358974359 : 105.25 : JumpStart); (8.45987079487179 : 105.25 : JumpEnd); (8.66666666666667 : 105.25 : JumpStart); (8.86458333333333 : 105.25 : JumpEnd); (9.22916666666667 : 105.25 : JumpStart); (9.39583333333333 : 105.25 : JumpEnd); (10.0729166666667 : 105.25 : JumpStart); (10.2395833333333 : 105.25 : JumpEnd); (11.5416666666667 : 105.25 : JumpStart); (11.8348707948718 : 105.25 : JumpEnd); (11.9375 : 105.25); (11.9375 : 102.5); (13.5729186666667 : 102.5 : JumpStart); (13.7395853333333 : 102.5 : JumpEnd); (13.9166666666667 : 102.5 : JumpStart); (14.0833333333333 : 102.5 : JumpEnd); (14.1354166666667 : 102.5 : JumpStart); (14.5520833333333 : 102.5 : JumpEnd); (14.625 : 102.5); (14.625 : 105.625); (16.4322916666667 : 105.625 : JumpStart); (16.5989583333333 : 105.625 : JumpEnd); (16.8229166666667 : 105.625 : JumpStart); (16.9895833333333 : 105.625 : JumpEnd); (17.2291666666667 : 105.625 : JumpStart); (17.3958333333333 : 105.625 : JumpEnd); (19.5729166666667 : 105.625 : JumpStart); (19.7708358333333 : 105.625 : JumpEnd); (19.7916666666667 : 105.625 : JumpStart); (19.9583333333333 : 105.625 : JumpEnd); (20.125 : 105.625); (20.125 : 106.416119291667); (20.5 : 106.416119291667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_CMMNT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="b582a355-0b09-438a-9604-36a10a681a4a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.90956662019231 : 104.52201578776); (6.90956662019231 : 104.89701578776); (8.54166666666667 : 104.89701578776 : JumpStart); (8.86458333333333 : 104.89701578776 : JumpEnd); (9.17988922392987 : 104.89701578776 : JumpStart); (9.34655589059654 : 104.89701578776 : JumpEnd); (10.0729166666667 : 104.89701578776 : JumpStart); (10.2395833333333 : 104.89701578776 : JumpEnd); (11.3729166666667 : 104.89701578776 : JumpStart); (11.8833333333333 : 104.89701578776 : JumpEnd); (11.98375 : 104.89701578776); (11.98375 : 101.71); (13.8541666666667 : 101.71 : JumpStart); (14.0833333333333 : 101.71 : JumpEnd); (14.2246666666667 : 101.71 : JumpStart); (14.5520833333333 : 101.71 : JumpEnd); (14.6510416666667 : 101.71 : JumpStart); (14.8177083333333 : 101.71 : JumpEnd); (16.8229166666667 : 101.71 : JumpStart); (17.0208333333333 : 101.71 : JumpEnd); (17.0416666666667 : 101.71 : JumpStart); (17.3958333333333 : 101.71 : JumpEnd); (17.515 : 101.71); (17.515 : 103.081561686198); (19.5729166666667 : 103.081561686198 : JumpStart); (19.7708358333333 : 103.081561686198 : JumpEnd); (19.9166666666667 : 103.081561686198 : JumpStart); (20.0833333333333 : 103.081561686198 : JumpEnd); (20.265 : 103.081561686198); (20.265 : 104.21); (20.3541666666667 : 104.21 : JumpStart); (20.5208333333333 : 104.21 : JumpEnd); (23.0182291666667 : 104.21 : JumpStart); (23.1848958333333 : 104.21 : JumpEnd); (26.5729166666667 : 104.21 : JumpStart); (26.7395833333333 : 104.21 : JumpEnd); (27.8666666666667 : 104.21 : JumpStart); (28.0333333333333 : 104.21 : JumpEnd); (28.0416641666667 : 104.21 : JumpStart); (28.2083308333333 : 104.21 : JumpEnd); (28.4791666666667 : 104.21 : JumpStart); (28.6458333333333 : 104.21 : JumpEnd); (28.8416666666667 : 104.21 : JumpStart); (29.0083333333333 : 104.21 : JumpEnd); (30.265 : 104.21); (30.265 : 99.25); (31.1041666666667 : 99.25 : JumpStart); (31.2708333333333 : 99.25 : JumpEnd); (31.5729166666667 : 99.25 : JumpStart); (31.7395833333333 : 99.25 : JumpEnd); (33.25 : 99.25); (33.25 : 99.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/POST_TRNS_TYP/POST_TRNS_TYP_PREM_ADJ_LOS_REIM_FUND_POST" />
+      <nodes>
+        <classShapeMoniker Id="57179629-cbd1-4dd0-925b-1beba6c962f1" />
+        <classShapeMoniker Id="4d705610-b5a8-4e52-ab2a-9d54011f07f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 103.13600739388); (8.44791666666667 : 103.13600739388 : JumpStart); (8.89583333333333 : 103.13600739388 : JumpEnd); (8.9375 : 103.13600739388); (8.9375 : 104.269737141927); (11.1666666666667 : 104.269737141927 : JumpStart); (11.3333333333333 : 104.269737141927 : JumpEnd); (11.3729166666667 : 104.269737141927 : JumpStart); (12.0395833333333 : 104.269737141927 : JumpEnd); (12.0625 : 104.269737141927); (12.0625 : 103.0625); (14.0916666666667 : 103.0625 : JumpStart); (14.3520833333333 : 103.0625 : JumpEnd); (14.375 : 103.0625); (14.375 : 105.288210449219); (14.3854166666667 : 105.288210449219 : JumpStart); (14.7583333333333 : 105.288210449219 : JumpEnd); (16.8229166666667 : 105.288210449219 : JumpStart); (16.9895833333333 : 105.288210449219 : JumpEnd); (17.1666666666667 : 105.288210449219 : JumpStart); (17.3958333333333 : 105.288210449219 : JumpEnd); (19.5729166666667 : 105.288210449219 : JumpStart); (19.7708358333333 : 105.288210449219 : JumpEnd); (19.7916666666667 : 105.288210449219 : JumpStart); (20.0833333333333 : 105.288210449219 : JumpEnd); (20.1875 : 105.288210449219); (20.1875 : 103.512779134115); (23.0182291666667 : 103.512779134115 : JumpStart); (23.1848958333333 : 103.512779134115 : JumpEnd); (24.4166666666667 : 103.512779134115 : JumpStart); (24.5833333333333 : 103.512779134115 : JumpEnd); (26.5729166666667 : 103.512779134115 : JumpStart); (26.7395833333333 : 103.512779134115 : JumpEnd); (27.8666666666667 : 103.512779134115 : JumpStart); (28.0333333333333 : 103.512779134115 : JumpEnd); (28.0416641666667 : 103.512779134115 : JumpStart); (28.2083308333333 : 103.512779134115 : JumpEnd); (28.4791666666667 : 103.512779134115 : JumpStart); (28.6458333333333 : 103.512779134115 : JumpEnd); (28.8416666666667 : 103.512779134115 : JumpStart); (29.0083333333333 : 103.512779134115 : JumpEnd); (29.7916666666667 : 103.512779134115 : JumpStart); (29.9583333333333 : 103.512779134115 : JumpEnd); (30.1816666666667 : 103.512779134115 : JumpStart); (30.3483333333333 : 103.512779134115 : JumpEnd); (30.4375 : 103.512779134115); (30.4375 : 105.760378417969); (32.1875 : 105.760378417969); (32.1875 : 106.755821126302); (33.25 : 106.755821126302); (33.25 : 106.693321126302)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/POST_TRNS_TYP/POST_TRNS_TYP_PREM_ADJ_MISC_INVC" />
+      <nodes>
+        <classShapeMoniker Id="57179629-cbd1-4dd0-925b-1beba6c962f1" />
+        <classShapeMoniker Id="fb196b86-b62c-497b-acc3-80fa21badb68" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 91.375); (4.5 : 91.3125); (5.54166666666667 : 91.3125 : JumpStart); (5.70833333333333 : 91.3125 : JumpEnd); (5.72916666666667 : 91.3125 : JumpStart); (5.89583333333333 : 91.3125 : JumpEnd); (5.91666666666667 : 91.3125 : JumpStart); (6.08333333333333 : 91.3125 : JumpEnd); (7.66666616666667 : 91.3125 : JumpStart); (7.83333283333333 : 91.3125 : JumpEnd); (8.41666666666667 : 91.3125 : JumpStart); (8.61458333333333 : 91.3125 : JumpEnd); (8.625 : 91.3125); (8.625 : 94.4849471028646); (9.1875 : 94.4849471028646); (9.1875 : 94.4375); (11.4791666666667 : 94.4375 : JumpStart); (11.6458333333333 : 94.4375 : JumpEnd); (11.7291666666667 : 94.4375 : JumpStart); (11.8958333333333 : 94.4375 : JumpEnd); (12.2886666666667 : 94.4375 : JumpStart); (12.4553333333333 : 94.4375 : JumpEnd); (12.8125 : 94.4375); (12.8125 : 92.1875); (14.90625 : 92.1875); (14.90625 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 92.0625); (22.6226211041667 : 92.0625 : JumpStart); (22.8205402708333 : 92.0625 : JumpEnd); (26.15625 : 92.0625); (26.15625 : 92.4843762207031); (26.25 : 92.4843762207031)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PAID_LOS_BIL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="d388b459-9fa7-421c-927a-fdd92cbdcee4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.898439 : 91.375); (4.898439 : 88.1875); (5.08073166666667 : 88.1875 : JumpStart); (5.24739833333333 : 88.1875 : JumpEnd); (5.34635766666667 : 88.1875 : JumpStart); (5.51302433333333 : 88.1875 : JumpEnd); (8.66666666666667 : 88.1875 : JumpStart); (8.95833333333333 : 88.1875 : JumpEnd); (9 : 88.1875); (9 : 88.6933211263021); (9.96786716666667 : 88.6933211263021 : JumpStart); (10.1345338333333 : 88.6933211263021 : JumpEnd); (11.625 : 88.6933211263021); (11.625 : 91.1515730794271); (11.7291666666667 : 91.1515730794271 : JumpStart); (12.0208333333333 : 91.1515730794271 : JumpEnd); (13.6979171666667 : 91.1515730794271 : JumpStart); (13.8645838333333 : 91.1515730794271 : JumpEnd); (14.4629166666667 : 91.1515730794271 : JumpStart); (14.6295833333333 : 91.1515730794271 : JumpEnd); (14.75 : 91.1515730794271); (14.75 : 85.125); (14.8541666666667 : 85.125 : JumpStart); (15.0208333333333 : 85.125 : JumpEnd); (17.4166666666667 : 85.125 : JumpStart); (17.5833333333333 : 85.125 : JumpEnd); (22.875 : 85.125); (22.875 : 87.4999995); (23.25 : 87.4999995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PARMET_DTL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="09149c7c-c34b-426d-9a6c-921f068dc595" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.632813 : 91.375); (4.632813 : 88.0625); (4.68229266666667 : 88.0625 : JumpStart); (4.84895933333333 : 88.0625 : JumpEnd); (5.08073166666667 : 88.0625 : JumpStart); (5.24739833333333 : 88.0625 : JumpEnd); (5.34635766666667 : 88.0625 : JumpStart); (5.51302433333333 : 88.0625 : JumpEnd); (8.79166666666667 : 88.0625 : JumpStart); (8.95833333333333 : 88.0625 : JumpEnd); (9.125 : 88.0625); (9.125 : 88.5683211263021); (9.96786716666667 : 88.5683211263021 : JumpStart); (10.1345338333333 : 88.5683211263021 : JumpEnd); (11.7291666666667 : 88.5683211263021 : JumpStart); (11.8958333333333 : 88.5683211263021 : JumpEnd); (12 : 88.5683211263021); (12 : 91.0265730794271); (14.4629166666667 : 91.0265730794271 : JumpStart); (14.6295833333333 : 91.0265730794271 : JumpEnd); (14.8125 : 91.0265730794271); (14.8125 : 85.375); (14.8541666666667 : 85.375 : JumpStart); (15.0208333333333 : 85.375 : JumpEnd); (17.4166666666667 : 85.375 : JumpStart); (17.5833333333333 : 85.375 : JumpEnd); (22.625 : 85.375); (22.625 : 88.28125125); (23.25 : 88.28125125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PARMET_DTL1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="09149c7c-c34b-426d-9a6c-921f068dc595" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.367187 : 91.375); (4.367187 : 88); (4.68229266666667 : 88 : JumpStart); (4.84895933333333 : 88 : JumpEnd); (5.08073166666667 : 88 : JumpStart); (5.24739833333333 : 88 : JumpEnd); (7.41666666666667 : 88 : JumpStart); (7.58333333333333 : 88 : JumpEnd); (8.75 : 88); (8.75 : 88.8183211263021); (9.96786716666667 : 88.8183211263021 : JumpStart); (10.1345338333333 : 88.8183211263021 : JumpEnd); (11.5416666666667 : 88.8183211263021 : JumpStart); (11.7083333333333 : 88.8183211263021 : JumpEnd); (11.7291666666667 : 88.8183211263021 : JumpStart); (11.8958333333333 : 88.8183211263021 : JumpEnd); (11.9375 : 88.8183211263021); (11.9375 : 91.2765730794271); (13.6979171666667 : 91.2765730794271 : JumpStart); (13.8645838333333 : 91.2765730794271 : JumpEnd); (14.4629166666667 : 91.2765730794271 : JumpStart); (14.6295833333333 : 91.2765730794271 : JumpEnd); (14.6979166666667 : 91.2765730794271 : JumpStart); (14.8645833333333 : 91.2765730794271 : JumpEnd); (14.875 : 91.2765730794271); (14.875 : 85.25); (17.4166666666667 : 85.25 : JumpStart); (17.5833333333333 : 85.25 : JumpEnd); (22.7916666666667 : 85.25 : JumpStart); (22.9583333333333 : 85.25 : JumpEnd); (23 : 85.25); (23 : 86.71874775); (23.25 : 86.71874775)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PARMET_DTL2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="09149c7c-c34b-426d-9a6c-921f068dc595" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(36.25 : 100.875); (36.25 : 100.600710449219); (34.75 : 100.600710449219); (34.75 : 89.7650577799479); (26.1608333333333 : 89.7650577799479 : JumpStart); (25.9941666666667 : 89.7650577799479 : JumpEnd); (25.8483333333333 : 89.7650577799479 : JumpStart); (25.6816666666667 : 89.7650577799479 : JumpEnd); (25.625 : 89.7650577799479); (25.625 : 88.520244547526); (25.25 : 88.520244547526)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PARMET_SETUP/PREM_ADJ_PARMET_SETUP_PREM_ADJ_PARMET_DTL" />
+      <nodes>
+        <classShapeMoniker Id="fcebdcd6-a634-4728-8d83-8032c1eb1a19" />
+        <classShapeMoniker Id="09149c7c-c34b-426d-9a6c-921f068dc595" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.26311880578613 : 93.9502791341146); (4.26311880578613 : 105.1875); (4.29537266526286 : 105.1875 : JumpStart); (4.57762652473958 : 105.1875 : JumpEnd); (7.44058209214744 : 105.1875 : JumpStart); (7.6072487588141 : 105.1875 : JumpEnd); (8.3049358974359 : 105.1875 : JumpStart); (8.52237079487179 : 105.1875 : JumpEnd); (8.66666666666667 : 105.1875 : JumpStart); (8.86458333333333 : 105.1875 : JumpEnd); (9.22916666666667 : 105.1875 : JumpStart); (9.39583333333333 : 105.1875 : JumpEnd); (10.0729166666667 : 105.1875 : JumpStart); (10.2395833333333 : 105.1875 : JumpEnd); (11.6875 : 105.1875); (11.6875 : 102.9375); (11.7604166666667 : 102.9375 : JumpStart); (12.0670833333333 : 102.9375 : JumpEnd); (13.0416666666667 : 102.9375 : JumpStart); (13.2083333333333 : 102.9375 : JumpEnd); (13.5729186666667 : 102.9375 : JumpStart); (13.7395853333333 : 102.9375 : JumpEnd); (14.1354166666667 : 102.9375 : JumpStart); (14.4895833333333 : 102.9375 : JumpEnd); (14.5 : 102.9375); (14.5 : 105.75); (16.4322916666667 : 105.75 : JumpStart); (16.5989583333333 : 105.75 : JumpEnd); (16.8229166666667 : 105.75 : JumpStart); (16.9895833333333 : 105.75 : JumpEnd); (17.2291666666667 : 105.75 : JumpStart); (17.3958333333333 : 105.75 : JumpEnd); (19.5729166666667 : 105.75 : JumpStart); (19.7708358333333 : 105.75 : JumpEnd); (19.875 : 105.75); (19.875 : 104.625); (19.9166666666667 : 104.625 : JumpStart); (20.2708333333333 : 104.625 : JumpEnd); (20.3541666666667 : 104.625 : JumpStart); (20.5208333333333 : 104.625 : JumpEnd); (22.875 : 104.625); (22.875 : 106.989626464844); (23.0182291666667 : 106.989626464844 : JumpStart); (23.1848958333333 : 106.989626464844 : JumpEnd); (23.2541666666667 : 106.989626464844 : JumpStart); (23.4208333333333 : 106.989626464844 : JumpEnd); (24.6416696666667 : 106.989626464844 : JumpStart); (24.8083363333333 : 106.989626464844 : JumpEnd); (26.5729166666667 : 106.989626464844 : JumpStart); (26.7395833333333 : 106.989626464844 : JumpEnd); (28.0416641666667 : 106.989626464844 : JumpStart); (28.2083308333333 : 106.989626464844 : JumpEnd); (28.4791666666667 : 106.989626464844 : JumpStart); (28.6458333333333 : 106.989626464844 : JumpEnd); (28.8416666666667 : 106.989626464844 : JumpStart); (29.0083333333333 : 106.989626464844 : JumpEnd); (29.125 : 106.989626464844); (29.125 : 105.5); (30.25 : 105.5); (30.25 : 105.947878417969); (31.75 : 105.947878417969); (31.75 : 107.193321126302); (32.6354141666667 : 107.193321126302 : JumpStart); (32.8020808333333 : 107.193321126302 : JumpEnd); (36.25 : 107.193321126302); (36.25 : 105.422447102865)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PARMET_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="fcebdcd6-a634-4728-8d83-8032c1eb1a19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 97.9375); (7.16666666666667 : 97.9375 : JumpStart); (7.33333333333333 : 97.9375 : JumpEnd); (8.29166666666667 : 97.9375 : JumpStart); (8.92708333333333 : 97.9375 : JumpEnd); (13.8541666666667 : 97.9375 : JumpStart); (14.4270833333333 : 97.9375 : JumpEnd); (14.4375 : 97.9375); (14.4375 : 100.156252441406); (14.4479166666667 : 100.156252441406 : JumpStart); (14.7083333333333 : 100.156252441406 : JumpEnd); (16.7291666666667 : 100.156252441406 : JumpStart); (17.0833333333333 : 100.156252441406 : JumpEnd); (17.15625 : 100.156252441406); (17.15625 : 101.82161702474); (17.2291666666667 : 101.82161702474 : JumpStart); (17.3958333333333 : 101.82161702474 : JumpEnd); (17.4316666666667 : 101.82161702474 : JumpStart); (17.5983333333333 : 101.82161702474 : JumpEnd); (19.9166666666667 : 101.82161702474 : JumpStart); (20.0833333333333 : 101.82161702474 : JumpEnd); (20.15625 : 101.82161702474); (20.15625 : 100.3125); (20.3229166666667 : 100.3125 : JumpStart); (20.4895833333333 : 100.3125 : JumpEnd); (21.4166666666667 : 100.3125 : JumpStart); (21.5833333333333 : 100.3125 : JumpEnd); (22.7486979166667 : 100.3125 : JumpStart); (22.9153645833333 : 100.3125 : JumpEnd); (23.0182291666667 : 100.3125 : JumpStart); (23.1848958333333 : 100.3125 : JumpEnd); (23.25 : 100.3125); (23.25 : 99); (23.3541666666667 : 99 : JumpStart); (23.5208333333333 : 99 : JumpEnd); (23.6672916666667 : 99 : JumpStart); (23.8339583333333 : 99 : JumpEnd); (24.5104146666667 : 99 : JumpStart); (24.6770813333333 : 99 : JumpEnd); (27.6979166666667 : 99 : JumpStart); (27.8645833333333 : 99 : JumpEnd); (27.8666666666667 : 99 : JumpStart); (28.0333333333333 : 99 : JumpEnd); (28.0416641666667 : 99 : JumpStart); (28.2083308333333 : 99 : JumpEnd); (28.4791666666667 : 99 : JumpStart); (28.6458333333333 : 99 : JumpEnd); (31.1041666666667 : 99 : JumpStart); (31.2708333333333 : 99 : JumpEnd); (34.6666666666667 : 99 : JumpStart); (34.8333333333333 : 99 : JumpEnd); (34.875 : 99); (34.875 : 97.7343755); (35.25 : 97.7343755)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_DTL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="68ce14f6-47f0-4948-baff-06c11502c26f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 97.765625); (7.16666666666667 : 97.765625 : JumpStart); (7.33333333333333 : 97.765625 : JumpEnd); (8.29166666666667 : 97.765625 : JumpStart); (8.92708333333333 : 97.765625 : JumpEnd); (13.9166666666667 : 97.765625 : JumpStart); (14.5520833333333 : 97.765625 : JumpEnd); (14.5625 : 97.765625); (14.5625 : 100.218752441406); (14.6510416666667 : 100.218752441406 : JumpStart); (14.8177083333333 : 100.218752441406 : JumpEnd); (15.6354146666667 : 100.218752441406 : JumpStart); (15.8020813333333 : 100.218752441406 : JumpEnd); (16.7916666666667 : 100.218752441406 : JumpStart); (17.0833333333333 : 100.218752441406 : JumpEnd); (17.1666666666667 : 100.218752441406 : JumpStart); (17.4583333333333 : 100.218752441406 : JumpEnd); (17.5 : 100.218752441406); (17.5 : 101.69661702474); (19.9166666666667 : 101.69661702474 : JumpStart); (20.2395833333333 : 101.69661702474 : JumpEnd); (20.28125 : 101.69661702474); (20.28125 : 100.75); (20.3229166666667 : 100.75 : JumpStart); (20.4895833333333 : 100.75 : JumpEnd); (23.0182291666667 : 100.75 : JumpStart); (23.1848958333333 : 100.75 : JumpEnd); (23.5625 : 100.75); (23.5625 : 98.9375); (23.6672916666667 : 98.9375 : JumpStart); (23.8339583333333 : 98.9375 : JumpEnd); (24.5104146666667 : 98.9375 : JumpStart); (24.6770813333333 : 98.9375 : JumpEnd); (27.6979166666667 : 98.9375 : JumpStart); (27.8645833333333 : 98.9375 : JumpEnd); (27.8666666666667 : 98.9375 : JumpStart); (28.0333333333333 : 98.9375 : JumpEnd); (28.0416641666667 : 98.9375 : JumpStart); (28.2083308333333 : 98.9375 : JumpEnd); (28.4791666666667 : 98.9375 : JumpStart); (28.6458333333333 : 98.9375 : JumpEnd); (31.1041666666667 : 98.9375 : JumpStart); (31.2708333333333 : 98.9375 : JumpEnd); (34.5 : 98.9375); (34.5 : 97.02343575); (34.6666666666667 : 97.02343575 : JumpStart); (34.8333333333333 : 97.02343575 : JumpEnd); (35.25 : 97.02343575)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_DTL1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="68ce14f6-47f0-4948-baff-06c11502c26f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 97.859375); (7.16666666666667 : 97.859375 : JumpStart); (7.33333333333333 : 97.859375 : JumpEnd); (8.29166666666667 : 97.859375 : JumpStart); (8.92708333333333 : 97.859375 : JumpEnd); (13.9166666666667 : 97.859375 : JumpStart); (14.2708333333333 : 97.859375 : JumpEnd); (14.375 : 97.859375); (14.375 : 100.937502441406); (14.3854166666667 : 100.937502441406 : JumpStart); (14.5520833333333 : 100.937502441406 : JumpEnd); (14.6510416666667 : 100.937502441406 : JumpStart); (14.8177083333333 : 100.937502441406 : JumpEnd); (15.6354146666667 : 100.937502441406 : JumpStart); (15.8020813333333 : 100.937502441406 : JumpEnd); (16.9375 : 100.937502441406); (16.9375 : 101.82161702474); (17.0416666666667 : 101.82161702474 : JumpStart); (17.2083333333333 : 101.82161702474 : JumpEnd); (17.2291666666667 : 101.82161702474 : JumpStart); (17.3958333333333 : 101.82161702474 : JumpEnd); (17.4316666666667 : 101.82161702474 : JumpStart); (17.5983333333333 : 101.82161702474 : JumpEnd); (19.9166666666667 : 101.82161702474 : JumpStart); (20.0833333333333 : 101.82161702474 : JumpEnd); (20.40625 : 101.82161702474); (20.40625 : 100.1875); (21.4166666666667 : 100.1875 : JumpStart); (21.5833333333333 : 100.1875 : JumpEnd); (23.0182291666667 : 100.1875 : JumpStart); (23.3333333333333 : 100.1875 : JumpEnd); (23.3541666666667 : 100.1875 : JumpStart); (23.6458333333333 : 100.1875 : JumpEnd); (23.6875 : 100.1875); (23.6875 : 99.0625); (24.5104146666667 : 99.0625 : JumpStart); (24.6770813333333 : 99.0625 : JumpEnd); (27.6979166666667 : 99.0625 : JumpStart); (27.8645833333333 : 99.0625 : JumpEnd); (27.8666666666667 : 99.0625 : JumpStart); (28.0333333333333 : 99.0625 : JumpEnd); (28.0416641666667 : 99.0625 : JumpStart); (28.2083308333333 : 99.0625 : JumpEnd); (28.4791666666667 : 99.0625 : JumpStart); (28.6458333333333 : 99.0625 : JumpEnd); (31.1041666666667 : 99.0625 : JumpStart); (31.2708333333333 : 99.0625 : JumpEnd); (34.6666666666667 : 99.0625 : JumpStart); (34.8333333333333 : 99.0625 : JumpEnd); (35.125 : 99.0625); (35.125 : 98.9487949746094); (35.25 : 98.9487949746094)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_DTL2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="68ce14f6-47f0-4948-baff-06c11502c26f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.8007700345459 : 93.9502791341146); (3.8007700345459 : 104.77201578776); (3.83302389402262 : 104.77201578776 : JumpStart); (3.99969056068929 : 104.77201578776 : JumpEnd); (4.06419827964274 : 104.77201578776 : JumpStart); (4.57762652473958 : 104.77201578776 : JumpEnd); (4.67801256022135 : 104.77201578776 : JumpStart); (4.97820557796224 : 104.77201578776 : JumpEnd); (5.07859161344401 : 104.77201578776 : JumpStart); (5.24525828011068 : 104.77201578776 : JumpEnd); (5.37689681559245 : 104.77201578776 : JumpStart); (5.54356348225911 : 104.77201578776 : JumpEnd); (6.82623328685898 : 104.77201578776 : JumpStart); (6.99289995352564 : 104.77201578776 : JumpEnd); (8.54166666666667 : 104.77201578776 : JumpStart); (8.86458333333333 : 104.77201578776 : JumpEnd); (9.13098755665113 : 104.77201578776 : JumpStart); (9.29765422331779 : 104.77201578776 : JumpEnd); (10.0729166666667 : 104.77201578776 : JumpStart); (10.2395833333333 : 104.77201578776 : JumpEnd); (11.3729166666667 : 104.77201578776 : JumpStart); (11.5395833333333 : 104.77201578776 : JumpEnd); (11.5625 : 104.77201578776); (11.5625 : 102.6875); (11.6682041282051 : 102.6875 : JumpStart); (12.0670833333333 : 102.6875 : JumpEnd); (13.5729186666667 : 102.6875 : JumpStart); (13.7395853333333 : 102.6875 : JumpEnd); (13.9166666666667 : 102.6875 : JumpStart); (14.0833333333333 : 102.6875 : JumpEnd); (14.1354166666667 : 102.6875 : JumpStart); (14.3913333333333 : 102.6875 : JumpEnd); (14.53125 : 102.6875); (14.53125 : 105.350710449219); (14.5416666666667 : 105.350710449219 : JumpStart); (14.7583333333333 : 105.350710449219 : JumpEnd); (16.4322916666667 : 105.350710449219 : JumpStart); (16.5989583333333 : 105.350710449219 : JumpEnd); (16.8229166666667 : 105.350710449219 : JumpStart); (16.9895833333333 : 105.350710449219 : JumpEnd); (17.1666666666667 : 105.350710449219 : JumpStart); (17.3958333333333 : 105.350710449219 : JumpEnd); (19.5729166666667 : 105.350710449219 : JumpStart); (19.7708358333333 : 105.350710449219 : JumpEnd); (19.7916666666667 : 105.350710449219 : JumpStart); (19.9583333333333 : 105.350710449219 : JumpEnd); (20.125 : 105.350710449219); (20.125 : 104.075279134115); (20.1816666666667 : 104.075279134115 : JumpStart); (20.3483333333333 : 104.075279134115 : JumpEnd); (20.3541666666667 : 104.075279134115 : JumpStart); (20.5208333333333 : 104.075279134115 : JumpEnd); (21.5 : 104.075279134115); (21.5 : 103.450279134115)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="2d360e7f-a5a5-4b48-af0b-264d30d992d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.101561 : 91.375); (4.101561 : 88.1558211263021); (4.28385366666667 : 88.1558211263021 : JumpStart); (4.45052033333333 : 88.1558211263021 : JumpEnd); (4.54947966666667 : 88.1558211263021 : JumpStart); (4.84895933333333 : 88.1558211263021 : JumpEnd); (5.08073166666667 : 88.1558211263021 : JumpStart); (5.24739833333333 : 88.1558211263021 : JumpEnd); (5.34635766666667 : 88.1558211263021 : JumpStart); (5.51302433333333 : 88.1558211263021 : JumpEnd); (8.66666666666667 : 88.1558211263021 : JumpStart); (8.95833333333333 : 88.1558211263021 : JumpEnd); (9.04166666666667 : 88.1558211263021 : JumpStart); (9.20833333333333 : 88.1558211263021 : JumpEnd); (11.7291666666667 : 88.1558211263021 : JumpStart); (11.8958333333333 : 88.1558211263021 : JumpEnd); (12.2025 : 88.1558211263021); (12.2025 : 85.0225); (14.4629166666667 : 85.0225 : JumpStart); (14.6295833333333 : 85.0225 : JumpEnd); (14.8541666666667 : 85.0225 : JumpStart); (15.0208333333333 : 85.0225 : JumpEnd); (17.4166666666667 : 85.0225 : JumpStart); (17.5833333333333 : 85.0225 : JumpEnd); (26.40625 : 85.0225); (26.40625 : 87.445028889974); (26.5 : 87.445028889974)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_RETRO" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="6759c9fd-a310-430f-9c13-a9a61417ecb9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.835935 : 91.375); (3.835935 : 88.1558211263021); (12.17125 : 88.1558211263021); (12.17125 : 85.0225); (26.34375 : 85.0225); (26.34375 : 88.4487953349609); (26.5 : 88.4487953349609)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_RETRO1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="6759c9fd-a310-430f-9c13-a9a61417ecb9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.570309 : 91.375); (3.570309 : 88.1558211263021); (11.7291666666667 : 88.1558211263021 : JumpStart); (11.8958333333333 : 88.1558211263021 : JumpEnd); (12.14 : 88.1558211263021); (12.14 : 85.0225); (26.28125 : 85.0225); (26.28125 : 86.441262444987); (26.5 : 86.441262444987)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_RETRO2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="6759c9fd-a310-430f-9c13-a9a61417ecb9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.4609435 : 91.375); (5.4609435 : 90.5197371419271); (8.24416666666667 : 90.5197371419271 : JumpStart); (8.61458333333333 : 90.5197371419271 : JumpEnd); (8.625 : 90.5197371419271); (8.625 : 89.8125); (10.8315666666667 : 89.8125 : JumpStart); (10.9982333333333 : 89.8125 : JumpEnd); (11.4791666666667 : 89.8125 : JumpStart); (11.7083333333333 : 89.8125 : JumpEnd); (11.7291666666667 : 89.8125 : JumpStart); (12.1145833333333 : 89.8125 : JumpEnd); (12.125 : 89.8125); (12.125 : 90.7140730794271); (14.3691666666667 : 90.7140730794271 : JumpStart); (14.8958333333333 : 90.7140730794271 : JumpEnd); (14.953125 : 90.7140730794271); (14.953125 : 92.8645043945313); (17.9061283170573 : 92.8645043945313 : JumpStart); (18.0727949837239 : 92.8645043945313 : JumpEnd); (18.208093967448 : 92.8645043945313 : JumpStart); (18.3747606341146 : 92.8645043945313 : JumpEnd); (18.5100596178386 : 92.8645043945313 : JumpStart); (18.6767262845052 : 92.8645043945313 : JumpEnd); (19.083093467448 : 92.8645043945313 : JumpStart); (19.2497601341146 : 92.8645043945313 : JumpEnd); (19.2811325670573 : 92.8645043945313 : JumpStart); (19.4477992337239 : 92.8645043945313 : JumpEnd); (19.5 : 92.8645043945313); (19.5 : 91.625); (20.1666666666667 : 91.625 : JumpStart); (20.3333333333333 : 91.625 : JumpEnd); (20.40625 : 91.625); (20.40625 : 90.3732922363281); (20.5 : 90.3732922363281)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_ST" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="3c8248ce-58d8-416e-9c11-e0e6ba3ded44" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.8440151882324); (5.54166666666667 : 93.8440151882324 : JumpStart); (5.70833333333333 : 93.8440151882324 : JumpEnd); (5.72916666666667 : 93.8440151882324 : JumpStart); (5.89583333333333 : 93.8440151882324 : JumpEnd); (5.91666666666667 : 93.8440151882324 : JumpStart); (6.08333333333333 : 93.8440151882324 : JumpEnd); (7.16666666666667 : 93.8440151882324 : JumpStart); (7.33333333333333 : 93.8440151882324 : JumpEnd); (7.66666616666667 : 93.8440151882324 : JumpStart); (7.83333283333333 : 93.8440151882324 : JumpEnd); (8.22916666666667 : 93.8440151882324 : JumpStart); (8.45833333333333 : 93.8440151882324 : JumpEnd); (8.46875 : 93.8440151882324); (8.46875 : 97.5561140950521); (8.47916666666667 : 97.5561140950521 : JumpStart); (8.64583333333333 : 97.5561140950521 : JumpEnd); (8.69791666666667 : 97.5561140950521 : JumpStart); (8.92708333333333 : 97.5561140950521 : JumpEnd); (11.7291666666667 : 97.5561140950521 : JumpStart); (11.8958333333333 : 97.5561140950521 : JumpEnd); (12.5275791282051 : 97.5561140950521 : JumpStart); (12.6942457948718 : 97.5561140950521 : JumpEnd); (13.9166666666667 : 97.5561140950521 : JumpStart); (14.2083333333333 : 97.5561140950521 : JumpEnd); (14.2246666666667 : 97.5561140950521 : JumpStart); (14.4270833333333 : 97.5561140950521 : JumpEnd); (14.46875 : 97.5561140950521); (14.46875 : 105.875); (15.5 : 105.875); (15.5 : 106.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_ST" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="721a2e7e-4e9c-41d5-8895-702af7d216d7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.5 : 109.600710449219); (18.5 : 110.885439453125); (19.6041691666667 : 110.885439453125 : JumpStart); (19.7708358333333 : 110.885439453125 : JumpEnd); (20.0416666666667 : 110.885439453125 : JumpStart); (20.2083333333333 : 110.885439453125 : JumpEnd); (20.5 : 110.885439453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_ARIES_CLRING/PREM_ADJ_ARIES_CLRING_QLTY_CNTRL_LIST" />
+      <nodes>
+        <classShapeMoniker Id="5c9f301b-5a51-4764-ab1c-63fdbc22832f" />
+        <classShapeMoniker Id="abac3543-a536-4164-9034-6a406cd757fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.71875 : 109.318321126302); (14.71875 : 110.564255952148); (16.4322916666667 : 110.564255952148 : JumpStart); (16.5989583333333 : 110.564255952148 : JumpEnd); (16.8229166666667 : 110.564255952148 : JumpStart); (16.9895833333333 : 110.564255952148 : JumpEnd); (18.4166666666667 : 110.564255952148 : JumpStart); (18.5833333333333 : 110.564255952148 : JumpEnd); (19.6041691666667 : 110.564255952148 : JumpStart); (19.7708358333333 : 110.564255952148 : JumpEnd); (20.5 : 110.564255952148)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_ST/PREM_ADJ_ST_QLTY_CNTRL_LIST" />
+      <nodes>
+        <classShapeMoniker Id="721a2e7e-4e9c-41d5-8895-702af7d216d7" />
+        <classShapeMoniker Id="abac3543-a536-4164-9034-6a406cd757fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 96.6609318033854); (7.25 : 100.875); (8.29166666666667 : 100.875 : JumpStart); (8.70833333333333 : 100.875 : JumpEnd); (8.75 : 100.875); (8.75 : 111.375); (9.22916666666667 : 111.375 : JumpStart); (9.39583333333333 : 111.375 : JumpEnd); (11.75 : 111.375); (11.75 : 112.128542480469); (14.75 : 112.128542480469); (14.75 : 110.75); (16.4322916666667 : 110.75 : JumpStart); (16.5989583333333 : 110.75 : JumpEnd); (16.8229166666667 : 110.75 : JumpStart); (16.9895833333333 : 110.75 : JumpEnd); (18.4166666666667 : 110.75 : JumpStart); (18.5833333333333 : 110.75 : JumpEnd); (19.6041691666667 : 110.75 : JumpStart); (19.7708358333333 : 110.75 : JumpEnd); (20.125 : 110.75); (20.125 : 111.693321126302); (21.5 : 111.693321126302); (21.5 : 111.318321126302)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/QLTY_CNTRL_MSTR_ISSU_LIST/QLTY_CNTRL_MSTR_ISSU_LIST_QLTY_CNTRL_LIST" />
+      <nodes>
+        <classShapeMoniker Id="60f463f3-2c3d-438a-8f21-5c1c51feca4d" />
+        <classShapeMoniker Id="abac3543-a536-4164-9034-6a406cd757fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 91.6500318917643); (5.54166666666667 : 91.6500318917643 : JumpStart); (5.70833333333333 : 91.6500318917643 : JumpEnd); (5.72916666666667 : 91.6500318917643 : JumpStart); (5.89583333333333 : 91.6500318917643 : JumpEnd); (5.91666666666667 : 91.6500318917643 : JumpStart); (6.08333333333333 : 91.6500318917643 : JumpEnd); (7.25 : 91.6500318917643); (7.25 : 94.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_QLTY_CNTRL_MSTR_ISSU_LIST" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="60f463f3-2c3d-438a-8f21-5c1c51feca4d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 97.84375); (7.16666666666667 : 97.84375 : JumpStart); (7.33333333333333 : 97.84375 : JumpEnd); (8.29166666666667 : 97.84375 : JumpStart); (8.92708333333333 : 97.84375 : JumpEnd); (13.9166666666667 : 97.84375 : JumpStart); (14.4270833333333 : 97.84375 : JumpEnd); (14.53125 : 97.84375); (14.53125 : 100.312502441406); (14.5416666666667 : 100.312502441406 : JumpStart); (14.8177083333333 : 100.312502441406 : JumpEnd); (15.6354146666667 : 100.312502441406 : JumpStart); (15.8020813333333 : 100.312502441406 : JumpEnd); (16.8229166666667 : 100.312502441406 : JumpStart); (17.4583333333333 : 100.312502441406 : JumpEnd); (17.46875 : 100.312502441406); (17.46875 : 101.75911702474); (19.9166666666667 : 101.75911702474 : JumpStart); (20.0833333333333 : 101.75911702474 : JumpEnd); (20.125 : 101.75911702474); (20.125 : 100.5625); (20.3229166666667 : 100.5625 : JumpStart); (20.4895833333333 : 100.5625 : JumpEnd); (23.0182291666667 : 100.5625 : JumpStart); (23.1848958333333 : 100.5625 : JumpEnd); (23.4375 : 100.5625); (23.4375 : 98.8646264648438); (23.6672916666667 : 98.8646264648438 : JumpStart); (23.8339583333333 : 98.8646264648438 : JumpEnd); (24.5104146666667 : 98.8646264648438 : JumpStart); (24.6770813333333 : 98.8646264648438 : JumpEnd); (27.6979166666667 : 98.8646264648438 : JumpStart); (27.8645833333333 : 98.8646264648438 : JumpEnd); (27.8666666666667 : 98.8646264648438 : JumpStart); (28.0333333333333 : 98.8646264648438 : JumpEnd); (28.0416641666667 : 98.8646264648438 : JumpStart); (28.2083308333333 : 98.8646264648438 : JumpEnd); (28.4791666666667 : 98.8646264648438 : JumpStart); (28.6458333333333 : 98.8646264648438 : JumpEnd); (29.4843745 : 98.8646264648438); (29.4843745 : 98.4896264648438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_SUBJ_PREM_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="41ce9f01-fe6f-4b7e-9700-eb2591c67b58" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0f12e858-ddd5-45ba-a6a9-046d8ece8734" absoluteBounds="38.125, 100, 2, 18.352622884114584">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/ARIES_TRNSMTL_HIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7378706-dd56-4526-8df7-622c10bb750c" absoluteBounds="38.14, 100.46, 1.9700000000000002, 17.792622884114582" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 102.307066882011); (8.5008895127413 : 102.948378126348 : JumpStart); (8.56161048725871 : 103.103590049316 : JumpEnd); (8.5946395127413 : 103.188017194954 : JumpStart); (8.65536048725871 : 103.343229117922 : JumpEnd); (8.71963951274129 : 103.507535953097 : JumpStart); (8.84286048725871 : 103.822507255136 : JumpEnd); (8.9071395127413 : 103.986814090311 : JumpStart); (8.96786048725871 : 104.142026013279 : JumpEnd); (9.3125 : 105.022976326222); (9.3125 : 118.727622884115); (37.7515374615384 : 118.727622884115); (38.1265374615385 : 118.352622884115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/POST_TRNS_TYP/POST_TRNS_TYP_ARIES_TRNSMTL_HIST" />
+      <nodes>
+        <classShapeMoniker Id="57179629-cbd1-4dd0-925b-1beba6c962f1" />
+        <classShapeMoniker Id="0f12e858-ddd5-45ba-a6a9-046d8ece8734" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4af89176-190d-4485-82a7-404d3a630bf7" absoluteBounds="32.25, 93.625, 2, 4.8761417643229095">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_RETRO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59bcb5e7-c6ae-4a45-9ba7-0ac127467ee6" absoluteBounds="32.265, 94.085, 1.9700000000000002, 4.3161417643229161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc917677-a016-4e2d-8614-9a7c2a878ba5" absoluteBounds="38, 89.75, 2, 9.4778670247395951">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_RETRO_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41458cb9-502c-4db4-b58c-1f12220afad8" absoluteBounds="38.015, 90.21, 1.9700000000000002, 8.9178670247395821" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.3984385 : 91.375); (5.3984385 : 91); (5.91666666666667 : 91 : JumpStart); (6.08333333333333 : 91 : JumpEnd); (7.66666616666667 : 91 : JumpStart); (7.83333283333333 : 91 : JumpEnd); (8.39 : 91); (8.39 : 90.085); (8.41666666666667 : 90.085 : JumpStart); (8.77083333333333 : 90.085 : JumpEnd); (10.7690666666667 : 90.085 : JumpStart); (10.9982333333333 : 90.085 : JumpEnd); (11.4791666666667 : 90.085 : JumpStart); (11.6458333333333 : 90.085 : JumpEnd); (11.7025 : 90.085); (11.7025 : 90.8015730794271); (11.7291666666667 : 90.8015730794271 : JumpStart); (12.1458333333333 : 90.8015730794271 : JumpEnd); (14.4525 : 90.8015730794271); (14.4525 : 85.835); (14.4629166666667 : 85.835 : JumpStart); (14.6295833333333 : 85.835 : JumpEnd); (14.6666666666667 : 85.835 : JumpStart); (15.0208333333333 : 85.835 : JumpEnd); (16.9791666666667 : 85.835 : JumpStart); (17.1458333333333 : 85.835 : JumpEnd); (17.4166666666667 : 85.835 : JumpStart); (17.5833333333333 : 85.835 : JumpEnd); (18.6666666666667 : 85.835 : JumpStart); (18.8333333333333 : 85.835 : JumpEnd); (19.9166666666667 : 85.835 : JumpStart); (20.0833333333333 : 85.835 : JumpEnd); (20.3142666666667 : 85.835 : JumpStart); (20.4809333333333 : 85.835 : JumpEnd); (22.5416666666667 : 85.835 : JumpStart); (22.7083333333333 : 85.835 : JumpEnd); (22.7916666666667 : 85.835 : JumpStart); (23.0833333333333 : 85.835 : JumpEnd); (25.765 : 85.835); (25.765 : 90.21); (34.6666666666667 : 90.21 : JumpStart); (34.8333333333333 : 90.21 : JumpEnd); (37.625 : 90.21); (37.625 : 99.6028670247396); (37.6666666666667 : 99.6028670247396 : JumpStart); (37.8333333333333 : 99.6028670247396 : JumpEnd); (38.3854146666667 : 99.6028670247396 : JumpStart); (38.5520813333333 : 99.6028670247396 : JumpEnd); (39 : 99.6028670247396); (39 : 99.2278670247396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_RETRO_DTL" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="bc917677-a016-4e2d-8614-9a7c2a878ba5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.2656255 : 91.375); (5.2656255 : 91); (5.34635766666667 : 91 : JumpStart); (5.54427683333333 : 91 : JumpEnd); (5.91666666666667 : 91 : JumpStart); (6.08333333333333 : 91 : JumpEnd); (7.66666616666667 : 91 : JumpStart); (7.83333283333333 : 91 : JumpEnd); (8.3275 : 91); (8.3275 : 90.085); (8.41666666666667 : 90.085 : JumpStart); (8.77083333333333 : 90.085 : JumpEnd); (10.7690666666667 : 90.085 : JumpStart); (10.9982333333333 : 90.085 : JumpEnd); (11.4791666666667 : 90.085 : JumpStart); (11.7083333333333 : 90.085 : JumpEnd); (11.89 : 90.085); (11.89 : 90.8015730794271); (11.9166666666667 : 90.8015730794271 : JumpStart); (12.1458333333333 : 90.8015730794271 : JumpEnd); (14.4629166666667 : 90.8015730794271 : JumpStart); (14.6295833333333 : 90.8015730794271 : JumpEnd); (14.64 : 90.8015730794271); (14.64 : 85.835); (14.6666666666667 : 85.835 : JumpStart); (15.0208333333333 : 85.835 : JumpEnd); (16.9791666666667 : 85.835 : JumpStart); (17.1458333333333 : 85.835 : JumpEnd); (17.4166666666667 : 85.835 : JumpStart); (17.5833333333333 : 85.835 : JumpEnd); (18.6666666666667 : 85.835 : JumpStart); (18.8333333333333 : 85.835 : JumpEnd); (19.9166666666667 : 85.835 : JumpStart); (20.0833333333333 : 85.835 : JumpEnd); (20.3142666666667 : 85.835 : JumpStart); (20.4809333333333 : 85.835 : JumpEnd); (22.5416666666667 : 85.835 : JumpStart); (22.7083333333333 : 85.835 : JumpEnd); (22.7916666666667 : 85.835 : JumpStart); (23.0833333333333 : 85.835 : JumpEnd); (25.8541666666667 : 85.835 : JumpStart); (26.0208333333333 : 85.835 : JumpEnd); (26.0775 : 85.835); (26.0775 : 90.21); (34.6666666666667 : 90.21 : JumpStart); (34.8333333333333 : 90.21 : JumpEnd); (37.75 : 90.21); (37.75 : 99.7278670247396); (38.468748 : 99.7278670247396); (38.468748 : 99.2278670247396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_RETRO_DTL1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="bc917677-a016-4e2d-8614-9a7c2a878ba5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(34.25 : 94.96875); (34.6666666666667 : 94.96875 : JumpStart); (34.8333333333333 : 94.96875 : JumpEnd); (37.5416666666667 : 94.96875 : JumpStart); (37.8333333333333 : 94.96875 : JumpEnd); (38 : 94.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_RETRO/PREM_ADJ_RETRO_PREM_ADJ_RETRO_DTL" />
+      <nodes>
+        <classShapeMoniker Id="4af89176-190d-4485-82a7-404d3a630bf7" />
+        <classShapeMoniker Id="bc917677-a016-4e2d-8614-9a7c2a878ba5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" absoluteBounds="12.125, 103.125, 2, 7.8343937174479148">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35b92493-5d79-486e-a994-13c841622d3d" absoluteBounds="12.14, 103.585, 1.9700000000000002, 7.2743937174479161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.125 : 109.49076578776); (14.6354166666667 : 109.49076578776 : JumpStart); (14.8020833333333 : 109.49076578776 : JumpEnd); (16.4322916666667 : 109.49076578776 : JumpStart); (16.5989583333333 : 109.49076578776 : JumpEnd); (16.8229166666667 : 109.49076578776 : JumpStart); (16.9895833333333 : 109.49076578776 : JumpEnd); (17.1666666666667 : 109.49076578776 : JumpStart); (17.3333333333333 : 109.49076578776 : JumpEnd); (17.5 : 109.49076578776)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ/PREM_ADJ_PREM_ADJ_ARIES_CLRING" />
+      <nodes>
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+        <classShapeMoniker Id="5c9f301b-5a51-4764-ab1c-63fdbc22832f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.125 : 105.675355224609); (14.2246666666667 : 105.675355224609 : JumpStart); (14.5520833333333 : 105.675355224609 : JumpEnd); (16.4322916666667 : 105.675355224609 : JumpStart); (16.5989583333333 : 105.675355224609 : JumpEnd); (16.8229166666667 : 105.675355224609 : JumpStart); (16.9895833333333 : 105.675355224609 : JumpEnd); (17.2291666666667 : 105.675355224609 : JumpStart); (17.3958333333333 : 105.675355224609 : JumpEnd); (19.5729166666667 : 105.675355224609 : JumpStart); (19.7708358333333 : 105.675355224609 : JumpEnd); (20.5 : 105.675355224609)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ/PREM_ADJ_PREM_ADJ_CMMNT" />
+      <nodes>
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+        <classShapeMoniker Id="b582a355-0b09-438a-9604-36a10a681a4a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.125 : 107.784160563151); (14.5 : 107.784160563151)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ/PREM_ADJ_PREM_ADJ_ST" />
+      <nodes>
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+        <classShapeMoniker Id="721a2e7e-4e9c-41d5-8895-702af7d216d7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.37870599859619 : 93.9502791341146); (4.37870599859619 : 109.706605224609); (6.49002955128205 : 109.706605224609 : JumpStart); (6.65669621794872 : 109.706605224609 : JumpEnd); (8.66666666666667 : 109.706605224609 : JumpStart); (8.83333333333333 : 109.706605224609 : JumpEnd); (9.22916666666667 : 109.706605224609 : JumpStart); (9.39583333333333 : 109.706605224609 : JumpEnd); (12.125 : 109.706605224609)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.14753161297607 : 93.9502791341146); (4.14753161297607 : 109.497405336914); (4.29537266526286 : 109.497405336914 : JumpStart); (4.46203933192952 : 109.497405336914 : JumpEnd); (6.49002955128205 : 109.497405336914 : JumpStart); (6.65669621794872 : 109.497405336914 : JumpEnd); (8.66666666666667 : 109.497405336914 : JumpStart); (8.83333333333333 : 109.497405336914 : JumpEnd); (9.22916666666667 : 109.497405336914 : JumpStart); (9.39583333333333 : 109.497405336914 : JumpEnd); (12.125 : 109.497405336914)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.91635722735596 : 93.9502791341146); (3.91635722735596 : 109.915805112305); (6.49002955128205 : 109.915805112305 : JumpStart); (6.65669621794872 : 109.915805112305 : JumpEnd); (8.66666666666667 : 109.915805112305 : JumpStart); (8.83333333333333 : 109.915805112305 : JumpEnd); (9.22916666666667 : 109.915805112305 : JumpStart); (9.39583333333333 : 109.915805112305 : JumpEnd); (12.125 : 109.915805112305)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 108.28225741568); (8.66666666666667 : 108.28225741568 : JumpStart); (8.86458333333333 : 108.28225741568 : JumpEnd); (9.22916666666667 : 108.28225741568 : JumpStart); (9.39583333333333 : 108.28225741568 : JumpEnd); (12.125 : 108.28225741568)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 89.315410563151); (8.26906666666667 : 89.315410563151 : JumpStart); (8.58333333333333 : 89.315410563151 : JumpEnd); (9.96786716666667 : 89.315410563151 : JumpStart); (10.1345338333333 : 89.315410563151 : JumpEnd); (11.5625 : 89.315410563151); (11.5625 : 97.375); (11.7291666666667 : 97.375 : JumpStart); (11.8958333333333 : 97.375 : JumpEnd); (12.7086932232572 : 97.375 : JumpStart); (12.8753598899239 : 97.375 : JumpEnd); (14 : 97.375); (14 : 103); (13.7395853333333 : 103 : JumpStart); (13.5729186666667 : 103 : JumpEnd); (13.125 : 103); (13.125 : 103.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/EXTRNL_ORG/EXTRNL_ORG_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.8342307692308 : 110.959393717448); (12.8342307692308 : 111.209393717448); (13.4296153846154 : 111.209393717448); (13.4296153846154 : 110.959393717448)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ/PREM_ADJ_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0469b709-51dc-40ec-a521-c8336c846792" absoluteBounds="23.75, 99.375, 2, 3.8900577799479166">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT_AUDT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a357b5ff-29d4-423f-95d1-49f9594fccb7" absoluteBounds="23.765, 99.835, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(25.75 : 102.339134114583); (26.5729166666667 : 102.339134114583 : JumpStart); (26.7395833333333 : 102.339134114583 : JumpEnd); (27.78125 : 102.339134114583); (27.78125 : 98.4896264648438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT_AUDT/COML_AGMT_AUDT_NON_SUBJ_PREM_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="0469b709-51dc-40ec-a521-c8336c846792" />
+        <classShapeMoniker Id="4c162ab5-997c-4018-8b99-697362eef1eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24.593748 : 99.375); (24.593748 : 98.5521264648438); (25.3125 : 98.5521264648438); (25.3125 : 95.5625); (28.0416641666667 : 95.5625 : JumpStart); (28.2395833333333 : 95.5625 : JumpEnd); (28.90625 : 95.5625); (28.90625 : 97.1198132324219); (29 : 97.1198132324219)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT_AUDT/COML_AGMT_AUDT_SUBJ_PREM_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="0469b709-51dc-40ec-a521-c8336c846792" />
+        <classShapeMoniker Id="41ce9f01-fe6f-4b7e-9700-eb2591c67b58" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d07697bd-ac1d-44a7-8b95-c01c38d6d420" absoluteBounds="12.25, 82.625, 2, 2.4109318033854166">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/INT_ORG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da94c232-1c75-468e-b174-e6f3c1afe386" absoluteBounds="12.265, 83.085, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.25 : 84.25000275); (14.4629166666667 : 84.25000275 : JumpStart); (14.6295833333333 : 84.25000275 : JumpEnd); (14.9375 : 84.25000275); (14.9375 : 95.78125); (15.8125005 : 95.78125); (15.8125005 : 95.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/INT_ORG/INT_ORG_CUSTMR_DOC" />
+      <nodes>
+        <classShapeMoniker Id="d07697bd-ac1d-44a7-8b95-c01c38d6d420" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.25 : 83.8304659016927); (11.8125 : 83.8304659016927); (11.8125 : 97.796875); (13.9375 : 97.796875); (13.9375 : 102.375); (13.656252 : 102.375); (13.656252 : 103.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/INT_ORG/INT_ORG_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="d07697bd-ac1d-44a7-8b95-c01c38d6d420" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" absoluteBounds="12.875, 92.25, 2, 5.0404890950520826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/THRD_PTY_ADMIN_MNL_INVC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5bc4fd9-adea-4c2d-bf53-21ac804a7e7a" absoluteBounds="12.89, 92.71, 1.9700000000000002, 4.480489095052083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.34375 : 97.2904890950521); (14.34375 : 102.3281275); (14.3854166666667 : 102.3281275 : JumpStart); (14.5520833333333 : 102.3281275 : JumpEnd); (14.75 : 102.3281275)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/THRD_PTY_ADMIN_MNL_INVC/THRD_PTY_ADMIN_MNL_INVC_THRD_PTY_ADMIN_MNL_INVC_DTL" />
+      <nodes>
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+        <classShapeMoniker Id="cfe3096c-1001-4729-a035-1d96b6567ffc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.03194442016602 : 93.9502791341146); (4.03194442016602 : 97.0497867838542); (4.06419827964274 : 97.0497867838542 : JumpStart); (4.97820557796224 : 97.0497867838542 : JumpEnd); (5.07859161344401 : 97.0497867838542 : JumpStart); (5.70833333333333 : 97.0497867838542 : JumpEnd); (5.72916666666667 : 97.0497867838542 : JumpStart); (5.89583333333333 : 97.0497867838542 : JumpEnd); (5.91666666666667 : 97.0497867838542 : JumpStart); (6.08333333333333 : 97.0497867838542 : JumpEnd); (7.16666666666667 : 97.0497867838542 : JumpStart); (7.33333333333333 : 97.0497867838542 : JumpEnd); (8.29166666666667 : 97.0497867838542 : JumpStart); (8.64583333333333 : 97.0497867838542 : JumpEnd); (8.69791666666667 : 97.0497867838542 : JumpStart); (8.98958333333333 : 97.0497867838542 : JumpEnd); (11.4791666666667 : 97.0497867838542 : JumpStart); (11.6458333333333 : 97.0497867838542 : JumpEnd); (11.7291666666667 : 97.0497867838542 : JumpStart); (11.8958333333333 : 97.0497867838542 : JumpEnd); (12.2886666666667 : 97.0497867838542 : JumpStart); (12.4553333333333 : 97.0497867838542 : JumpEnd); (12.875 : 97.0497867838542)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_THRD_PTY_ADMIN_MNL_INVC" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.02839859570313 : 93.9502791341146); (5.02839859570313 : 96.8981831282552); (5.07859161344401 : 96.8981831282552 : JumpStart); (5.70833333333333 : 96.8981831282552 : JumpEnd); (5.72916666666667 : 96.8981831282552 : JumpStart); (5.89583333333333 : 96.8981831282552 : JumpEnd); (5.91666666666667 : 96.8981831282552 : JumpStart); (6.08333333333333 : 96.8981831282552 : JumpEnd); (7.16666666666667 : 96.8981831282552 : JumpStart); (7.33333333333333 : 96.8981831282552 : JumpEnd); (8.29166666666667 : 96.8981831282552 : JumpStart); (8.64583333333333 : 96.8981831282552 : JumpEnd); (8.69791666666667 : 96.8981831282552 : JumpStart); (8.98958333333333 : 96.8981831282552 : JumpEnd); (11.4791666666667 : 96.8981831282552 : JumpStart); (11.6458333333333 : 96.8981831282552 : JumpEnd); (11.7291666666667 : 96.8981831282552 : JumpStart); (11.8958333333333 : 96.8981831282552 : JumpEnd); (12.2886666666667 : 96.8981831282552 : JumpStart); (12.4553333333333 : 96.8981831282552 : JumpEnd); (12.875 : 96.8981831282552)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_THRD_PTY_ADMIN_MNL_INVC1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.29545129785156 : 93.9502791341146); (5.29545129785156 : 97.2013904394531); (5.34564431559245 : 97.2013904394531 : JumpStart); (5.70833333333333 : 97.2013904394531 : JumpEnd); (5.72916666666667 : 97.2013904394531 : JumpStart); (5.89583333333333 : 97.2013904394531 : JumpEnd); (5.91666666666667 : 97.2013904394531 : JumpStart); (6.08333333333333 : 97.2013904394531 : JumpEnd); (7.16666666666667 : 97.2013904394531 : JumpStart); (7.33333333333333 : 97.2013904394531 : JumpEnd); (8.29166666666667 : 97.2013904394531 : JumpStart); (8.64583333333333 : 97.2013904394531 : JumpEnd); (8.69791666666667 : 97.2013904394531 : JumpStart); (8.98958333333333 : 97.2013904394531 : JumpEnd); (11.4791666666667 : 97.2013904394531 : JumpStart); (11.6458333333333 : 97.2013904394531 : JumpEnd); (11.7291666666667 : 97.2013904394531 : JumpStart); (11.8958333333333 : 97.2013904394531 : JumpEnd); (12.2886666666667 : 97.2013904394531 : JumpStart); (12.4553333333333 : 97.2013904394531 : JumpEnd); (12.875 : 97.2013904394531)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_THRD_PTY_ADMIN_MNL_INVC2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.6811538461538 : 92.25); (13.6811538461538 : 91.875); (13.6979171666667 : 91.875 : JumpStart); (13.8645838333333 : 91.875 : JumpEnd); (14.0273076923077 : 91.875); (14.0273076923077 : 92.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/THRD_PTY_ADMIN_MNL_INVC/THRD_PTY_ADMIN_MNL_INVC_THRD_PTY_ADMIN_MNL_INVC" />
+      <nodes>
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 105.376537461538); (8.625 : 105.001537461538); (8.625 : 97.6654890950521); (8.69791666666667 : 97.6654890950521 : JumpStart); (8.92708333333333 : 97.6654890950521 : JumpEnd); (11.7291666666667 : 97.6654890950521 : JumpStart); (11.8958333333333 : 97.6654890950521 : JumpEnd); (12.5015374615385 : 97.6654890950521); (12.8765374615385 : 97.2904890950521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_THRD_PTY_ADMIN_MNL_INVC" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 89.5952077815755); (12.03125 : 89.5952077815755); (12.03125 : 90.9640730794271); (13.7812505 : 90.9640730794271); (13.7812505 : 92.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/EXTRNL_ORG/EXTRNL_ORG_THRD_PTY_ADMIN_MNL_INVC" />
+      <nodes>
+        <classShapeMoniker Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 83.6875005); (14.54625 : 83.6875005); (14.54625 : 92.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/INT_ORG/INT_ORG_THRD_PTY_ADMIN_MNL_INVC" />
+      <nodes>
+        <classShapeMoniker Id="d07697bd-ac1d-44a7-8b95-c01c38d6d420" />
+        <classShapeMoniker Id="90c72b63-2aae-42c5-a55f-51c9cd5c7b5e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="037feebb-1fb2-468b-a1cd-bf62c531d749" absoluteBounds="22.875, 92.5, 2, 3.0683211263020831">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_TAX_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7646278b-d3d4-4b81-bdcd-1b9856abbc3c" absoluteBounds="22.89, 92.96, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d5b453f6-9844-4a14-a980-33d3e66196f9" absoluteBounds="19.625, 91.75, 2, 3.5613631184895826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_TAX_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88461620-cbde-43b0-8573-cdb6653ed1b8" absoluteBounds="19.64, 92.21, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(22.875 : 92.96875); (22.8205402708333 : 92.96875 : JumpStart); (22.6538736041667 : 92.96875 : JumpEnd); (22.6202372083333 : 92.96875 : JumpStart); (22.4535705416667 : 92.96875 : JumpEnd); (22.4127872083333 : 92.96875 : JumpStart); (22.2461205416667 : 92.96875 : JumpEnd); (22.1855591458333 : 92.96875 : JumpStart); (22.0188924791667 : 92.96875 : JumpEnd); (21.625 : 92.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_TAX_SETUP/PREM_ADJ_TAX_SETUP_PREM_ADJ_TAX_DTL" />
+      <nodes>
+        <classShapeMoniker Id="037feebb-1fb2-468b-a1cd-bf62c531d749" />
+        <classShapeMoniker Id="d5b453f6-9844-4a14-a980-33d3e66196f9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="32e5dc2f-0c00-4f0a-9656-087fc24d2615" absoluteBounds="31.625, 92.875, 2, 3.23266845703125">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/DEDTBL_TAX_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b94ccbea-1191-4473-8c9e-0aca93b4b33a" absoluteBounds="31.64, 93.335, 1.9700000000000002, 2.67266845703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="baa17681-669c-4ece-8530-e41464b21277" absoluteBounds="22.5, 89, 2, 2.73962646484375">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/INCUR_LOS_REIM_FUND_TAX_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c323524d-a739-46b1-8f97-fb018eb323e5" absoluteBounds="22.515, 89.46, 1.9700000000000002, 2.17962646484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe3b62a5-7c98-41d0-b28b-3a6577e26afd" absoluteBounds="1.875, 3.375, 2, 2.24658447265625">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/TAX_EXMP_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca9df218-f775-4713-b7dc-ae73bb98ea92" absoluteBounds="1.8900000000000001, 3.835, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7d136dc-42c6-4c99-8c75-8a62e05050a6" absoluteBounds="25.5, 97.625, 2, 3.7257104492187496">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_LOS_REIM_FUND_POST_TAX" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9330742b-ab0e-4d29-9839-80b4bee7aaf0" absoluteBounds="25.515, 98.085, 1.9700000000000002, 3.16571044921875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" absoluteBounds="30.5, 100, 2, 5.69787841796875">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61513bf2-5239-4de2-95e1-c2f6b770c054" absoluteBounds="30.515, 100.46, 1.9700000000000002, 5.13787841796875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(32.5 : 103.178834228516); (35.25 : 103.178834228516)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_SETUP/PREM_ADJ_PGM_SETUP_PREM_ADJ_PARMET_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+        <classShapeMoniker Id="fcebdcd6-a634-4728-8d83-8032c1eb1a19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(31.65625 : 100); (31.65625 : 99.15625); (34.6666666666667 : 99.15625 : JumpStart); (34.8333333333333 : 99.15625 : JumpEnd); (35.25 : 99.15625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_SETUP/PREM_ADJ_PGM_SETUP_PREM_ADJ_PGM_DTL" />
+      <nodes>
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+        <classShapeMoniker Id="68ce14f6-47f0-4948-baff-06c11502c26f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(31.1875 : 100); (31.1875 : 94.9386417643229); (28.2395833333333 : 94.9386417643229 : JumpStart); (28.0416641666667 : 94.9386417643229 : JumpEnd); (25.96875 : 94.9386417643229); (25.96875 : 93.2482922363281); (25.875 : 93.2482922363281)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM_SETUP/PREM_ADJ_PGM_SETUP_PREM_ADJ_PGM_SETUP_POL" />
+      <nodes>
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+        <classShapeMoniker Id="638ae682-ce9f-4741-96ed-bef8e4a67920" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.16192494677734 : 93.9502791341146); (5.16192494677734 : 105.175); (7.44058209214744 : 105.175 : JumpStart); (7.6072487588141 : 105.175 : JumpEnd); (8.3174358974359 : 105.175 : JumpStart); (8.5348707948718 : 105.175 : JumpEnd); (8.66666666666667 : 105.175 : JumpStart); (8.86458333333333 : 105.175 : JumpEnd); (9.22916666666667 : 105.175 : JumpStart); (9.39583333333333 : 105.175 : JumpEnd); (10.0729166666667 : 105.175 : JumpStart); (10.2395833333333 : 105.175 : JumpEnd); (11.5416666666667 : 105.175 : JumpStart); (11.8348707948718 : 105.175 : JumpEnd); (12.01875 : 105.175); (12.01875 : 102.925); (13.0416666666667 : 102.925 : JumpStart); (13.2083333333333 : 102.925 : JumpEnd); (13.5729186666667 : 102.925 : JumpStart); (13.7395853333333 : 102.925 : JumpEnd); (14.1354166666667 : 102.925 : JumpStart); (14.6458333333333 : 102.925 : JumpEnd); (14.675 : 102.925); (14.675 : 105.675); (16.4322916666667 : 105.675 : JumpStart); (16.5989583333333 : 105.675 : JumpEnd); (16.8229166666667 : 105.675 : JumpStart); (16.9895833333333 : 105.675 : JumpEnd); (17.2291666666667 : 105.675 : JumpStart); (17.3958333333333 : 105.675 : JumpEnd); (19.5729166666667 : 105.675 : JumpStart); (19.7708358333333 : 105.675 : JumpEnd); (20.3 : 105.675); (20.3 : 104.55); (20.3541666666667 : 104.55 : JumpStart); (20.5208333333333 : 104.55 : JumpEnd); (23.0182291666667 : 104.55 : JumpStart); (23.1848958333333 : 104.55 : JumpEnd); (23.425 : 104.55); (23.425 : 106.939626464844); (26.5729166666667 : 106.939626464844 : JumpStart); (26.7395833333333 : 106.939626464844 : JumpEnd); (28.0416641666667 : 106.939626464844 : JumpStart); (28.2083308333333 : 106.939626464844 : JumpEnd); (28.4791666666667 : 106.939626464844 : JumpStart); (28.6458333333333 : 106.939626464844 : JumpEnd); (28.8 : 106.939626464844); (28.8 : 105.8625); (28.8416666666667 : 105.8625 : JumpStart); (29.0083333333333 : 105.8625 : JumpEnd); (29.0416666666667 : 105.8625 : JumpStart); (29.2083333333333 : 105.8625 : JumpEnd); (30.3 : 105.8625); (30.3 : 105.835378417969); (31.3437505 : 105.835378417969); (31.3437505 : 105.697878417969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.76134589355469 : 93.9502791341146); (4.76134589355469 : 105.175); (7.44058209214744 : 105.175 : JumpStart); (7.6072487588141 : 105.175 : JumpEnd); (8.3174358974359 : 105.175 : JumpStart); (8.5348707948718 : 105.175 : JumpEnd); (8.66666666666667 : 105.175 : JumpStart); (8.86458333333333 : 105.175 : JumpEnd); (9.22916666666667 : 105.175 : JumpStart); (9.39583333333333 : 105.175 : JumpEnd); (10.0729166666667 : 105.175 : JumpStart); (10.2395833333333 : 105.175 : JumpEnd); (11.5416666666667 : 105.175 : JumpStart); (11.7083333333333 : 105.175 : JumpEnd); (11.8 : 105.175); (11.8 : 102.925); (11.8229166666667 : 102.925 : JumpStart); (12.0670833333333 : 102.925 : JumpEnd); (13.0416666666667 : 102.925 : JumpStart); (13.2083333333333 : 102.925 : JumpEnd); (13.5729186666667 : 102.925 : JumpStart); (13.7395853333333 : 102.925 : JumpEnd); (14.26875 : 102.925); (14.26875 : 105.675); (14.3229166666667 : 105.675 : JumpStart); (14.5520833333333 : 105.675 : JumpEnd); (16.4322916666667 : 105.675 : JumpStart); (16.5989583333333 : 105.675 : JumpEnd); (16.8229166666667 : 105.675 : JumpStart); (16.9895833333333 : 105.675 : JumpEnd); (17.2291666666667 : 105.675 : JumpStart); (17.3958333333333 : 105.675 : JumpEnd); (19.5729166666667 : 105.675 : JumpStart); (19.7708358333333 : 105.675 : JumpEnd); (20.3625 : 105.675); (20.3625 : 104.55); (23.175 : 104.55); (23.175 : 106.939626464844); (26.5729166666667 : 106.939626464844 : JumpStart); (26.7395833333333 : 106.939626464844 : JumpEnd); (28.0416641666667 : 106.939626464844 : JumpStart); (28.2083308333333 : 106.939626464844 : JumpEnd); (28.4791666666667 : 106.939626464844 : JumpStart); (28.6458333333333 : 106.939626464844 : JumpEnd); (28.8416666666667 : 106.939626464844 : JumpStart); (29.0083333333333 : 106.939626464844 : JumpEnd); (29.05 : 106.939626464844); (29.05 : 105.8); (30.3 : 105.8); (30.3 : 105.897878417969); (30.89062325 : 105.897878417969); (30.89062325 : 105.697878417969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_SETUP1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.68518284173584 : 93.9502791341146); (3.68518284173584 : 105.175); (3.83302389402262 : 105.175 : JumpStart); (3.99969056068929 : 105.175 : JumpEnd); (4.06419827964274 : 105.175 : JumpStart); (4.23086494630941 : 105.175 : JumpEnd); (4.29537266526286 : 105.175 : JumpStart); (4.57762652473958 : 105.175 : JumpEnd); (7.44058209214744 : 105.175 : JumpStart); (7.6072487588141 : 105.175 : JumpEnd); (8.3174358974359 : 105.175 : JumpStart); (8.5348707948718 : 105.175 : JumpEnd); (8.66666666666667 : 105.175 : JumpStart); (8.86458333333333 : 105.175 : JumpEnd); (9.22916666666667 : 105.175 : JumpStart); (9.39583333333333 : 105.175 : JumpEnd); (10.0729166666667 : 105.175 : JumpStart); (10.2395833333333 : 105.175 : JumpEnd); (11.45625 : 105.175); (11.45625 : 102.925); (11.4791666666667 : 102.925 : JumpStart); (12.0670833333333 : 102.925 : JumpEnd); (13.0416666666667 : 102.925 : JumpStart); (13.2083333333333 : 102.925 : JumpEnd); (13.5729186666667 : 102.925 : JumpStart); (13.7395853333333 : 102.925 : JumpEnd); (14.175 : 102.925); (14.175 : 105.675); (14.2246666666667 : 105.675 : JumpStart); (14.5520833333333 : 105.675 : JumpEnd); (16.4322916666667 : 105.675 : JumpStart); (16.5989583333333 : 105.675 : JumpEnd); (16.8229166666667 : 105.675 : JumpStart); (16.9895833333333 : 105.675 : JumpEnd); (17.2291666666667 : 105.675 : JumpStart); (17.3958333333333 : 105.675 : JumpEnd); (19.5729166666667 : 105.675 : JumpStart); (19.7708358333333 : 105.675 : JumpEnd); (20.33125 : 105.675); (20.33125 : 104.55); (20.3541666666667 : 104.55 : JumpStart); (20.5208333333333 : 104.55 : JumpEnd); (22.9875 : 104.55); (22.9875 : 106.939626464844); (23.0182291666667 : 106.939626464844 : JumpStart); (23.1848958333333 : 106.939626464844 : JumpEnd); (26.5729166666667 : 106.939626464844 : JumpStart); (26.7395833333333 : 106.939626464844 : JumpEnd); (28.0416641666667 : 106.939626464844 : JumpStart); (28.2083308333333 : 106.939626464844 : JumpEnd); (28.4791666666667 : 106.939626464844 : JumpStart); (28.6458333333333 : 106.939626464844 : JumpEnd); (28.9875 : 106.939626464844); (28.9875 : 105.815625); (29.0416666666667 : 105.815625 : JumpStart); (29.2083333333333 : 105.815625 : JumpEnd); (30.3 : 105.815625); (30.3 : 105.913503417969); (31.79687775 : 105.913503417969); (31.79687775 : 105.697878417969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_SETUP2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.46023014892578 : 93.9502791341146); (5.46023014892578 : 105.175); (7.44058209214744 : 105.175 : JumpStart); (7.6072487588141 : 105.175 : JumpEnd); (8.3174358974359 : 105.175 : JumpStart); (8.5348707948718 : 105.175 : JumpEnd); (8.66666666666667 : 105.175 : JumpStart); (8.86458333333333 : 105.175 : JumpEnd); (9.22916666666667 : 105.175 : JumpStart); (9.39583333333333 : 105.175 : JumpEnd); (10.0729166666667 : 105.175 : JumpStart); (10.2395833333333 : 105.175 : JumpEnd); (11.5416666666667 : 105.175 : JumpStart); (11.8348707948718 : 105.175 : JumpEnd); (11.95625 : 105.175); (11.95625 : 102.925); (13.0416666666667 : 102.925 : JumpStart); (13.2083333333333 : 102.925 : JumpEnd); (13.5729186666667 : 102.925 : JumpStart); (13.7395853333333 : 102.925 : JumpEnd); (14.1354166666667 : 102.925 : JumpStart); (14.5520833333333 : 102.925 : JumpEnd); (14.58125 : 102.925); (14.58125 : 105.675); (16.4322916666667 : 105.675 : JumpStart); (16.5989583333333 : 105.675 : JumpEnd); (16.8229166666667 : 105.675 : JumpStart); (16.9895833333333 : 105.675 : JumpEnd); (17.2291666666667 : 105.675 : JumpStart); (17.3958333333333 : 105.675 : JumpEnd); (19.5729166666667 : 105.675 : JumpStart); (19.7708358333333 : 105.675 : JumpEnd); (20.26875 : 105.675); (20.26875 : 104.55); (20.3541666666667 : 104.55 : JumpStart); (20.5208333333333 : 104.55 : JumpEnd); (23.0182291666667 : 104.55 : JumpStart); (23.1848958333333 : 104.55 : JumpEnd); (23.3 : 104.55); (23.3 : 106.939626464844); (26.5729166666667 : 106.939626464844 : JumpStart); (26.7395833333333 : 106.939626464844 : JumpEnd); (28.0416641666667 : 106.939626464844 : JumpStart); (28.2083308333333 : 106.939626464844 : JumpEnd); (28.4791666666667 : 106.939626464844 : JumpStart); (28.6458333333333 : 106.939626464844 : JumpEnd); (28.8625 : 106.939626464844); (28.8625 : 105.784375); (29.0416666666667 : 105.784375 : JumpStart); (29.2083333333333 : 105.784375 : JumpEnd); (30.3 : 105.784375); (30.3 : 105.882253417969); (30.664059625 : 105.882253417969); (30.664059625 : 105.697878417969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM_SETUP3" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7ccb3379-b4aa-499b-bb0d-aaac0a4a22a5" absoluteBounds="9, 3.625, 2, 2.9039737955729166">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/SURCHRG_ASSES_SETUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b87f99b-10e1-4b39-a48d-0b650a180389" absoluteBounds="9.015, 4.085, 1.9700000000000002, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71197ba8-e71d-4f40-a339-c4ddf44ccbf9" absoluteBounds="3.125, 1.125, 2, 3.23266845703125">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_SURCHRG_DTL_AMT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="345bbdcb-e4ee-4178-a98e-83c844b797e2" absoluteBounds="3.14, 1.585, 1.9700000000000002, 2.67266845703125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee36b7fb-ba30-4141-96bb-aba36217a3d1" absoluteBounds="6.5, 1.375, 2, 5.5335310872395826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_SURCHRG_DTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f46c72ef-fc71-4caa-bdef-943314f4e422" absoluteBounds="6.515, 1.835, 1.9700000000000002, 4.973531087239583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" absoluteBounds="17.75, 93.125, 2, 9.8065616861979148">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3129a75-8a89-46be-8cbc-6912a8671642" absoluteBounds="17.765, 93.585, 1.9700000000000002, 9.2465616861979161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(17.75 : 100.589844970703); (17.5833333333333 : 100.589844970703 : JumpStart); (16.8229166666667 : 100.589844970703 : JumpEnd); (15.8020813333333 : 100.589844970703 : JumpStart); (15.6354146666667 : 100.589844970703 : JumpEnd); (14.8177083333333 : 100.589844970703 : JumpStart); (14.6510416666667 : 100.589844970703 : JumpEnd); (14.5520833333333 : 100.589844970703 : JumpStart); (13.8541666666667 : 100.589844970703 : JumpEnd); (11.8348707948718 : 100.589844970703 : JumpStart); (11.6682041282051 : 100.589844970703 : JumpEnd); (11.3333333333333 : 100.589844970703 : JumpStart); (11.1666666666667 : 100.589844970703 : JumpEnd); (11 : 100.589844970703)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_APLCTN_WEB_PAGE_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="6e628f8d-9968-452b-8c7a-5d39d7d8594e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 99.6540066669171); (19.9166666666667 : 99.6540066669171 : JumpStart); (20.0833333333333 : 99.6540066669171 : JumpEnd); (21.5 : 99.6540066669171); (21.5 : 100.433962402344); (22.7486979166667 : 100.433962402344 : JumpStart); (22.9153645833333 : 100.433962402344 : JumpEnd); (23.0182291666667 : 100.433962402344 : JumpStart); (23.1848958333333 : 100.433962402344 : JumpEnd); (23.5 : 100.433962402344); (23.5 : 103.390057779948); (24.5 : 103.390057779948); (24.5 : 104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_INCUR_LOS_REIM_FUND_FRMLA" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="a75abb29-4420-47ad-ba5b-e5abbb26b239" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 101.903280843099); (20.5 : 101.903280843099)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_PGM_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="2d360e7f-a5a5-4b48-af0b-264d30d992d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.5933929511719 : 93.125); (18.5933929511719 : 91.0752791341146); (18.7495202682292 : 91.0752791341146 : JumpStart); (18.9161869348958 : 91.0752791341146 : JumpEnd); (19.2811325670573 : 91.0752791341146 : JumpStart); (19.4477992337239 : 91.0752791341146 : JumpEnd); (20 : 91.0752791341146); (20 : 85.625); (25.9375 : 85.625); (25.9375 : 87.445028889974); (26.2604166666667 : 87.445028889974 : JumpStart); (26.4270833333333 : 87.445028889974 : JumpEnd); (26.5 : 87.445028889974)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_PGM_RETRO" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="6759c9fd-a310-430f-9c13-a9a61417ecb9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.3644659003906 : 93.125); (19.3644659003906 : 90.9502791341146); (20.25 : 90.9502791341146); (20.25 : 90.2500005); (20.5 : 90.2500005)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_PGM_ST" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="3c8248ce-58d8-416e-9c11-e0e6ba3ded44" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.65625 : 102.931561686198); (19.65625 : 110.176230700684); (20.5 : 110.176230700684)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_QLTY_CNTRL_LIST" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="abac3543-a536-4164-9034-6a406cd757fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.2914273007813 : 93.125); (18.2914273007813 : 91.9896264648438); (18.5100596178386 : 91.9896264648438 : JumpStart); (18.6767262845052 : 91.9896264648438 : JumpEnd); (18.7495202682292 : 91.9896264648438 : JumpStart); (18.9161869348958 : 91.9896264648438 : JumpEnd); (19.2811325670573 : 91.9896264648438 : JumpStart); (19.6458333333333 : 91.9896264648438 : JumpEnd); (21.7291671666667 : 91.9896264648438 : JumpStart); (21.8958338333333 : 91.9896264648438 : JumpEnd); (22.1154694166667 : 91.9896264648438 : JumpStart); (22.2821360833333 : 91.9896264648438 : JumpEnd); (22.3142666666667 : 91.9896264648438 : JumpStart); (22.5208333333333 : 91.9896264648438 : JumpEnd); (22.6538736041667 : 91.9896264648438 : JumpStart); (22.8205402708333 : 91.9896264648438 : JumpEnd); (23.3437505 : 91.9896264648438); (23.3437505 : 92.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_TAX_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="037feebb-1fb2-468b-a1cd-bf62c531d749" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.1664268007813 : 93.125); (19.1664268007813 : 91.25); (19.2811325670573 : 91.25 : JumpStart); (19.4477992337239 : 91.25 : JumpEnd); (20.25 : 91.25); (20.25 : 91.7465844726563); (21.875 : 91.7465844726563); (21.875 : 91.9583764648438); (22.1154694166667 : 91.9583764648438 : JumpStart); (22.3133885833333 : 91.9583764648438 : JumpEnd); (22.3142666666667 : 91.9583764648438 : JumpStart); (22.5208333333333 : 91.9583764648438 : JumpEnd); (22.6226211041667 : 91.9583764648438 : JumpStart); (22.7892877708333 : 91.9583764648438 : JumpEnd); (23.6406245 : 91.9583764648438); (23.6406245 : 91.7396264648438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_INCUR_LOS_REIM_FUND_TAX_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="baa17681-669c-4ece-8530-e41464b21277" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.9582161503906 : 93.125); (18.9582161503906 : 92.9714); (18.6767262845052 : 92.9714 : JumpStart); (18.5100596178386 : 92.9714 : JumpEnd); (18.3747606341146 : 92.9714 : JumpStart); (18.208093967448 : 92.9714 : JumpEnd); (18.0727949837239 : 92.9714 : JumpStart); (17.9061283170573 : 92.9714 : JumpEnd); (14.9774 : 92.9714); (14.9774 : 92.9044043945313); (14.8976 : 92.9044043945313); (14.8976 : 92.1476); (14.6295833333333 : 92.1476 : JumpStart); (14.4629166666667 : 92.1476 : JumpEnd); (14.110641025641 : 92.1476 : JumpStart); (13.9439743589744 : 92.1476 : JumpEnd); (13.8645838333333 : 92.1476 : JumpStart); (13.5978205128205 : 92.1476 : JumpEnd); (12.2083333333333 : 92.1476 : JumpStart); (12.0416666666667 : 92.1476 : JumpEnd); (11.8958333333333 : 92.1476 : JumpStart); (11.7291666666667 : 92.1476 : JumpEnd); (11.6458333333333 : 92.1476 : JumpStart); (11.4791666666667 : 92.1476 : JumpEnd); (10.8524 : 92.1476); (10.8524 : 89.7726); (10.2625641025641 : 89.7726 : JumpStart); (10.0958974358975 : 89.7726 : JumpEnd); (9.66717948717948 : 89.7726 : JumpStart); (9.50051282051282 : 89.7726 : JumpEnd); (8.61458333333333 : 89.7726 : JumpStart); (8.41666666666667 : 89.7726 : JumpEnd); (8.3524 : 89.7726); (8.3524 : 88.24135); (5.51302433333333 : 88.24135 : JumpStart); (5.34635766666667 : 88.24135 : JumpEnd); (5.24739833333333 : 88.24135 : JumpStart); (5.08073166666667 : 88.24135 : JumpEnd); (4.84895933333333 : 88.24135 : JumpStart); (4.54947966666667 : 88.24135 : JumpEnd); (4.45052033333333 : 88.24135 : JumpStart); (4.28385366666667 : 88.24135 : JumpEnd); (4.18489433333333 : 88.24135 : JumpStart); (4.01822766666667 : 88.24135 : JumpEnd); (3.91926833333333 : 88.24135 : JumpStart); (3.75260166666667 : 88.24135 : JumpEnd); (3.65364233333333 : 88.24135 : JumpStart); (3.48697566666667 : 88.24135 : JumpEnd); (3.1914045 : 88.24135); (3.1914045 : 5.62158447265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_TAX_EXMP_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="fe3b62a5-7c98-41d0-b28b-3a6577e26afd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 96.4764516476362); (20 : 96.4764516476362); (20 : 103.700279134115); (20.1041666666667 : 103.700279134115 : JumpStart); (20.3483333333333 : 103.700279134115 : JumpEnd); (21.4166666666667 : 103.700279134115 : JumpStart); (21.5833333333333 : 103.700279134115 : JumpEnd); (23.0182291666667 : 103.700279134115 : JumpStart); (23.1848958333333 : 103.700279134115 : JumpEnd); (24.4166666666667 : 103.700279134115 : JumpStart); (24.5833333333333 : 103.700279134115 : JumpEnd); (26.5729166666667 : 103.700279134115 : JumpStart); (26.7395833333333 : 103.700279134115 : JumpEnd); (27.8666666666667 : 103.700279134115 : JumpStart); (28.0333333333333 : 103.700279134115 : JumpEnd); (28.0416641666667 : 103.700279134115 : JumpStart); (28.2083308333333 : 103.700279134115 : JumpEnd); (28.4791666666667 : 103.700279134115 : JumpStart); (28.6458333333333 : 103.700279134115 : JumpEnd); (28.8416666666667 : 103.700279134115 : JumpStart); (29.0083333333333 : 103.700279134115 : JumpEnd); (29.875 : 103.700279134115); (29.875 : 101.756390067057); (30.1816666666667 : 101.756390067057 : JumpStart); (30.3483333333333 : 101.756390067057 : JumpEnd); (30.5 : 101.756390067057)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_PGM_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="25973f4c-71da-42a8-884c-1a6e6a8271b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.968748 : 91.375); (3.968748 : 90.875); (4.01822766666667 : 90.875 : JumpStart); (4.45052033333333 : 90.875 : JumpEnd); (4.54947966666667 : 90.875 : JumpStart); (4.98177233333333 : 90.875 : JumpEnd); (5.04947916666667 : 90.875 : JumpStart); (5.24739833333333 : 90.875 : JumpEnd); (5.34635766666667 : 90.875 : JumpStart); (5.54427683333333 : 90.875 : JumpEnd); (6 : 90.875); (6 : 97.4375); (7.16666666666667 : 97.4375 : JumpStart); (7.33333333333333 : 97.4375 : JumpEnd); (8.29166666666667 : 97.4375 : JumpStart); (8.64583333333333 : 97.4375 : JumpEnd); (8.69791666666667 : 97.4375 : JumpStart); (8.98958333333333 : 97.4375 : JumpEnd); (11.7291666666667 : 97.4375 : JumpStart); (11.8958333333333 : 97.4375 : JumpEnd); (12.6461932232572 : 97.4375 : JumpStart); (12.8128598899239 : 97.4375 : JumpEnd); (14.125 : 97.4375); (14.125 : 100.718752441406); (14.2246666666667 : 100.718752441406 : JumpStart); (14.5520833333333 : 100.718752441406 : JumpEnd); (14.6510416666667 : 100.718752441406 : JumpStart); (14.8177083333333 : 100.718752441406 : JumpEnd); (15.6354146666667 : 100.718752441406 : JumpStart); (15.8020813333333 : 100.718752441406 : JumpEnd); (16.8229166666667 : 100.718752441406 : JumpStart); (17.2395833333333 : 100.718752441406 : JumpEnd); (17.25 : 100.718752441406); (17.25 : 97.0546857978515); (17.75 : 97.0546857978515)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.031252 : 91.375); (5.031252 : 90.9375); (5.04947916666667 : 90.9375 : JumpStart); (5.24739833333333 : 90.9375 : JumpEnd); (5.34635766666667 : 90.9375 : JumpStart); (5.54427683333333 : 90.9375 : JumpEnd); (5.625 : 90.9375); (5.625 : 97.40625); (5.72916666666667 : 97.40625 : JumpStart); (5.89583333333333 : 97.40625 : JumpEnd); (7.16666666666667 : 97.40625 : JumpStart); (7.33333333333333 : 97.40625 : JumpEnd); (8.29166666666667 : 97.40625 : JumpStart); (8.64583333333333 : 97.40625 : JumpEnd); (8.69791666666667 : 97.40625 : JumpStart); (8.98958333333333 : 97.40625 : JumpEnd); (11.7291666666667 : 97.40625 : JumpStart); (11.8958333333333 : 97.40625 : JumpEnd); (12.6774432232572 : 97.40625 : JumpStart); (12.8441098899239 : 97.40625 : JumpEnd); (14.125 : 97.40625); (14.125 : 100.468752441406); (14.2246666666667 : 100.468752441406 : JumpStart); (14.5520833333333 : 100.468752441406 : JumpEnd); (14.6510416666667 : 100.468752441406 : JumpStart); (14.8177083333333 : 100.468752441406 : JumpEnd); (15.6354146666667 : 100.468752441406 : JumpStart); (15.8020813333333 : 100.468752441406 : JumpEnd); (16.8229166666667 : 100.468752441406 : JumpStart); (17.5833333333333 : 100.468752441406 : JumpEnd); (17.6875 : 100.468752441406); (17.6875 : 99.9342491852215); (17.75 : 99.9342491852215)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.296878 : 91.375); (5.296878 : 91.125); (5.31510516666667 : 91.125 : JumpStart); (5.70833333333333 : 91.125 : JumpEnd); (5.8125 : 91.125); (5.8125 : 97.59375); (7.16666666666667 : 97.59375 : JumpStart); (7.33333333333333 : 97.59375 : JumpEnd); (8.29166666666667 : 97.59375 : JumpStart); (8.64583333333333 : 97.59375 : JumpEnd); (8.69791666666667 : 97.59375 : JumpStart); (8.92708333333333 : 97.59375 : JumpEnd); (11.7291666666667 : 97.59375 : JumpStart); (11.8958333333333 : 97.59375 : JumpEnd); (12.4899432232572 : 97.59375 : JumpStart); (12.6566098899239 : 97.59375 : JumpEnd); (13.9166666666667 : 97.59375 : JumpStart); (14.0833333333333 : 97.59375 : JumpEnd); (14.1875 : 97.59375); (14.1875 : 101.093752441406); (14.2246666666667 : 101.093752441406 : JumpStart); (14.5520833333333 : 101.093752441406 : JumpEnd); (14.6510416666667 : 101.093752441406 : JumpStart); (14.8177083333333 : 101.093752441406 : JumpEnd); (15.6354146666667 : 101.093752441406 : JumpStart); (15.8020813333333 : 101.093752441406 : JumpEnd); (16.8229166666667 : 101.093752441406 : JumpStart); (16.9895833333333 : 101.093752441406 : JumpEnd); (17 : 101.093752441406); (17 : 94.593750625); (17.2291666666667 : 94.593750625 : JumpStart); (17.3958333333333 : 94.593750625 : JumpEnd); (17.75 : 94.593750625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PREM_ADJ_PGM2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.52391542548077 : 105.375); (7.52391542548077 : 104.83451578776); (8.54166666666667 : 104.83451578776 : JumpStart); (8.86458333333333 : 104.83451578776 : JumpEnd); (9.1554383902905 : 104.83451578776 : JumpStart); (9.32210505695716 : 104.83451578776 : JumpEnd); (10.0729166666667 : 104.83451578776 : JumpStart); (10.2395833333333 : 104.83451578776 : JumpEnd); (11.25 : 104.83451578776); (11.25 : 100.468752441406); (11.6682041282051 : 100.468752441406 : JumpStart); (11.8348707948718 : 100.468752441406 : JumpEnd); (13.8541666666667 : 100.468752441406 : JumpStart); (14.5520833333333 : 100.468752441406 : JumpEnd); (14.6510416666667 : 100.468752441406 : JumpStart); (14.8177083333333 : 100.468752441406 : JumpEnd); (15.6354146666667 : 100.468752441406 : JumpStart); (15.8020813333333 : 100.468752441406 : JumpEnd); (16.8229166666667 : 100.468752441406 : JumpStart); (17.5833333333333 : 100.468752441406 : JumpEnd); (17.625 : 100.468752441406); (17.625 : 98.140626345703); (17.75 : 98.140626345703)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/CUSTMR/CUSTMR_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="902815a1-ed84-48ee-8956-c7cffd6e76eb" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.7499995 : 90.4572371419271); (7.7499995 : 94); (8.22916666666667 : 94 : JumpStart); (8.55208333333333 : 94 : JumpEnd); (8.5625 : 94); (8.5625 : 97.71875); (8.69791666666667 : 97.71875 : JumpStart); (8.92708333333333 : 97.71875 : JumpEnd); (13.9166666666667 : 97.71875 : JumpStart); (14.5520833333333 : 97.71875 : JumpEnd); (14.625 : 97.71875); (14.625 : 100.406252441406); (14.6510416666667 : 100.406252441406 : JumpStart); (14.8177083333333 : 100.406252441406 : JumpEnd); (15.6354146666667 : 100.406252441406 : JumpStart); (15.8020813333333 : 100.406252441406 : JumpEnd); (16.8229166666667 : 100.406252441406 : JumpStart); (17.3333333333333 : 100.406252441406 : JumpEnd); (17.375 : 100.406252441406); (17.375 : 99.0218127654622); (17.5416666666667 : 99.0218127654622 : JumpStart); (17.7083333333333 : 99.0218127654622 : JumpEnd); (17.75 : 99.0218127654622)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/EXTRNL_ORG/EXTRNL_ORG_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 83.12499825); (17.5 : 83.12499825); (17.5 : 92.5); (17.9894616503906 : 92.5); (17.9894616503906 : 93.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/INT_ORG/INT_ORG_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="d07697bd-ac1d-44a7-8b95-c01c38d6d420" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.90625 : 111.125); (16.90625 : 98.109376345703); (16.9166666666667 : 98.109376345703 : JumpStart); (17.0833333333333 : 98.109376345703 : JumpEnd); (17.1666666666667 : 98.109376345703 : JumpStart); (17.3958333333333 : 98.109376345703 : JumpEnd); (17.75 : 98.109376345703)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/MSTR_ERND_RETRO_PREM_FRMLA/MSTR_ERND_RETRO_PREM_FRMLA_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="bdf83026-d4af-4949-b2be-2386f8786106" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5b4c2140-7cba-4213-ab24-dcb23e877413" absoluteBounds="23.125, 107.25, 2, 4.21875244140625">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc494ed2-2bc8-4b6c-acee-617288845ec9" absoluteBounds="23.14, 107.71, 1.9700000000000002, 3.65875244140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(23.3375 : 107.25); (23.3375 : 106.870876464844); (23.1848958333333 : 106.870876464844 : JumpStart); (23.0182291666667 : 106.870876464844 : JumpEnd); (22.9583333333333 : 106.870876464844 : JumpStart); (22.7916666666667 : 106.870876464844 : JumpEnd); (22.5 : 106.870876464844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_CMMNT" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="b582a355-0b09-438a-9604-36a10a681a4a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24.125 : 111.468752441406); (24.125 : 116.69850789388); (29.25 : 116.69850789388)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_COMB_ELEMT" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="ca6f3579-7309-4fa2-bb4c-ced255701a82" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24.262502 : 107.25); (24.262502 : 107.075); (24.6416696666667 : 107.075 : JumpStart); (24.8083363333333 : 107.075 : JumpEnd); (26.5729166666667 : 107.075 : JumpStart); (26.7395833333333 : 107.075 : JumpEnd); (28.0416641666667 : 107.075 : JumpStart); (28.2083308333333 : 107.075 : JumpEnd); (28.4791666666667 : 107.075 : JumpStart); (28.6458333333333 : 107.075 : JumpEnd); (28.925 : 107.075); (28.925 : 99.325); (31.1041666666667 : 99.325 : JumpStart); (31.2708333333333 : 99.325 : JumpEnd); (31.5729166666667 : 99.325 : JumpStart); (31.7395833333333 : 99.325 : JumpEnd); (33.25 : 99.325); (33.25 : 99.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_LOS_REIM_FUND_POST" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="4d705610-b5a8-4e52-ab2a-9d54011f07f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 109.971092122396); (26.5729166666667 : 109.971092122396 : JumpStart); (26.7395833333333 : 109.971092122396 : JumpEnd); (28.0416641666667 : 109.971092122396 : JumpStart); (28.2083308333333 : 109.971092122396 : JumpEnd); (32.7187475 : 109.971092122396); (32.7187475 : 106.693321126302)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_MISC_INVC" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="fb196b86-b62c-497b-acc3-80fa21badb68" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 108.579294061198); (26.5729166666667 : 108.579294061198 : JumpStart); (26.7395833333333 : 108.579294061198 : JumpEnd); (28.0416641666667 : 108.579294061198 : JumpStart); (28.2083308333333 : 108.579294061198 : JumpEnd); (28.5625 : 108.579294061198); (28.5625 : 98.7396264648438); (29.4010411666667 : 98.7396264648438 : JumpStart); (29.5677078333333 : 98.7396264648438 : JumpEnd); (31.1041666666667 : 98.7396264648438 : JumpStart); (31.2708333333333 : 98.7396264648438 : JumpEnd); (31.3125 : 98.7396264648438); (31.3125 : 95.2511417643229); (31.2708333333333 : 95.2511417643229 : JumpStart); (31.1041666666667 : 95.2511417643229 : JumpEnd); (30.2187505 : 95.2511417643229); (30.2187505 : 94.8761417643229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_NY_SCND_INJR_FUND" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="56276631-c6a7-4251-90d3-b83e18c8c699" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 110.751174781901); (28.1249975 : 110.751174781901); (28.1249975 : 94.5937524414063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_PAID_LOS_BIL" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="d388b459-9fa7-421c-927a-fdd92cbdcee4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 109.275193091797); (26.5729166666667 : 109.275193091797 : JumpStart); (26.7395833333333 : 109.275193091797 : JumpEnd); (28.0416641666667 : 109.275193091797 : JumpStart); (28.2083308333333 : 109.275193091797 : JumpEnd); (32.6354141666667 : 109.275193091797 : JumpStart); (32.8020808333333 : 109.275193091797 : JumpEnd); (36.25 : 109.275193091797); (36.25 : 105.422447102865)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_PARMET_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="fcebdcd6-a634-4728-8d83-8032c1eb1a19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 107.830465901693); (28.4791666666667 : 107.830465901693 : JumpStart); (28.6458333333333 : 107.830465901693 : JumpEnd); (29.25 : 107.830465901693)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_PERD_TOT" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="a2a71f3c-5135-4675-ba50-9af7fe0ca826" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 111.172463611654); (38.125 : 111.172463611654)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_ARIES_TRNSMTL_HIST" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="0f12e858-ddd5-45ba-a6a9-046d8ece8734" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24.725003 : 107.25); (24.725003 : 106.877126464844); (26.5729166666667 : 106.877126464844 : JumpStart); (26.7395833333333 : 106.877126464844 : JumpEnd); (27.95 : 106.877126464844); (27.95 : 98.6761417643229); (28.0416641666667 : 98.6761417643229 : JumpStart); (28.2083308333333 : 98.6761417643229 : JumpEnd); (29.4010411666667 : 98.6761417643229 : JumpStart); (29.5677078333333 : 98.6761417643229 : JumpEnd); (31.1041666666667 : 98.6761417643229 : JumpStart); (31.2708333333333 : 98.6761417643229 : JumpEnd); (33.25 : 98.6761417643229); (33.25 : 98.5011417643229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_RETRO" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="4af89176-190d-4485-82a7-404d3a630bf7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 107.540233450846); (25.1484375 : 107.540233450846); (25.1484375 : 107.2265625); (23.1015625 : 107.2265625); (23.1015625 : 100.099587402344); (23.1666666666667 : 100.099587402344 : JumpStart); (23.3333333333333 : 100.099587402344 : JumpEnd); (23.3541666666667 : 100.099587402344 : JumpStart); (23.6458333333333 : 100.099587402344 : JumpEnd); (23.750625 : 100.099587402344); (23.750625 : 98.4052514648437); (25.250625 : 98.4052514648437); (25.250625 : 94.2872094726562); (25.875625 : 94.2872094726562); (25.875625 : 92.4765625); (23.875 : 92.4765625); (23.875 : 92.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_TAX_SETUP" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="037feebb-1fb2-468b-a1cd-bf62c531d749" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.125 : 110.361133452148); (26.65625 : 110.361133452148); (26.65625 : 101.350710449219)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PERD/PREM_ADJ_PERD_PREM_ADJ_LOS_REIM_FUND_POST_TAX" />
+      <nodes>
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+        <classShapeMoniker Id="d7d136dc-42c6-4c99-8c75-8a62e05050a6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.125 : 103.125); (13.125 : 102.75); (13.5729186666667 : 102.75 : JumpStart); (13.7395853333333 : 102.75 : JumpEnd); (13.9166666666667 : 102.75 : JumpStart); (14.0833333333333 : 102.75 : JumpEnd); (14.1354166666667 : 102.75 : JumpStart); (14.3913333333333 : 102.75 : JumpEnd); (14.40625 : 102.75); (14.40625 : 106); (15.4166666666667 : 106 : JumpStart); (15.5833333333333 : 106 : JumpEnd); (16.4322916666667 : 106 : JumpStart); (16.5989583333333 : 106 : JumpEnd); (16.8229166666667 : 106 : JumpStart); (16.9895833333333 : 106 : JumpEnd); (17.25 : 106); (17.25 : 109.850710449219); (18.4166666666667 : 109.850710449219 : JumpStart); (18.5833333333333 : 109.850710449219 : JumpEnd); (19.5729166666667 : 109.850710449219 : JumpStart); (19.7708358333333 : 109.850710449219 : JumpEnd); (20.25 : 109.850710449219); (20.25 : 108); (22.875 : 108); (22.875 : 109.659448004232); (23.125 : 109.659448004232)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ/PREM_ADJ_PREM_ADJ_PERD" />
+      <nodes>
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.6875025 : 102.931561686198); (19.6875025 : 111.424786783854); (20.0416666666667 : 111.424786783854 : JumpStart); (20.2083333333333 : 111.424786783854 : JumpEnd); (21.4166666666667 : 111.424786783854 : JumpStart); (21.5833333333333 : 111.424786783854 : JumpEnd); (23.125 : 111.424786783854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_PREM_ADJ_PERD" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="5b4c2140-7cba-4213-ab24-dcb23e877413" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" absoluteBounds="21.75, 93.5, 2, 6.68396240234375">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96b60ebf-5cd0-4a31-8fc9-17bb097aa907" absoluteBounds="21.765, 93.96, 1.9700000000000002, 6.12396240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(22.19880275 : 93.5); (22.19880275 : 91.8333764648438); (22.4375 : 91.8333764648438); (22.4375 : 91.5590844726563); (19.4477992337239 : 91.5590844726563 : JumpStart); (19.2811325670573 : 91.5590844726563 : JumpEnd); (18.9161869348958 : 91.5590844726563 : JumpStart); (18.7495202682292 : 91.5590844726563 : JumpEnd); (18.6767262845052 : 91.5590844726563 : JumpStart); (18.5100596178386 : 91.5590844726563 : JumpEnd); (17.5833333333333 : 91.5590844726563 : JumpStart); (17.4166666666667 : 91.5590844726563 : JumpEnd); (17.0625 : 91.5590844726563); (17.0625 : 85.5625); (15.0208333333333 : 85.5625 : JumpStart); (14.6666666666667 : 85.5625 : JumpEnd); (14.6295833333333 : 85.5625 : JumpStart); (14.4629166666667 : 85.5625 : JumpEnd); (14.34375 : 85.5625); (14.34375 : 87.8882860397135); (14.25 : 87.8882860397135)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_ARMIS_LOS_POL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="53e36f18-546b-49ac-ba39-ad487657100e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.005648875 : 93.5); (22.005648875 : 92.1545264648438); (22.1154694166667 : 92.1545264648438 : JumpStart); (22.2821360833333 : 92.1545264648438 : JumpEnd); (22.3976 : 92.1545264648438); (22.3976 : 91.5989844726563); (20.3976 : 91.5989844726563); (20.3976 : 85.5226); (15.0208333333333 : 85.5226 : JumpStart); (14.6666666666667 : 85.5226 : JumpEnd); (14.38365 : 85.5226); (14.38365 : 90.7539730794271); (12.1458333333333 : 90.7539730794271 : JumpStart); (11.9166666666667 : 90.7539730794271 : JumpEnd); (11.8958333333333 : 90.7539730794271 : JumpStart); (11.7291666666667 : 90.7539730794271 : JumpEnd); (11.7083333333333 : 90.7539730794271 : JumpStart); (11.4791666666667 : 90.7539730794271 : JumpEnd); (10.9149 : 90.7539730794271); (10.9149 : 89.7101); (10.2625641025641 : 89.7101 : JumpStart); (10.0958974358975 : 89.7101 : JumpEnd); (10.0512005 : 89.7101); (10.0512005 : 88.1933211263021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_COMB_ELEMT" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="cf6ab6a3-1b36-4318-9763-0c42c5a07b19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.19880275 : 93.5); (22.19880275 : 91.875); (22.3541666666667 : 91.875 : JumpStart); (22.5208333333333 : 91.875 : JumpEnd); (26 : 91.875); (26 : 90.3125); (29.15625 : 90.3125); (29.15625 : 92.4380708821615); (29.25 : 92.4380708821615)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_NY_SCND_INJR_FUND" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="56276631-c6a7-4251-90d3-b83e18c8c699" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(23.75 : 95.659160563151); (28.15625 : 95.659160563151); (28.15625 : 94.5937524414063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_PAID_LOS_BIL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="d388b459-9fa7-421c-927a-fdd92cbdcee4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.7059544375 : 93.5); (22.7059544375 : 91.8021264648438); (25.3125 : 91.8021264648438); (25.3125 : 89.8116188212891); (25.25 : 89.8116188212891)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_PARMET_DTL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="09149c7c-c34b-426d-9a6c-921f068dc595" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.536903875 : 93.5); (22.536903875 : 92.28125); (22.6538736041667 : 92.28125 : JumpStart); (22.8205402708333 : 92.28125 : JumpEnd); (23.875 : 92.28125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_PGM_SETUP_POL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="638ae682-ce9f-4741-96ed-bef8e4a67920" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(21.75 : 96.8419812011719); (21.5 : 96.8419812011719); (21.5 : 97.1198132324219); (23.25 : 97.1198132324219)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_STEPPED_FCTR" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="216c9c6a-0415-4010-9d7b-fa162ba283b4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(23.75 : 96.1088342285156); (31.1041666666667 : 96.1088342285156 : JumpStart); (31.3958333333333 : 96.1088342285156 : JumpEnd); (32.25 : 96.1088342285156)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_RETRO" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="4af89176-190d-4485-82a7-404d3a630bf7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.7372069375 : 93.5); (22.7372069375 : 91.9045264648438); (25.3524 : 91.9045264648438); (25.3524 : 89.5964); (25.5416666666667 : 89.5964 : JumpStart); (25.7083333333333 : 89.5964 : JumpEnd); (38.468748 : 89.5964); (38.468748 : 89.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_RETRO_DTL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="bc917677-a016-4e2d-8614-9a7c2a878ba5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.83203125 : 100.183962402344); (22.83203125 : 100.623231201172); (23.0182291666667 : 100.623231201172 : JumpStart); (23.1848958333333 : 100.623231201172 : JumpEnd); (23.4166666666667 : 100.623231201172 : JumpStart); (23.6458333333333 : 100.623231201172 : JumpEnd); (23.75 : 100.623231201172)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_COML_AGMT_AUDT" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="0469b709-51dc-40ec-a521-c8336c846792" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(21.75 : 94.4056815592448); (21.625 : 94.4056815592448)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_PREM_ADJ_TAX_DTL" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="d5b453f6-9844-4a14-a980-33d3e66196f9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.4592307692308 : 100.183962402344); (22.4592307692308 : 100.308962402344); (22.7486979166667 : 100.308962402344 : JumpStart); (22.9153645833333 : 100.308962402344 : JumpEnd); (23.0182291666667 : 100.308962402344 : JumpStart); (23.1848958333333 : 100.308962402344 : JumpEnd); (23.3038461538462 : 100.308962402344); (23.3038461538462 : 100.183962402344)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/COML_AGMT/COML_AGMT_COML_AGMT" />
+      <nodes>
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 98.3869099496695); (21.75 : 98.3869099496695)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PREM_ADJ_PGM/PREM_ADJ_PGM_COML_AGMT" />
+      <nodes>
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 92.325103675293); (5.54166666666667 : 92.325103675293 : JumpStart); (5.70833333333333 : 92.325103675293 : JumpEnd); (5.72916666666667 : 92.325103675293 : JumpStart); (5.89583333333333 : 92.325103675293 : JumpEnd); (5.91666666666667 : 92.325103675293 : JumpStart); (6.08333333333333 : 92.325103675293 : JumpEnd); (7.16666666666667 : 92.325103675293 : JumpStart); (7.33333333333333 : 92.325103675293 : JumpEnd); (7.66666616666667 : 92.325103675293 : JumpStart); (7.83333283333333 : 92.325103675293 : JumpEnd); (8.22916666666667 : 92.325103675293 : JumpStart); (8.39583333333333 : 92.325103675293 : JumpEnd); (8.41666666666667 : 92.325103675293 : JumpStart); (8.61458333333333 : 92.325103675293 : JumpEnd); (8.6875 : 92.325103675293); (8.6875 : 94.4732283528646); (9.1875 : 94.4732283528646); (9.1875 : 94.4375); (11.4791666666667 : 94.4375 : JumpStart); (11.6458333333333 : 94.4375 : JumpEnd); (11.7291666666667 : 94.4375 : JumpStart); (11.8958333333333 : 94.4375 : JumpEnd); (12.2886666666667 : 94.4375 : JumpStart); (12.4553333333333 : 94.4375 : JumpEnd); (12.75 : 94.4375); (12.75 : 92.1875); (14.921875 : 92.1875); (14.921875 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 91.9271264648438); (22.329453875 : 91.9271264648438); (22.329453875 : 93.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COML_AGMT" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.6752472423503); (5.54166666666667 : 93.6752472423503 : JumpStart); (5.70833333333333 : 93.6752472423503 : JumpEnd); (5.72916666666667 : 93.6752472423503 : JumpStart); (5.89583333333333 : 93.6752472423503 : JumpEnd); (5.91666666666667 : 93.6752472423503 : JumpStart); (6.08333333333333 : 93.6752472423503 : JumpEnd); (7.16666666666667 : 93.6752472423503 : JumpStart); (7.33333333333333 : 93.6752472423503 : JumpEnd); (7.66666616666667 : 93.6752472423503 : JumpStart); (7.83333283333333 : 93.6752472423503 : JumpEnd); (8.22916666666667 : 93.6752472423503 : JumpStart); (8.39583333333333 : 93.6752472423503 : JumpEnd); (8.4375 : 93.6752472423503); (8.4375 : 94.4849471028646); (8.44791666666667 : 94.4849471028646 : JumpStart); (8.64583333333333 : 94.4849471028646 : JumpEnd); (9.1875 : 94.4849471028646); (9.1875 : 94.4375); (11.4791666666667 : 94.4375 : JumpStart); (11.6458333333333 : 94.4375 : JumpEnd); (11.7291666666667 : 94.4375 : JumpStart); (11.8958333333333 : 94.4375 : JumpEnd); (12.2886666666667 : 94.4375 : JumpStart); (12.4553333333333 : 94.4375 : JumpEnd); (12.6875 : 94.4375); (12.6875 : 92.1875); (14.9453125 : 92.1875); (14.9453125 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 91.8021264648438); (21.8125005 : 91.8021264648438); (21.8125005 : 93.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COML_AGMT1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 91.9875677835286); (5.54166666666667 : 91.9875677835286 : JumpStart); (5.70833333333333 : 91.9875677835286 : JumpEnd); (5.72916666666667 : 91.9875677835286 : JumpStart); (5.89583333333333 : 91.9875677835286 : JumpEnd); (5.91666666666667 : 91.9875677835286 : JumpStart); (6.08333333333333 : 91.9875677835286 : JumpEnd); (7.16666666666667 : 91.9875677835286 : JumpStart); (7.33333333333333 : 91.9875677835286 : JumpEnd); (7.66666616666667 : 91.9875677835286 : JumpStart); (7.83333283333333 : 91.9875677835286 : JumpEnd); (8.3125 : 91.9875677835286); (8.3125 : 94.4849471028646); (8.38541666666667 : 94.4849471028646 : JumpStart); (8.64583333333333 : 94.4849471028646 : JumpEnd); (9.1875 : 94.4849471028646); (9.1875 : 94.453125); (11.4791666666667 : 94.453125 : JumpStart); (11.6458333333333 : 94.453125 : JumpEnd); (11.7291666666667 : 94.453125 : JumpStart); (11.8958333333333 : 94.453125 : JumpEnd); (12.2886666666667 : 94.453125 : JumpStart); (12.4553333333333 : 94.453125 : JumpEnd); (12.625 : 94.453125); (12.625 : 92.1875); (14.9296875 : 92.1875); (14.9296875 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 92.3958764648438); (22.4127872083333 : 92.3958764648438 : JumpStart); (22.1154694166667 : 92.3958764648438 : JumpEnd); (22.0889822083333 : 92.3958764648438 : JumpStart); (21.9223155416667 : 92.3958764648438 : JumpEnd); (21.9090719375 : 92.3958764648438); (21.9090719375 : 93.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COML_AGMT2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.3377113505859); (5.54166666666667 : 93.3377113505859 : JumpStart); (5.70833333333333 : 93.3377113505859 : JumpEnd); (5.72916666666667 : 93.3377113505859 : JumpStart); (5.89583333333333 : 93.3377113505859 : JumpEnd); (5.91666666666667 : 93.3377113505859 : JumpStart); (6.08333333333333 : 93.3377113505859 : JumpEnd); (7.16666666666667 : 93.3377113505859 : JumpStart); (7.33333333333333 : 93.3377113505859 : JumpEnd); (7.66666616666667 : 93.3377113505859 : JumpStart); (7.83333283333333 : 93.3377113505859 : JumpEnd); (8.22916666666667 : 93.3377113505859 : JumpStart); (8.70833333333333 : 93.3377113505859 : JumpEnd); (8.71875 : 93.3377113505859); (8.71875 : 94.4693221028646); (9.1875 : 94.4693221028646); (9.1875 : 94.46875); (11.4791666666667 : 94.46875 : JumpStart); (11.6458333333333 : 94.46875 : JumpEnd); (11.7291666666667 : 94.46875 : JumpStart); (11.8958333333333 : 94.46875 : JumpEnd); (12.2886666666667 : 94.46875 : JumpStart); (12.4553333333333 : 94.46875 : JumpEnd); (12.5625 : 94.46875); (12.5625 : 92.1875); (14.9609375 : 92.1875); (14.9609375 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 92.4896264648438); (22.4127872083333 : 92.4896264648438 : JumpStart); (22.1154694166667 : 92.4896264648438 : JumpEnd); (22.1022258125 : 92.4896264648438); (22.1022258125 : 93.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COML_AGMT3" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.0001754588216); (5.54166666666667 : 93.0001754588216 : JumpStart); (5.70833333333333 : 93.0001754588216 : JumpEnd); (5.72916666666667 : 93.0001754588216 : JumpStart); (5.89583333333333 : 93.0001754588216 : JumpEnd); (5.91666666666667 : 93.0001754588216 : JumpStart); (6.08333333333333 : 93.0001754588216 : JumpEnd); (7.16666666666667 : 93.0001754588216 : JumpStart); (7.33333333333333 : 93.0001754588216 : JumpEnd); (7.66666616666667 : 93.0001754588216 : JumpStart); (7.83333283333333 : 93.0001754588216 : JumpEnd); (8.22916666666667 : 93.0001754588216 : JumpStart); (8.61458333333333 : 93.0001754588216 : JumpEnd); (8.65625 : 93.0001754588216); (8.65625 : 94.4771346028646); (9.1875 : 94.4771346028646); (9.1875 : 94.4453125); (11.4791666666667 : 94.4453125 : JumpStart); (11.6458333333333 : 94.4453125 : JumpEnd); (11.7291666666667 : 94.4453125 : JumpStart); (11.8958333333333 : 94.4453125 : JumpEnd); (12.25 : 94.4453125); (12.25 : 92.1875); (14.9140625 : 92.1875); (14.9140625 : 93.0625); (19.5625 : 93.0625); (19.5625 : 91.6875); (22.4375 : 91.6875); (22.4375 : 91.7708764648438); (22.23005525 : 91.7708764648438); (22.23005525 : 93.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_COML_AGMT4" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="00f42d6b-4cb4-4f07-acb3-e17cc8197b25" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" absoluteBounds="8.75, 89.875, 2, 4.5474471028645826">
+      <DataClassMoniker Name="/AISDatabaseLINQDataContext/PER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b77ccb9e-4aec-4e7f-b0d7-3d6920177eac" absoluteBounds="8.765, 90.335, 1.9700000000000002, 3.987447102864583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.8125 : 94.4224471028646); (8.8125 : 97.484375); (8.82291666666667 : 97.484375 : JumpStart); (8.98958333333333 : 97.484375 : JumpEnd); (11.7291666666667 : 97.484375 : JumpStart); (11.8958333333333 : 97.484375 : JumpEnd); (12.5993182232572 : 97.484375 : JumpStart); (12.7659848899239 : 97.484375 : JumpEnd); (13.9166666666667 : 97.484375 : JumpStart); (14.0833333333333 : 97.484375 : JumpEnd); (14.2246666666667 : 97.484375 : JumpStart); (14.4270833333333 : 97.484375 : JumpEnd); (14.75 : 97.484375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_CUSTMR_DOC" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.90625 : 94.4224471028646); (8.90625 : 97.637432047526); (11.7291666666667 : 97.637432047526 : JumpStart); (11.8958333333333 : 97.637432047526 : JumpEnd); (13.9166666666667 : 97.637432047526 : JumpStart); (14.2083333333333 : 97.637432047526 : JumpEnd); (14.2246666666667 : 97.637432047526 : JumpStart); (14.4270833333333 : 97.637432047526 : JumpEnd); (14.75 : 97.637432047526)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_CUSTMR_DOC1" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="08a2a72c-ed1c-401f-915f-5b1302be1350" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.84375 : 94.4224471028646); (8.84375 : 98.2656225); (11.75 : 98.2656225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_CUSTMR_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="3994ad7b-9a77-4643-a9e8-bb16b753ea55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.75 : 93.2850230514323); (11.4791666666667 : 93.2850230514323 : JumpStart); (11.6458333333333 : 93.2850230514323 : JumpEnd); (11.7291666666667 : 93.2850230514323 : JumpStart); (11.8958333333333 : 93.2850230514323 : JumpEnd); (12.125 : 93.2850230514323); (12.125 : 92); (13.5978205128205 : 92 : JumpStart); (13.8645838333333 : 92 : JumpEnd); (13.9439743589744 : 92 : JumpStart); (14.110641025641 : 92 : JumpEnd); (14.4629166666667 : 92 : JumpStart); (14.6295833333333 : 92 : JumpEnd); (14.78125 : 92); (14.78125 : 85.4375); (14.7916666666667 : 85.4375 : JumpStart); (15.0208333333333 : 85.4375 : JumpEnd); (17.4166666666667 : 85.4375 : JumpStart); (17.5833333333333 : 85.4375 : JumpEnd); (18.75 : 85.4375); (18.75 : 88.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_POST_ADDR" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="917a9da5-5a7d-4b88-a17d-9dfd1dd33a51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.75 : 91.5757865397135); (10.7690666666667 : 91.5757865397135 : JumpStart); (10.9357333333333 : 91.5757865397135 : JumpEnd); (11.4791666666667 : 91.5757865397135 : JumpStart); (11.6458333333333 : 91.5757865397135 : JumpEnd); (11.7291666666667 : 91.5757865397135 : JumpStart); (11.8958333333333 : 91.5757865397135 : JumpEnd); (13.6979171666667 : 91.5757865397135 : JumpStart); (13.8645838333333 : 91.5757865397135 : JumpEnd); (14.4629166666667 : 91.5757865397135 : JumpStart); (14.6295833333333 : 91.5757865397135 : JumpEnd); (14.6979166666667 : 91.5757865397135 : JumpStart); (14.8645833333333 : 91.5757865397135 : JumpEnd); (14.9921875 : 91.5757865397135); (14.9921875 : 93.0625); (17.3125 : 93.0625); (17.3125 : 105.84375); (18.5 : 105.84375); (18.5 : 105.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ_ARIES_CLRING" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="5c9f301b-5a51-4764-ab1c-63fdbc22832f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.40060075 : 89.875); (9.40060075 : 89.6875); (8.53125 : 89.6875); (8.53125 : 104.457237141927); (8.54166666666667 : 104.457237141927 : JumpStart); (8.89583333333333 : 104.457237141927 : JumpEnd); (9.00784195181114 : 104.457237141927 : JumpStart); (9.1745086184778 : 104.457237141927 : JumpEnd); (10.0729166666667 : 104.457237141927 : JumpStart); (10.2395833333333 : 104.457237141927 : JumpEnd); (11.1666666666667 : 104.457237141927 : JumpStart); (11.3333333333333 : 104.457237141927 : JumpEnd); (11.3729166666667 : 104.457237141927 : JumpStart); (11.8348707948718 : 104.457237141927 : JumpEnd); (11.84375 : 104.457237141927); (11.84375 : 102.84375); (11.8541666666667 : 102.84375 : JumpStart); (12.0670833333333 : 102.84375 : JumpEnd); (13.0416666666667 : 102.84375 : JumpStart); (13.2083333333333 : 102.84375 : JumpEnd); (13.5729186666667 : 102.84375 : JumpStart); (13.7395853333333 : 102.84375 : JumpEnd); (13.9166666666667 : 102.84375 : JumpStart); (14.0833333333333 : 102.84375 : JumpEnd); (14.1354166666667 : 102.84375 : JumpStart); (14.3913333333333 : 102.84375 : JumpEnd); (14.4375 : 102.84375); (14.4375 : 105.506960449219); (14.4979166666667 : 105.506960449219 : JumpStart); (14.7583333333333 : 105.506960449219 : JumpEnd); (16.4322916666667 : 105.506960449219 : JumpStart); (16.5989583333333 : 105.506960449219 : JumpEnd); (16.8229166666667 : 105.506960449219 : JumpStart); (16.9895833333333 : 105.506960449219 : JumpEnd); (17.2291666666667 : 105.506960449219 : JumpStart); (17.3958333333333 : 105.506960449219 : JumpEnd); (19.5729166666667 : 105.506960449219 : JumpStart); (19.7708358333333 : 105.506960449219 : JumpEnd); (19.7916666666667 : 105.506960449219 : JumpStart); (19.9583333333333 : 105.506960449219 : JumpEnd); (20.1854166666667 : 105.506960449219 : JumpStart); (20.4145833333333 : 105.506960449219 : JumpEnd); (20.4375 : 105.506960449219); (20.4375 : 103.887779134115); (21.5 : 103.887779134115); (21.5 : 103.450279134115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ_PGM_PERS_REL" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="2d360e7f-a5a5-4b48-af0b-264d30d992d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.75 : 92.8844453688401); (11.4791666666667 : 92.8844453688401 : JumpStart); (11.6458333333333 : 92.8844453688401 : JumpEnd); (11.7291666666667 : 92.8844453688401 : JumpStart); (11.8958333333333 : 92.8844453688401 : JumpEnd); (12.0416666666667 : 92.8844453688401 : JumpStart); (12.3333333333333 : 92.8844453688401 : JumpEnd); (12.372 : 92.8844453688401); (12.372 : 97.3247390950521); (14.308 : 97.3247390950521); (14.308 : 107.784160563151); (14.5 : 107.784160563151)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ_ST" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="721a2e7e-4e9c-41d5-8895-702af7d216d7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.78125 : 94.4224471028646); (8.78125 : 108.889831376297); (9.22916666666667 : 108.889831376297 : JumpStart); (9.39583333333333 : 108.889831376297 : JumpEnd); (12.125 : 108.889831376297)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="2960ed56-1cbd-4845-9b5b-990ab31e832c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.921875 : 94.4224471028646); (8.921875 : 96.4025550192808); (9.04166666666667 : 96.4025550192808 : JumpStart); (9.20833333333333 : 96.4025550192808 : JumpEnd); (11.4791666666667 : 96.4025550192808 : JumpStart); (11.6458333333333 : 96.4025550192808 : JumpEnd); (11.7291666666667 : 96.4025550192808 : JumpStart); (11.8958333333333 : 96.4025550192808 : JumpEnd); (12.2886666666667 : 96.4025550192808 : JumpStart); (12.4553333333333 : 96.4025550192808 : JumpEnd); (16.9166666666667 : 96.4025550192808 : JumpStart); (17.0833333333333 : 96.4025550192808 : JumpEnd); (17.2291666666667 : 96.4025550192808 : JumpStart); (17.3958333333333 : 96.4025550192808 : JumpEnd); (17.75 : 96.4025550192808)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ_PGM" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.890625 : 94.4224471028646); (8.890625 : 95.441898850661); (11.4791666666667 : 95.441898850661 : JumpStart); (11.6458333333333 : 95.441898850661 : JumpEnd); (11.7291666666667 : 95.441898850661 : JumpStart); (11.8958333333333 : 95.441898850661 : JumpEnd); (12.2886666666667 : 95.441898850661 : JumpStart); (12.4553333333333 : 95.441898850661 : JumpEnd); (14.8541666666667 : 95.441898850661 : JumpStart); (15.0208333333333 : 95.441898850661 : JumpEnd); (16.9166666666667 : 95.441898850661 : JumpStart); (17.0833333333333 : 95.441898850661 : JumpEnd); (17.2291666666667 : 95.441898850661 : JumpStart); (17.3958333333333 : 95.441898850661 : JumpEnd); (17.75 : 95.441898850661)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PREM_ADJ_PGM1" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="1b20d353-621c-4c21-82ff-be9c7d1d286d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.7856880983073); (5.54166666666667 : 93.7856880983073 : JumpStart); (5.70833333333333 : 93.7856880983073 : JumpEnd); (5.72916666666667 : 93.7856880983073 : JumpStart); (5.89583333333333 : 93.7856880983073 : JumpEnd); (5.91666666666667 : 93.7856880983073 : JumpStart); (6.08333333333333 : 93.7856880983073 : JumpEnd); (7.16666666666667 : 93.7856880983073 : JumpStart); (7.33333333333333 : 93.7856880983073 : JumpEnd); (7.66666616666667 : 93.7856880983073 : JumpStart); (7.83333283333333 : 93.7856880983073 : JumpEnd); (8.22916666666667 : 93.7856880983073 : JumpStart); (8.73958333333333 : 93.7856880983073 : JumpEnd); (8.75 : 93.7856880983073)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PER" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 91.4177230664063); (5.54166666666667 : 91.4177230664063 : JumpStart); (5.70833333333333 : 91.4177230664063 : JumpEnd); (5.72916666666667 : 91.4177230664063 : JumpStart); (5.89583333333333 : 91.4177230664063 : JumpEnd); (5.91666666666667 : 91.4177230664063 : JumpStart); (6.08333333333333 : 91.4177230664063 : JumpEnd); (7.66666616666667 : 91.4177230664063 : JumpStart); (7.83333283333333 : 91.4177230664063 : JumpEnd); (8.41666666666667 : 91.4177230664063 : JumpStart); (8.70833333333333 : 91.4177230664063 : JumpEnd); (8.75 : 91.4177230664063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PER1" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.6408925804037); (5.54166666666667 : 93.6408925804037 : JumpStart); (5.70833333333333 : 93.6408925804037 : JumpEnd); (5.72916666666667 : 93.6408925804037 : JumpStart); (5.89583333333333 : 93.6408925804037 : JumpEnd); (5.91666666666667 : 93.6408925804037 : JumpStart); (6.08333333333333 : 93.6408925804037 : JumpEnd); (7.16666666666667 : 93.6408925804037 : JumpStart); (7.33333333333333 : 93.6408925804037 : JumpEnd); (7.66666616666667 : 93.6408925804037 : JumpStart); (7.83333283333333 : 93.6408925804037 : JumpEnd); (8.22916666666667 : 93.6408925804037 : JumpStart); (8.73958333333333 : 93.6408925804037 : JumpEnd); (8.75 : 93.6408925804037)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PER2" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 93.930483616211); (5.54166666666667 : 93.930483616211 : JumpStart); (5.70833333333333 : 93.930483616211 : JumpEnd); (5.72916666666667 : 93.930483616211 : JumpStart); (5.89583333333333 : 93.930483616211 : JumpEnd); (5.91666666666667 : 93.930483616211 : JumpStart); (6.08333333333333 : 93.930483616211 : JumpEnd); (7.16666666666667 : 93.930483616211 : JumpStart); (7.33333333333333 : 93.930483616211 : JumpEnd); (8.22916666666667 : 93.930483616211 : JumpStart); (8.73958333333333 : 93.930483616211 : JumpEnd); (8.75 : 93.930483616211)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PER3" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.1328125 : 91.375); (5.1328125 : 90.6348685709635); (5.34635766666667 : 90.6348685709635 : JumpStart); (5.54427683333333 : 90.6348685709635 : JumpEnd); (7.66666616666667 : 90.6348685709635 : JumpStart); (7.83333283333333 : 90.6348685709635 : JumpEnd); (8.24416666666667 : 90.6348685709635 : JumpStart); (8.61458333333333 : 90.6348685709635 : JumpEnd); (8.75 : 90.6348685709635)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/LKUP/LKUP_PER4" />
+      <nodes>
+        <classShapeMoniker Id="1623247b-1b41-4c62-8dc4-fbe79159645b" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 90.3336185709636); (8.30666666666667 : 90.3336185709636 : JumpStart); (8.70833333333333 : 90.3336185709636 : JumpEnd); (8.75 : 90.3336185709636)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/EXTRNL_ORG/EXTRNL_ORG_PER" />
+      <nodes>
+        <classShapeMoniker Id="e5c63ee0-fbe5-4bc4-9aa5-0206e50c51ba" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.58384615384615 : 89.875); (9.58384615384615 : 89.5); (10.1792307692308 : 89.5); (10.1792307692308 : 89.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AISDatabaseLINQDataContext/PER/PER_PER" />
+      <nodes>
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+        <classShapeMoniker Id="90aac791-c6e9-40d0-9d26-7bc735c1a4a5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

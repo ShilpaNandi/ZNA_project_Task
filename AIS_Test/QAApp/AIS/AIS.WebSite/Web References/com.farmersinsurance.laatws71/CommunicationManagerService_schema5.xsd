@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" elementFormDefault="qualified" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ErrorInfo" nillable="true" type="tns:ErrorInfoType" />
+  <xs:complexType name="Binary">
+    <xs:sequence>
+      <xs:element name="theContentType" type="xs:string" />
+      <xs:element name="theBinData" type="xs:string" />
+      <xs:element name="theBinLength" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ErrorInfoType">
+    <xs:sequence>
+      <xs:element name="errorMessageType" type="xs:string" />
+      <xs:element name="errorCode" type="xs:string" />
+      <xs:element name="errorMessageText" type="xs:string" />
+      <xs:element name="errorState" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

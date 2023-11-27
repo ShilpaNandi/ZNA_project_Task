@@ -1,0 +1,36 @@
+
+
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="cc1" %>
+    
+ <%@ Register Src="~/App_Shared/SaveCancel.ascx" TagPrefix="uc1" TagName="Sc"%>
+ 
+<asp:AISListView runat="server"  style="background-color:#e7e7ff; color: #000000;" >
+</asp:AISListView>
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+<asp:GridView runat="server" GridLines="Both" ForeColor="Black" BackColor="White"   CellPadding="1" > 
+           <HeaderStyle BackColor="#D3D3D3" Font-Bold="True" ForeColor="Black" Font-Size="0.9em"  HorizontalAlign="Center"/>
+           <RowStyle  backcolor="white"  forecolor="DarkBlue"  Font-Size="50" />
+    
+</asp:GridView>
+<asp:Image runat="server" ImageUrl="~/Images/ContinueButton.gif" />
+<asp:ListBox    runat="server" ForeColor="Black" BackColor="White" SkinID="lstAdjReview" />
+<asp:ListBox    runat="server" ForeColor="Black" BackColor="Orange" />
+<asp:TextBox    runat="server" ForeColor="Black" SkinID="Required" BackColor="Yellow" />
+<asp:Label      runat="server" />
+
+
+<asp:Menu       runat="server" ForeColor="White"  Font-Names="Verdana" />
+<asp:Table      runat="server"  GridLines="Vertical" />
+<asp:RadioButtonList  runat="server" BackColor="#C0C0FF"  BorderStyle="Solid" BorderWidth="1px" BorderColor="Black" />
+<asp:DropDownList runat="server" CssClass="DropDown" />
+<asp:RadioButton runat="server" CssClass="TxtInput" />
+<asp:LinkButton runat="server" CssClass="linkButtonStyle" />
+<cc1:TabContainer runat="server" CssClass="CustomTabs" />
+<cc1:TabContainer runat="server" CssClass="VariableTabs" SkinID="tabVariable" />
+ <asp:ValidationSummary runat="server" CssClass="ValidationSummary" />

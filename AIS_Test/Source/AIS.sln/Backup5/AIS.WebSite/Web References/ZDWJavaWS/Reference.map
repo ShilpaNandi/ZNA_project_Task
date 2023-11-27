@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService_schema5.xsd" filename="CommunicationManagerService_schema5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService_schema1.xsd" filename="CommunicationManagerService_schema1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService_schema3.xsd" filename="CommunicationManagerService_schema3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService.wsdl" filename="CommunicationManagerService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService_schema4.xsd" filename="CommunicationManagerService_schema4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService_schema2.xsd" filename="CommunicationManagerService_schema2.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

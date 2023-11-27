@@ -1,0 +1,6 @@
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Release\AIS.ZNAWNDICInterface.exe.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Release\AIS.ZNAWNDICInterface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\bin\Release\AIS.ZNAWNDICInterface.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Release\AIS.ZNAWNDICInterface.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Release\AIS.ZNAWNDICInterface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ZNAWNDICInterface\AIS.ZNAWNDICInterface\obj\x86\Release\AIS.ZNAWNDICInterface.pdb

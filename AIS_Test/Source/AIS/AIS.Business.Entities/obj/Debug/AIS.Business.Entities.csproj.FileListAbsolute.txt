@@ -1,0 +1,399 @@
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\abhilash.oruganti\Desktop\AIS_TFS\Development\AIS_InvoiceExhibitRedesign_Phase1\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\TFS\AIS\AIS_Server_Upgrade\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version2\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version3\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version4\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Bugfix\Phase 3- Development Code_BugFix\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version5\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version6\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version7\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version8\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version9\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version10\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\Phase 3\Requirment 10\Phase 3- Development Code_Version11\AIS_ExternalContactsFixCode\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Swetha\Phase 3-DevelopmentCode(16-11-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(23-11-2020)_WithFix\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-DevelopmentCode(20-12-2020)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\brahma.swetha\Documents\AIS\Phase 3-Code_Updated(Jan_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS_Phase 3-Code_Updated(Aprl_2021)\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\JIRA 26 AND JIRA 31\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Users\NIJANTHAN.SELVARAJ\Documents\AIS Latest code _After changes_WithoutTFS\May_29_Release\AIS_JIRA 26 AND JIRA 31_Release\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancellableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojResolveAssemblyReference.cache
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\Nijanthan\AIS_ LatestCode\NonCancelableAndIFRS17\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Backup-Edge\version 1\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS NEW CHANGES_2019\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojAssemblyReference.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+\\uszzaschnas01\home\Narmathaa\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_JAN30\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\AIS_POST_PROD_FIX_LATEST_FEB8 - Copy\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\MY APPS FINAL CODES\AIS\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojAssemblyReference.cache
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_original\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.Business.Entities.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\log4net.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.AIS.DAL.LINQ.dll.config
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\bin\Debug\ZurichNA.LSP.Framework.pdb
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csprojAssemblyReference.cache
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CoreCompileInputs.cache
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\obj\Debug\AIS.Business.Entities.csproj.CopyComplete
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.dll
+C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\obj\Debug\ZurichNA.AIS.Business.Entities.pdb

@@ -1,0 +1,19 @@
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe.config
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.exe
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\AIS.ARiES.Interface.csprojAssemblyReference.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\AIS.ARiES.Interface.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.exe
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\bin\Release\ZurichNA.AIS.ARiES.Interface.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\AIS.ARiES.Interface.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\ZurichNA.AIS.ARiES.Interface.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.ARiES.Interface\obj\Release\AIS.ARiES.Interface.csproj.AssemblyReference.cache

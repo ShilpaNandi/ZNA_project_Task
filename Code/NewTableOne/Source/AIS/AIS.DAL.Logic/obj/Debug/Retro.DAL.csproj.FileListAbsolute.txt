@@ -1,0 +1,14 @@
+C:\Projects_Retro\RetroSystem_DAL_BLL\DAL\bin\Debug\DAL.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\DAL\bin\Debug\DAL.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects_Retro\RetroSystem_DAL_BLL\DAL\obj\Debug\DAL.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\DAL\obj\Debug\DAL.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.DAL.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.DAL.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\Retro.DAL.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\Retro.DAL.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.Business.Entities.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.Business.Entities.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.LINQ.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\Retro.LINQ.pdb

@@ -1,0 +1,211 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="Retromaster" CodeBehind="Retro.master.cs" %>
+
+<%@ Register Src="App_Shared/AISModalUpdateProgress.ascx" TagName="ModalUpdateProgress"
+    TagPrefix="upd" %>
+<%@ Register Src="App_Shared/AlertSessionTimeOut.ascx" TagName="AlertSessionTimeOut"
+    TagPrefix="ast" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Adjustment Invoicing System [AIS]</title>
+    <meta name="copyright" content="Zurich, 2008" />
+    <meta name="description" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="~/CSS/Retro.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/Retro.center.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/TabContainer.css" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../JavaScript/Pagescript.js"></script>
+
+    <script src="../JavaScript/AISAmount.js" type="text/javascript"></script>
+
+    <script src="../JavaScript/RetroScript.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript" defer="defer">
+        window.history.forward(1);
+        keyCodeValue = 0;
+        window.document.onkeydown = function() { keyCodeValue = event.keyCode; };
+
+
+        function LogOffUser(result, context) {
+
+        }
+
+        function LogUserOff() {
+            LogOffUserCallBack();
+        }
+
+        var submitted = 0;
+        function CheckWithoutSave(pageUrl) {
+            var hdncd = document.getElementById('ctl00_hdnControlDirty');
+
+            if (hdncd.value == '1') {
+                if (confirm('You are trying to navigate out of this screen without saving.\n'
+                            + 'Do you want to proceed without saving?\n\n'
+                            + 'Press OK to continue, or Cancel to stay on the current tab.')) {
+                    hdncd.value = '0';
+                    submitted = 0;
+                    window.location.href = pageUrl;
+                }
+            }
+            else {
+                window.location.href = pageUrl;
+                submitted = 0;
+            }
+        }
+
+
+        //To avoid Intermittent "Operation Aborted" Error    
+        var flyoutsAllowed = false;
+        function enableFlyoutsAfterDelay() {
+            setTimeout("flyoutsAllowed = true;", 25);
+        }
+
+        function overrideMenu_HoverStatic(item) {
+            if (!flyoutsAllowed) {
+                setTimeout(delayMenu_HoverStatic(item), 50);
+            }
+            else {
+                // this code is the default ASP.NET implementation of Menu_HoverStatic
+                var node = Menu_HoverRoot(item);
+                var data = Menu_GetData(item);
+                if (!data) return;
+                __disappearAfter = data.disappearAfter;
+                Menu_Expand(node, data.horizontalOffset, data.verticalOffset);
+            }
+        }
+
+        function delayMenu_HoverStatic(item) {
+            return (function() {
+                overrideMenu_HoverStatic(item);
+            });
+        }
+        AddBodyOnLoadEvent(enableFlyoutsAfterDelay);
+        //End of -To avoid Intermittent "Operation Aborted" Error
+
+
+    </script>
+
+</head>
+<body id="Body1">
+    <form id="form1" runat="server">
+    <asp:HiddenField ID="hdnControlDirty" runat="server" />
+    <asp:HiddenField ID="hdnRealBit" runat="server" />
+    <asp:HiddenField ID="hdnDirtyBit" runat="server" />
+    <asp:ScriptManager ID="ScriptManager1" EnablePartialRendering="true" AsyncPostBackTimeout="900"
+        runat="server" />
+    <upd:ModalUpdateProgress runat="Server"></upd:ModalUpdateProgress>
+    <ast:AlertSessionTimeOut runat="server" />
+    <asp:UpdatePanel ID="tsttt" runat="server">
+        <ContentTemplate>
+            <!--       <table style="width: 100%; height: inherit" border="0" cellpadding="0" cellspacing="0">-->
+            <div id="browsercheck">
+                <!-- layer to hold browser check message -->
+                <asp:Label ID="BrowserCheck" runat="server" CssClass="false" />
+            </div>
+            <asp:XmlDataSource ID="AISMenuData" runat="server" EnableCaching="False" EnableViewState="False"
+                TransformFile="Menu.xslt" XPath="MenuItems/MenuItem"></asp:XmlDataSource>
+            <!-- Panel for Top Header and Menu-->
+            <asp:Panel ID="pnlTopHeader" runat="server" BorderWidth="0">
+                <div id="header" style="width: 760px; height: auto">
+                    <table width="100%" class="title">
+                        <tr>
+                            <td class="title" width="52%">
+                                Adjustment Invoicing System
+                            </td>
+                            <td width="48%" class="TxtHeaderWelcome" style="text-align: right">
+                                <asp:Label ID="lblwelcome" runat="server"></asp:Label>&nbsp;&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--- Menu Divider -->
+                <div id="menu" style="height: 23px; width: 910px; display: inline">
+                    <asp:AISHMenu ID="TopNav" OnMenuItemClick="TopNav_MenuItemClick" runat="server" BackColor="#003399"
+                        Width="910px" Font-Names="Verdana" Font-Size="10px" StaticEnableDefaultPopOutImage="false"
+                        StaticSubMenuIndent="10px" Height="15px" ForeColor="White" Orientation="Horizontal"
+                        DisappearAfter="2000" DataSourceID="AISMenuData" OnMenuItemDataBound="TopNav_MenuItemDataBound"
+                        OnPreRender="TopNav_PreRender">
+                        <DataBindings>
+                            <asp:MenuItemBinding TextField="menu_nm_txt" ValueField="menu_nm_txt" NavigateUrlField="web_page_txt"
+                                ToolTipField="menu_tooltip_txt" EnabledField="actv_ind" />
+                        </DataBindings>
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" Height="20px" />
+                        <StaticHoverStyle Font-Underline="true" />
+                        <StaticSelectedStyle BackColor="#CCD6EB" ForeColor="Black" />
+                        <DynamicHoverStyle BackColor="#CCD6EB" ForeColor="#808080" />
+                        <DynamicSelectedStyle BorderColor="#CCFFFF" />
+                        <DynamicMenuItemStyle BackColor="#CCD6EB" HorizontalPadding="0" VerticalPadding="0"
+                            ForeColor="black" ItemSpacing="5px" Width="100px" />
+                        <DynamicMenuStyle BackColor="#CCD6EB" />
+                    </asp:AISHMenu>
+                </div>
+            </asp:Panel>
+            <!--- end menu --->
+            <div id="container" style="width: 910px">
+                <table width="910px" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="2">
+                            <div id="activcontent" style="width: 910px">
+                                <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="ErrorContent">
+                                <asp:ContentPlaceHolder ID="ErrorPlaceHolder" runat="server">
+                                    <tr>
+                                        <td>
+                                            <div id="ErrorSummary">
+                                                <asp:ValidationSummary ID="AISSummary" runat="server" DisplayMode="BulletList" CssClass="ValidationSummary"
+                                                    ValidationGroup="AISError" />
+                                            </div>
+                                            <asp:CustomValidator ID="AISErrorValidator" runat="server" Display="None" OnServerValidate="RaiseError"
+                                                ValidationGroup="AISError" CssClass="ValidationSummary">
+                                            </asp:CustomValidator>
+                                        </td>
+                                    </tr>
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="MainContent" style="height: 477px">
+                                <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="footerContent">
+                                <asp:ContentPlaceHolder ID="FooterPlaceHolder" runat="server">
+                                    <tr>
+                                        <td>
+                                            <table style="color: #003399; background-color: #F5F5F5" width="910px">
+                                                <tr align="center" valign="bottom">
+                                                    <td colspan="2">
+                                                        <asp:Label ID="lblVersion" runat="server" Font-Size="X-Small" ForeColor="Gray" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+            <!--- end container --->
+            <!--- end footer --->
+            <!--        </table>-->
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    </form>
+</body>
+</html>

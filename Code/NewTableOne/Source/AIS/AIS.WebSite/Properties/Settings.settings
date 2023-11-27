@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ZurichNA.AIS.WebSite.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ZurichNA_AIS_WebSite_ZDWJavaWS_CommunicationManagerService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService</Value>
+    </Setting>
+    <Setting Name="ZurichNA_AIS_WebSite_ZDWJavaWS_CAD_CommunicationManagerService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://calqfn40.amer.zurich.corp:9083/JWS/CommunicationManagerService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

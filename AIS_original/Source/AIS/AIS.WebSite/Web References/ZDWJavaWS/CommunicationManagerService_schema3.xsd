@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" xmlns:ns1="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" elementFormDefault="qualified" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="CommunicationManagerService_schema5.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA" />
+  <xs:complexType name="Property">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="conformanceType" type="xs:string" />
+      <xs:element minOccurs="0" name="defaultValue" type="ns1:Binary" />
+      <xs:element minOccurs="0" name="description" type="xs:string" />
+      <xs:element minOccurs="0" name="isCalculated" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isConstant" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isDerived" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isOptional" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isOverridable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isOverridden" type="xs:boolean" />
+      <xs:element minOccurs="0" name="kind" type="xs:string" />
+      <xs:element minOccurs="0" name="overriddenValue" type="xs:string" />
+      <xs:element minOccurs="0" name="specification" type="tns:ObjectReference" />
+      <xs:element minOccurs="0" name="theValue" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObjectReference">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="entityId" type="xs:string" />
+      <xs:element minOccurs="0" name="idRef" type="xs:string" />
+      <xs:element minOccurs="0" name="sourceSystemId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BusinessModelObject" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CategorisableObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="systemCreationDateTime" type="xs:anySimpleType" />
+          <xs:element minOccurs="0" name="systemUpdateDateTime" type="xs:anySimpleType" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="dynamicProperties" nillable="true" type="tns:Property" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CategorisableObject" abstract="true">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="PropertySearchCriteriaSet">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="operator" type="tns:Operator" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="propertySearchCriteria" nillable="true" type="tns:PropertySearchCriteria" />
+      <xs:element minOccurs="0" name="propertySearchCriteriaSet" type="tns:PropertySearchCriteriaSet" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PropertySearchCriteria">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:SearchCriteria">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="relationalOperator" type="tns:RelationalOperator" />
+          <xs:element name="property" type="tns:Property" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SearchCriteria">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="deliveryMethod" type="tns:DeliveryMethod" />
+      <xs:element minOccurs="0" name="systemSourceCode" type="tns:SystemSourceCode" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="Operator">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="and" />
+      <xs:enumeration value="equalTo" />
+      <xs:enumeration value="greaterThan" />
+      <xs:enumeration value="greaterThanOrEqualTo" />
+      <xs:enumeration value="lessThan" />
+      <xs:enumeration value="lessThanOrEqualTo" />
+      <xs:enumeration value="not" />
+      <xs:enumeration value="or" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="RelationalOperator">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="equalTo" />
+      <xs:enumeration value="greaterThan" />
+      <xs:enumeration value="greaterThanOrEqualTo" />
+      <xs:enumeration value="lessThan" />
+      <xs:enumeration value="lessThanOrEqualTo" />
+      <xs:enumeration value="like" />
+      <xs:enumeration value="isNull" />
+      <xs:enumeration value="isNotNull" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DeliveryMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="edi" />
+      <xs:enumeration value="email" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SystemSourceCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="aA" />
+      <xs:enumeration value="cM" />
+      <xs:enumeration value="cS" />
+      <xs:enumeration value="rI" />
+      <xs:enumeration value="rP" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

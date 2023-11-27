@@ -1,0 +1,304 @@
+
+IF EXISTS (SELECT 1 FROM sysobjects 
+	WHERE NAME = 'GetZDWSearch' and TYPE = 'P')
+	DROP PROC GetZDWSearch
+GO
+SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+---------------------------------------------------------------------
+-----
+-----	Proc Name:		GetZDWSearch
+-----
+-----	Version:		SQL Server 2005
+-----
+-----	Author :		Aakshi Kapoor
+-----
+-----	Description:	Returns data for given different parameters in ZDW Search.
+-----			
+-----	Modified:	   Aakshi Kapoor use Distinct to select data and removed Policy no from select.
+-----			
+----- 
+---------------------------------------------------------------------
+CREATE PROCEDURE [GetZDWSearch]
+@ACCOUNTNAME VARCHAR(100),
+@POLICYNO VARCHAR(100),
+@VALDT VARCHAR(100),
+@INVDT VARCHAR(100),
+@ACCOUNTNO VARCHAR(100),
+@BROKER VARCHAR(100),
+@BU VARCHAR(100),
+@ANALYSTNAME VARCHAR(100),
+@INVNO VARCHAR(100),
+@PGMTYP VARCHAR(100),
+@PGMEFFDT VARCHAR(100),
+@PGMEXPDT VARCHAR(100)
+
+AS
+BEGIN
+
+SET NOCOUNT ON;
+
+BEGIN TRY
+DECLARE @INVNUMBERDRAFT VARCHAR(100)
+DECLARE @INVNUMBERFINAL VARCHAR(100)
+SELECT @INVNUMBERDRAFT = ''
+SELECT @INVNUMBERFINAL = ''
+IF(Substring(@INVNO,0,4))='RTD'
+BEGIN
+SELECT @INVNUMBERDRAFT=@INVNO
+END
+ELSE IF (LEN(@INVNO)<>0)
+BEGIN
+SELECT @INVNUMBERFINAL=@INVNO
+END
+
+DECLARE @ORDERBY VARCHAR(1000)
+SELECT @ORDERBY =' order by CUSTMR.full_nm,PREM_ADJ.valn_dt,PREM_ADJ.drft_invc_nbr_txt,PREM_ADJ.fnl_invc_nbr_txt'
+DECLARE @SQL nvarchar(4000)
+DECLARE @WHERECONDITION varchar(4000)
+SELECT @WHERECONDITION = ''
+IF LEN(@AccountName)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WHERECONDITION) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = ' WHERE CUSTMR.full_nm=''' + @ACCOUNTNAME + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = ' AND CUSTMR.full_nm=''' + @ACCOUNTNAME + ''''
+	END	
+END
+
+IF LEN(@POLICYNO)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE Rtrim(COML_AGMT.pol_sym_txt)+Rtrim(COML_AGMT.pol_nbr_txt)+Rtrim(COML_AGMT.pol_modulus_txt)=''' + @POLICYNO + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND Rtrim(COML_AGMT.pol_sym_txt)+Rtrim(COML_AGMT.pol_nbr_txt)+Rtrim(COML_AGMT.pol_modulus_txt)=''' + @POLICYNO + ''''
+	END	
+	
+END
+
+IF LEN(@VALDT)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE CONVERT(NVARCHAR(30), PREM_ADJ.valn_dt, 101) =''' + @VALDT + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND CONVERT(NVARCHAR(30), PREM_ADJ.valn_dt, 101) =''' + @VALDT + ''''
+	END	
+	
+END
+IF LEN(@INVDT)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE CONVERT(NVARCHAR(30), PREM_ADJ.fnl_invc_dt, 101) =''' + @INVDT + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND CONVERT(NVARCHAR(30), PREM_ADJ.fnl_invc_dt, 101) =''' + @INVDT + ''''
+	END	
+	
+END
+IF LEN(@ACCOUNTNO)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE CUSTMR.custmr_id =''' + @ACCOUNTNO + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND CUSTMR.custmr_id =''' + @ACCOUNTNO + ''''
+	END	
+	
+END
+IF LEN(@BROKER)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE EXTRNL_ORG.full_name =''' + @BROKER + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND EXTRNL_ORG.full_name=''' + @BROKER + ''''
+	END	
+	
+END
+IF LEN(@BU)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE INT_ORG.FULL_NAME+''/''+INT_ORG.CITY_NM =''' + @BU + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND INT_ORG.FULL_NAME+''/''+INT_ORG.CITY_NM=''' + @BU + ''''
+	END	
+	
+END
+IF LEN(@ANALYSTNAME)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE (select  PERS_CFS2.forename from PERS AS PERS_CFS2 ,CUSTMR_PERS_REL AS CUSTMR_PERS_REL_CFS2 where  
+CUSTMR_PERS_REL_CFS2.pers_id=PERS_CFS2.pers_id and CUSTMR.custmr_id= CUSTMR_PERS_REL_CFS2.custmr_id and CUSTMR_PERS_REL_CFS2.rol_id = 366) =''' + @ANALYSTNAME + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND (select  PERS_CFS2.forename from PERS AS PERS_CFS2 ,CUSTMR_PERS_REL AS CUSTMR_PERS_REL_CFS2 where  
+CUSTMR_PERS_REL_CFS2.pers_id=PERS_CFS2.pers_id and CUSTMR.custmr_id= CUSTMR_PERS_REL_CFS2.custmr_id and CUSTMR_PERS_REL_CFS2.rol_id = 366)=''' + @ANALYSTNAME + ''''
+	END	
+	
+END
+IF LEN(@INVNUMBERDRAFT)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE PREM_ADJ.drft_invc_nbr_txt =''' + @INVNUMBERDRAFT + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND PREM_ADJ.drft_invc_nbr_txt=''' + @INVNUMBERDRAFT + ''''
+	END	
+	
+END
+IF LEN(@INVNUMBERFINAL)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE PREM_ADJ.fnl_invc_nbr_txt =''' + @INVNUMBERFINAL + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND PREM_ADJ.fnl_invc_nbr_txt=''' + @INVNUMBERFINAL + ''''
+	END	
+	
+END
+IF LEN(@PGMTYP)<>0
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE PREM_ADJ_PGM.pgm_typ_id  =''' + @PGMTYP + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND PREM_ADJ_PGM.pgm_typ_id =''' + @PGMTYP + ''''
+	END	
+	
+END
+IF (LEN(@PGMEFFDT)<>0)
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE CONVERT(NVARCHAR(30), PREM_ADJ_PGM.strt_dt, 101)  =''' + @PGMEFFDT + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND CONVERT(NVARCHAR(30), PREM_ADJ_PGM.strt_dt, 101)=''' + @PGMEFFDT + ''''
+	END	
+	
+END
+IF (LEN(@PGMEXPDT)<>0)
+BEGIN
+	
+	IF PATINDEX('%WHERE%',@WhereCondition) = 0 
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' WHERE CONVERT(NVARCHAR(30), PREM_ADJ_PGM.plan_end_dt, 101)  =''' + @PGMEXPDT + ''''
+	END 
+	ELSE
+	BEGIN
+		SELECT @WHERECONDITION = @WHERECONDITION + ' AND CONVERT(NVARCHAR(30), PREM_ADJ_PGM.plan_end_dt, 101)=''' + @PGMEXPDT + ''''
+	END	
+	
+END
+SELECT @SQL = 'SELECT   Distinct
+   
+CUSTMR.full_nm "ACCOUNT_NAME",  
+CUSTMR.custmr_id "ACCOUNT_NUMBER",  
+CONVERT(NVARCHAR(30), PREM_ADJ.valn_dt, 101) "VALUATION_DATE",   
+PREM_ADJ.drft_invc_nbr_txt "DRFT_INVOICE_NUMBER",   
+PREM_ADJ.fnl_invc_nbr_txt "FNL_INVOICE_NUMBER",   
+CONVERT(NVARCHAR(30), PREM_ADJ.fnl_invc_dt, 101) "FINAL_INVOICE_DATE",  
+CONVERT(NVARCHAR(30), PREM_ADJ.drft_invc_dt, 101) "DRAFT_INVOICE_DATE",   
+PREM_ADJ.drft_intrnl_pdf_zdw_key_txt "DRAFT_INTERNAL_KEY",   
+PREM_ADJ.drft_extrnl_pdf_zdw_key_txt "DRAFT_EXTERNAL_KEY",   
+PREM_ADJ.drft_cd_wrksht_pdf_zdw_key_txt "DRAFT_CW_KEY",  
+PREM_ADJ.fnl_intrnl_pdf_zdw_key_txt "FNL_INTERNAL_KEY",   
+PREM_ADJ.fnl_extrnl_pdf_zdw_key_txt "FNL_EXTERNAL_KEY",   
+PREM_ADJ.fnl_cd_wrksht_pdf_zdw_key_txt "FNL_CW_KEY",  
+PREM_ADJ_PGM.pgm_typ_id "PGM_TYP_ID",  
+CONVERT(NVARCHAR(30), PREM_ADJ_PGM.strt_dt, 101) "PGM_EFF_DATE",   
+CONVERT(NVARCHAR(30), PREM_ADJ_PGM.plan_end_dt, 101) "PGM_EXP_DATE",  
+EXTRNL_ORG.full_name "BROKER",  
+INT_ORG.FULL_NAME+''/''+INT_ORG.CITY_NM "BU_OFFICE",   
+(select  PERS_CFS2.forename from PERS AS PERS_CFS2 ,CUSTMR_PERS_REL AS CUSTMR_PERS_REL_CFS2 where  
+CUSTMR_PERS_REL_CFS2.pers_id=PERS_CFS2.pers_id and CUSTMR.custmr_id= CUSTMR_PERS_REL_CFS2.custmr_id and CUSTMR_PERS_REL_CFS2.rol_id = 366) AS "CFS2_NAME"  
+
+  
+FROM PREM_ADJ   LEFT OUTER JOIN    
+CUSTMR ON PREM_ADJ.reg_custmr_id = CUSTMR.custmr_id  
+LEFT OUTER JOIN PREM_ADJ_PERD ON  PREM_ADJ_PERD.prem_adj_id=dbo.PREM_ADJ.prem_adj_id and dbo.PREM_ADJ_PERD.prem_adj_perd_id=(select max(dbo.PREM_ADJ_PERD.prem_adj_perd_id) from dbo.PREM_ADJ_PERD where dbo.PREM_ADJ_PERD.prem_adj_id=dbo.PREM_ADJ.prem_adj_id)
+LEFT OUTER JOIN PREM_ADJ_PGM ON  PREM_ADJ_PGM.prem_adj_pgm_id = (select max(dbo.PREM_ADJ_PERD.prem_adj_pgm_id) from dbo.PREM_ADJ_PERD where dbo.PREM_ADJ_PERD.prem_adj_id=dbo.PREM_ADJ.prem_adj_id)
+LEFT OUTER JOIN COML_AGMT ON  COML_AGMT.prem_adj_pgm_id = PREM_ADJ_PERD.prem_adj_pgm_id  
+LEFT OUTER JOIN PREM_ADJ_STS ON PREM_ADJ_STS.prem_adj_id=PREM_ADJ.prem_adj_id and PREM_ADJ_STS.prem_adj_sts_id in(select max(PREM_ADJ_STS.prem_adj_sts_id) from PREM_ADJ_STS where PREM_ADJ_STS.prem_adj_id=PREM_ADJ.prem_adj_id )  
+LEFT OUTER JOIN LKUP ON PREM_ADJ_STS.adj_sts_typ_id = LKUP.lkup_id  
+LEFT OUTER JOIN EXTRNL_ORG ON EXTRNL_ORG.extrnl_org_id = PREM_ADJ.brkr_id   
+LEFT OUTER JOIN INT_ORG ON INT_ORG.int_org_id = PREM_ADJ.bu_office_id  
+LEFT OUTER JOIN PERS AS PERS_BCONTACT ON 
+PREM_ADJ_PGM.brkr_conctc_id = PERS_BCONTACT.pers_id ' 
++ @WHERECONDITION 
+
+ EXEC sp_executesql @SQL                       
+
+END TRY
+BEGIN CATCH
+
+	SELECT 
+    ERROR_NUMBER() AS ERRORNUMBER,
+    ERROR_SEVERITY() AS ERRORSEVERITY,
+    ERROR_STATE() AS ERRORSTATE,
+    ERROR_PROCEDURE() AS ERRORPROCEDURE,
+    ERROR_LINE() AS ERRORLINE,
+    ERROR_MESSAGE() AS ERRORMESSAGE;
+
+
+END CATCH
+
+END
+
+
+GO
+
+IF OBJECT_ID('GetZDWSearch') IS NOT NULL
+	PRINT 'CREATED PROCEDURE GetZDWSearch'
+ELSE
+	PRINT 'FAILED CREATING PROCEDURE GetZDWSearch'
+GO
+
+IF OBJECT_ID('GetZDWSearch') IS NOT NULL
+	GRANT EXEC ON GetZDWSearch TO PUBLIC
+GO
+
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" xmlns:ns2="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_ActivityConditionPlace" xmlns:ns1="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" elementFormDefault="qualified" targetNamespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Communication" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="CommunicationManagerService_schema3.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_Common" />
+  <xs:import schemaLocation="CommunicationManagerService_schema4.xsd" namespace="http://webservices.zurich.com/zsoa/nac/2008v1/ZSOA_ActivityConditionPlace" />
+  <xs:complexType name="ElectronicDocument">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Document">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fileLocation" type="xs:string" />
+          <xs:element minOccurs="0" name="mimeType" type="xs:string" />
+          <xs:element minOccurs="0" name="searchIndexes" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="documentTemplate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="typeName" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Document" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ns1:BusinessModelObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="externalReference" type="xs:string" />
+          <xs:element minOccurs="0" name="startDate" type="xs:anySimpleType" />
+          <xs:element minOccurs="0" name="status" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="documentContentElement" nillable="true" type="tns:DocumentContentElement" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DocumentContentElement">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="theBinaryValue" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DocumentCountSet">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="count" type="xs:integer" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="property" nillable="true" type="ns1:Property" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DocumentTemplate">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CompositeTextBlock">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="contextWhereUsed" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="CompositeTextBlock">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:StandardTextSpecification">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="subdivision" type="tns:TextBlockSubdivision" />
+          <xs:element minOccurs="0" name="typeName" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StandardTextSpecification" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ns1:BusinessModelObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string" />
+          <xs:element minOccurs="0" name="endDate" type="xs:anySimpleType" />
+          <xs:element minOccurs="0" name="externalReference" type="xs:string" />
+          <xs:element minOccurs="0" name="label" type="xs:string" />
+          <xs:element minOccurs="0" name="language" type="ns2:Language" />
+          <xs:element minOccurs="0" name="level" type="tns:StandardTextSpecificationLevel" />
+          <xs:element minOccurs="0" name="startDate" type="xs:anySimpleType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="TextBlockSubdivision">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="sentence" />
+      <xs:enumeration value="paragraph" />
+      <xs:enumeration value="chapter" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="StandardTextSpecificationLevel">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="variableText" />
+      <xs:enumeration value="section" />
+      <xs:enumeration value="paragraph" />
+      <xs:enumeration value="fixedText" />
+      <xs:enumeration value="document" />
+      <xs:enumeration value="chapter" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,33 @@
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll.config
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.pdb
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.dll
+C:\Murugappan\Zurich.com_working_code\AIS_Veracode_Fix\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll.config
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.CoreCompileInputs.cache
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.dll
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.pdb
+D:\AIS NEW CHANGES_2019\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll.config
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.pdb
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.AssemblyReference.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.CoreCompileInputs.cache
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.dll
+D:\AIS_E2E_Edge_Code_Latest\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.dll
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll.config
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\bin\Release\ZurichNA.AIS.Exception.pdb
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.AssemblyReference.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\obj\Release\AIS.Exception.csproj.CoreCompileInputs.cache
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.dll
+D:\RJ\CHG_AIS_SPREADSHEET_VERACODE_CHANGES\AIS_SPREADSHEET_VERACODE_CHANGES\Source\AIS\AIS.Exception\obj\Release\ZurichNA.AIS.Exception.pdb

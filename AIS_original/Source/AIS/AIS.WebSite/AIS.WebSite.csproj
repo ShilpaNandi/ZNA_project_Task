@@ -1,0 +1,1448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BA3F41A-9830-4233-B21C-6201DFEE62F1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZurichNA.AIS.WebSite</RootNamespace>
+    <AssemblyName>ZurichNA.AIS.WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.21680.445, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportSource\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.Shared\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.Web\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Microsoft.Web.Services3.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear2017, Version=8.3.7.102, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\SpreadsheetGear2017.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutAIS.aspx" />
+    <Content Include="AutoComplete.asmx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\ZurichLogo_CANADA.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutAIS.aspx.cs">
+      <DependentUpon>AboutAIS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutAIS.aspx.designer.cs">
+      <DependentUpon>AboutAIS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\AccountAssignment.aspx.cs">
+      <DependentUpon>AccountAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\AccountAssignment.aspx.designer.cs">
+      <DependentUpon>AccountAssignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\AccountDashboard.aspx.cs">
+      <DependentUpon>AccountDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\AccountDashboard.aspx.designer.cs">
+      <DependentUpon>AccountDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\AcctSetupProcChklst.aspx.cs">
+      <DependentUpon>AcctSetupProcChklst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\AcctSetupProcChklst.aspx.designer.cs">
+      <DependentUpon>AcctSetupProcChklst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\AdjustmentQC.aspx.cs">
+      <DependentUpon>AdjustmentQC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\AdjustmentQC.aspx.designer.cs">
+      <DependentUpon>AdjustmentQC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\PolicyInfo.aspx.designer.cs">
+      <DependentUpon>PolicyInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustmentNumberTextMaintenance.aspx.cs">
+      <DependentUpon>AdjustmentNumberTextMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustmentNumberTextMaintenance.aspx.designer.cs">
+      <DependentUpon>AdjustmentNumberTextMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustProcessingChklst.aspx.cs">
+      <DependentUpon>AdjustProcessingChklst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustProcessingChklst.aspx.designer.cs">
+      <DependentUpon>AdjustProcessingChklst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\AriesClearing.aspx.cs">
+      <DependentUpon>AriesClearing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\AriesClearing.aspx.designer.cs">
+      <DependentUpon>AriesClearing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\DocumentTracking.aspx.cs">
+      <DependentUpon>DocumentTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\DocumentTracking.aspx.designer.cs">
+      <DependentUpon>DocumentTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\PostingTransactionType.aspx.cs">
+      <DependentUpon>PostingTransactionType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\PostingTransactionType.aspx.designer.cs">
+      <DependentUpon>PostingTransactionType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\QCDetails.aspx.cs">
+      <DependentUpon>QCDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\QCDetails.aspx.designer.cs">
+      <DependentUpon>QCDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctMgmt\ReconReview.aspx.cs">
+      <DependentUpon>ReconReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctMgmt\ReconReview.aspx.designer.cs">
+      <DependentUpon>ReconReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\AcctInfo.aspx.cs">
+      <DependentUpon>AcctInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\AcctInfo.aspx.designer.cs">
+      <DependentUpon>AcctInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSearch.aspx.cs">
+      <DependentUpon>AcctSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSearch.aspx.designer.cs">
+      <DependentUpon>AcctSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\AssignContacts.aspx.cs">
+      <DependentUpon>AssignContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\AssignContacts.aspx.designer.cs">
+      <DependentUpon>AssignContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\ExtContacts.aspx.cs">
+      <DependentUpon>ExtContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\ExtContacts.aspx.designer.cs">
+      <DependentUpon>ExtContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\InternalContacts.aspx.cs">
+      <DependentUpon>InternalContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\InternalContacts.aspx.designer.cs">
+      <DependentUpon>InternalContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AcctSetup\PolicyInfo.aspx.cs">
+      <DependentUpon>PolicyInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\ProgramPeriod.aspx.cs">
+      <DependentUpon>ProgramPeriod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AcctSetup\ProgramPeriod.aspx.designer.cs">
+      <DependentUpon>ProgramPeriod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustmentReview.aspx.cs">
+      <DependentUpon>AdjustmentReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\AdjustmentReview.aspx.designer.cs">
+      <DependentUpon>AdjustmentReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\BuBrokerReview.aspx.cs">
+      <DependentUpon>BuBrokerReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\BuBrokerReview.aspx.designer.cs">
+      <DependentUpon>BuBrokerReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\CombinedElements.aspx.cs">
+      <DependentUpon>CombinedElements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\CombinedElements.aspx.designer.cs">
+      <DependentUpon>CombinedElements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\EscrowAdjustment.aspx.cs">
+      <DependentUpon>EscrowAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\EscrowAdjustment.aspx.designer.cs">
+      <DependentUpon>EscrowAdjustment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\InvoicingDashboard.aspx.cs">
+      <DependentUpon>InvoicingDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\InvoicingDashboard.aspx.designer.cs">
+      <DependentUpon>InvoicingDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\LRFPostingDetails.aspx.cs">
+      <DependentUpon>LRFPostingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\LRFPostingDetails.aspx.designer.cs">
+      <DependentUpon>LRFPostingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\MiscInvoicing.aspx.cs">
+      <DependentUpon>MiscInvoicing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\MiscInvoicing.aspx.designer.cs">
+      <DependentUpon>MiscInvoicing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\NY-SIF.aspx.cs">
+      <DependentUpon>NY-SIF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\NY-SIF.aspx.designer.cs">
+      <DependentUpon>NY-SIF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\PaidLossBilling.aspx.cs">
+      <DependentUpon>PaidLossBilling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\PaidLossBilling.aspx.designer.cs">
+      <DependentUpon>PaidLossBilling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\PreviewInvoice.aspx.cs">
+      <DependentUpon>PreviewInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\PreviewInvoice.aspx.designer.cs">
+      <DependentUpon>PreviewInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\SurchargeAssesmentReview.aspx.cs">
+      <DependentUpon>SurchargeAssesmentReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\SurchargeAssesmentReview.aspx.designer.cs">
+      <DependentUpon>SurchargeAssesmentReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjCalc\SurchargeReviewComments.aspx.cs">
+      <DependentUpon>SurchargeReviewComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjCalc\SurchargeReviewComments.aspx.designer.cs">
+      <DependentUpon>SurchargeReviewComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\AssignERPFormula.aspx.cs">
+      <DependentUpon>AssignERPFormula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\AssignERPFormula.aspx.designer.cs">
+      <DependentUpon>AssignERPFormula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\AuditInfo.aspx.cs">
+      <DependentUpon>AuditInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\AuditInfo.aspx.designer.cs">
+      <DependentUpon>AuditInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\CombinedElements.aspx.cs">
+      <DependentUpon>CombinedElements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\CombinedElements.aspx.designer.cs">
+      <DependentUpon>CombinedElements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\CustomerComments.aspx.cs">
+      <DependentUpon>CustomerComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\CustomerComments.aspx.designer.cs">
+      <DependentUpon>CustomerComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\ParameterSetup.aspx.cs">
+      <DependentUpon>ParameterSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\ParameterSetup.aspx.designer.cs">
+      <DependentUpon>ParameterSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdjParams\RetroInfo.aspx.cs">
+      <DependentUpon>RetroInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjParams\RetroInfo.aspx.designer.cs">
+      <DependentUpon>RetroInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppError\GeneralError.aspx.cs">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppError\GeneralError.aspx.designer.cs">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppMgmt\InterfaceStatus.aspx.cs">
+      <DependentUpon>InterfaceStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppMgmt\InterfaceStatus.aspx.designer.cs">
+      <DependentUpon>InterfaceStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppMgmt\InvoiceExhibit.aspx.cs">
+      <DependentUpon>InvoiceExhibit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppMgmt\InvoiceExhibit.aspx.designer.cs">
+      <DependentUpon>InvoiceExhibit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppMgmt\MasterAdjustInfo.aspx.cs">
+      <DependentUpon>MasterAdjustInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppMgmt\MasterAdjustInfo.aspx.designer.cs">
+      <DependentUpon>MasterAdjustInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppMgmt\TransactionMaintenance.aspx.cs">
+      <DependentUpon>TransactionMaintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppMgmt\TransactionMaintenance.aspx.designer.cs">
+      <DependentUpon>TransactionMaintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutoComplete.asmx.cs">
+      <DependentUpon>AutoComplete.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Web References\ZDWJavaWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ZDWJavaWS_CAD\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\AISListView.cs" />
+    <Content Include="App_Code\AISHMenu.cs" />
+    <Compile Include="App_Code\GlobalConstants.cs" />
+    <Compile Include="App_Code\AISBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\AISMenu.cs" />
+    <Compile Include="App_Code\AISUser.cs" />
+    <Compile Include="App_Shared\AccountInfoHeader.ascx.cs">
+      <DependentUpon>AccountInfoHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\AccountInfoHeader.ascx.designer.cs">
+      <DependentUpon>AccountInfoHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\AccountList.ascx.cs">
+      <DependentUpon>AccountList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\AccountList.ascx.designer.cs">
+      <DependentUpon>AccountList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\AdjustmentReviewSearch.ascx.cs">
+      <DependentUpon>AdjustmentReviewSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\AdjustmentReviewSearch.ascx.designer.cs">
+      <DependentUpon>AdjustmentReviewSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\AISModalUpdateProgress.ascx.cs">
+      <DependentUpon>AISModalUpdateProgress.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\AISModalUpdateProgress.ascx.designer.cs">
+      <DependentUpon>AISModalUpdateProgress.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\AlertSessionTimeOut.ascx.cs">
+      <DependentUpon>AlertSessionTimeOut.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\AlertSessionTimeOut.ascx.designer.cs">
+      <DependentUpon>AlertSessionTimeOut.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\LSIAccountList.ascx.cs">
+      <DependentUpon>LSIAccountList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\LSIAccountList.ascx.designer.cs">
+      <DependentUpon>LSIAccountList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\NonAISAcctList.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>NonAISAcctList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\NonAISAcctList.ascx.designer.cs">
+      <DependentUpon>NonAISAcctList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\ProgramPeriod.ascx.cs">
+      <DependentUpon>ProgramPeriod.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\ProgramPeriod.ascx.designer.cs">
+      <DependentUpon>ProgramPeriod.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\RelatedAccountList.ascx.cs">
+      <DependentUpon>RelatedAccountList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\RelatedAccountList.ascx.designer.cs">
+      <DependentUpon>RelatedAccountList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Shared\SaveCancel.ascx.cs">
+      <DependentUpon>SaveCancel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Shared\SaveCancel.ascx.designer.cs">
+      <DependentUpon>SaveCancel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateProcs.aspx.cs">
+      <DependentUpon>CreateProcs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateProcs.aspx.designer.cs">
+      <DependentUpon>CreateProcs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\AdjustmentMgmt.aspx.cs">
+      <DependentUpon>AdjustmentMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\AdjustmentMgmt.aspx.designer.cs">
+      <DependentUpon>AdjustmentMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\DownloadFile.aspx.cs">
+      <DependentUpon>DownloadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\DownloadFile.aspx.designer.cs">
+      <DependentUpon>DownloadFile.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\InvoiceInquiry.aspx.cs">
+      <DependentUpon>InvoiceInquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\InvoiceInquiry.aspx.designer.cs">
+      <DependentUpon>InvoiceInquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice\InvoiceMailingDtls.aspx.cs">
+      <DependentUpon>InvoiceMailingDtls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invoice\InvoiceMailingDtls.aspx.designer.cs">
+      <DependentUpon>InvoiceMailingDtls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loss\ExcessNonBillable.aspx.cs">
+      <DependentUpon>ExcessNonBillable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loss\ExcessNonBillable.aspx.designer.cs">
+      <DependentUpon>ExcessNonBillable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loss\LossesReport.aspx.cs">
+      <DependentUpon>LossesReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loss\LossesReport.aspx.designer.cs">
+      <DependentUpon>LossesReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loss\LossFundInfo.aspx.cs">
+      <DependentUpon>LossFundInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loss\LossFundInfo.aspx.designer.cs">
+      <DependentUpon>LossFundInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loss\LossInfo.aspx.cs">
+      <DependentUpon>LossInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loss\LossInfo.aspx.designer.cs">
+      <DependentUpon>LossInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptARiESMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptARiESMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptBrokerMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBrokerMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCesarCodingMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCesarCodingMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCHFMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCHFMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCodingMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCodingMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCombinedElementsMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCombinedElementsMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptCumulativeMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCumulativeMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptEscrowMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEscrowMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptExcessMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptExcessMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptILRFExternalMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptILRFExternalMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptILRFInternalMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptILRFInternalMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptIntExtlMasterReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptIntExtlMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptInvoiceMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInvoiceMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptRemittanceMasterReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRemittanceMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptSurchargesMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSurchargesMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptLBAMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLBAMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptProcessChecklistRetroMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptProcessChecklistRetroMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptRetroLegendMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRetroLegendMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptRetroMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRetroMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptRevisionMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRevisionMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptRMLMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptRMLMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\rptVoidMasterReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptVoidMasterReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptAdjInvCombinedElements.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptAdjInvCombinedElements.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptARiEsPostingDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptARiEsPostingDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptAdjusInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptAdjusInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptBrokerLetter.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptBrokerLetter.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptCalcInfoLegend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptCalcInfoLegend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptCesarCodingWorksheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptCesarCodingWorksheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptClaimHandlingFeeSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptClaimHandlingFeeSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptCombinedElements.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptCombinedElements.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptCumTotalsWorksheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptCumTotalsWorksheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptEscrowFundAdjustment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptEscrowFundAdjustment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptExcessLoss.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptExcessLoss.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptLegendSecond.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptLegendSecond.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\srptLossBasedAssessmentsCalculation.cs">
+      <DependentUpon>srptLossBasedAssessmentsCalculation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptLRFExternal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptLRFExternal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptLRFInternal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptLRFInternal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptProcessingCheckList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptProcessingCheckList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptRemittance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptRemittance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptResidualMarkSubCharge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptResidualMarkSubCharge.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptRetroPremAdjLegend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptRetroPremAdjLegend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptRetroPremAdjustmentMain.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptRetroPremAdjustmentMain.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\srptSurchargesAssessments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptSurchargesAssessments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\srptWorkerCompTaxAssessKentOreg.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>srptWorkerCompTaxAssessKentOreg.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Retro.master.cs">
+      <DependentUpon>Retro.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Retro.master.designer.cs">
+      <DependentUpon>Retro.master</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityTest.aspx.cs">
+      <DependentUpon>SecurityTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurityTest.aspx.designer.cs">
+      <DependentUpon>SecurityTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TPAManual\TPAManualPosting.aspx.cs">
+      <DependentUpon>TPAManualPosting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TPAManual\TPAManualPosting.aspx.designer.cs">
+      <DependentUpon>TPAManualPosting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TPAManual\TPAPostingMgmt.aspx.cs">
+      <DependentUpon>TPAPostingMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TPAManual\TPAPostingMgmt.aspx.designer.cs">
+      <DependentUpon>TPAPostingMgmt.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Menu.xslt" />
+    <Content Include="Retro.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcctMgmt\AccountAssignment.aspx" />
+    <Content Include="AcctMgmt\AccountDashboard.aspx" />
+    <Content Include="AdjCalc\AdjustProcessingChklst.aspx" />
+    <Content Include="AcctMgmt\AriesClearing.aspx" />
+    <Content Include="AcctMgmt\DocumentTracking.aspx" />
+    <Content Include="AcctMgmt\PostingTransactionType.aspx" />
+    <Content Include="AcctMgmt\QCDetails.aspx" />
+    <Content Include="AcctMgmt\ReconReview.aspx" />
+    <Content Include="AcctSetup\AcctInfo.aspx" />
+    <Content Include="AcctSearch.aspx" />
+    <Content Include="AcctSetup\AssignContacts.aspx" />
+    <Content Include="AcctSetup\ExtContacts.aspx" />
+    <Content Include="AcctSetup\InternalContacts.aspx" />
+    <Content Include="AcctSetup\PolicyInfo.aspx" />
+    <Content Include="AdjCalc\AdjustmentReview.aspx" />
+    <Content Include="AdjCalc\InvoicingDashboard.aspx" />
+    <Content Include="AdjCalc\MiscInvoicing.aspx" />
+    <Content Include="AdjCalc\PaidLossBilling.aspx" />
+    <Content Include="AdjParams\AuditInfo.aspx" />
+    <Content Include="AdjParams\CombinedElements.aspx" />
+    <Content Include="AdjParams\ParameterSetup.aspx" />
+    <Content Include="AdjParams\RetroInfo.aspx" />
+    <Content Include="App_Shared\AccountInfoHeader.ascx" />
+    <Content Include="App_Shared\ProgramPeriod.ascx" />
+    <Content Include="App_Shared\SaveCancel.ascx" />
+    <Content Include="log4net.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIS.Business.Entities\AIS.Business.Entities.csproj">
+      <Project>{FD4A78D3-0B06-4BD7-BBFF-FDFB8EEAD733}</Project>
+      <Name>AIS.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.Business.Services\AIS.Business.Services.csproj">
+      <Project>{79D09AC7-D8EE-4BCA-96C0-2659E7DC6DFB}</Project>
+      <Name>AIS.Business.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.DAL.LINQModel\AIS.DAL.LINQModel.csproj">
+      <Project>{8C68BDA1-6658-41B4-8C5C-8CDCEED21FBF}</Project>
+      <Name>AIS.DAL.LINQModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.DAL.Logic\AIS.DAL.Logic.csproj">
+      <Project>{256DDBEA-36CA-4FAD-B5AA-1D7845AFEF6E}</Project>
+      <Name>AIS.DAL.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.Exception\AIS.Exception.csproj">
+      <Project>{83230733-1DC3-4623-95BF-F733D0769207}</Project>
+      <Name>AIS.Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZurichNA.LSP.Framework\ZurichNA.LSP.Framework.csproj">
+      <Project>{43468BA4-E5B9-4000-8082-52E48971EA45}</Project>
+      <Name>ZurichNA.LSP.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcctMgmt\AcctSetupProcChklst.aspx" />
+    <Content Include="AcctSetup\ProgramPeriod.aspx" />
+    <Content Include="AdjCalc\CombinedElements.aspx" />
+    <Content Include="AdjCalc\EscrowAdjustment.aspx" />
+    <Content Include="AdjCalc\LRFPostingDetails.aspx" />
+    <Content Include="AdjCalc\NY-SIF.aspx" />
+    <Content Include="AdjParams\AssignERPFormula.aspx" />
+    <Content Include="AdjParams\CustomerComments.aspx" />
+    <Content Include="AppError\GeneralError.aspx" />
+    <Content Include="AppMgmt\InterfaceStatus.aspx" />
+    <Content Include="AppMgmt\InvoiceExhibit.aspx" />
+    <Content Include="AppMgmt\MasterAdjustInfo.aspx" />
+    <Content Include="AppMgmt\TransactionMaintenance.aspx" />
+    <Content Include="App_Shared\AccountList.ascx" />
+    <Content Include="App_Shared\AdjustmentReviewSearch.ascx" />
+    <Content Include="App_Shared\LSIAccountList.ascx" />
+    <Content Include="App_Shared\RelatedAccountList.ascx" />
+    <Content Include="App_Themes\RetroTheme\RetroSkin.skin" />
+    <None Include="CreateProcs.aspx" />
+    <Content Include="CSS\retro.center.css" />
+    <Content Include="CSS\retro.css" />
+    <Content Include="CSS\TabContainer.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\ArrowDown.bmp" />
+    <Content Include="images\ArrowUp.bmp" />
+    <Content Include="images\ascending.gif" />
+    <Content Include="images\Calendar_scheduleHS.png" />
+    <Content Include="images\collapse.jpg" />
+    <Content Include="images\cp.gif" />
+    <Content Include="images\descending.gif" />
+    <Content Include="images\Enabled.GIF" />
+    <Content Include="images\Disabled.GIF" />
+    <Content Include="images\expand.jpg" />
+    <Content Include="images\headerzurichna.gif" />
+    <Content Include="images\indicator.gif" />
+    <Content Include="images\LOB_VertSep.JPG" />
+    <Content Include="images\Magnifier.ico" />
+    <Content Include="images\ProgressBar.gif" />
+    <Content Include="images\seperator.JPG" />
+    <Content Include="images\tab-active-left.gif" />
+    <Content Include="images\tab-active-right.gif" />
+    <Content Include="images\tab-active.gif" />
+    <Content Include="images\tab-left.GIF" />
+    <Content Include="images\tab-line.gif" />
+    <Content Include="images\tab-right.GIF" />
+    <Content Include="images\tab.gif" />
+    <Content Include="images\thick seperator.JPG" />
+    <Content Include="images\VertSep.JPG" />
+    <Content Include="images\wait.gif" />
+    <Content Include="images\Zurich PSD.jpg" />
+    <Content Include="images\Zurich-Large.jpg" />
+    <Content Include="images\Zurich-Small.jpg" />
+    <Content Include="images\zurich_logo.gif" />
+    <Content Include="images\zurich_logo.JPG" />
+    <Content Include="Invoice\AdjustmentMgmt.aspx" />
+    <Content Include="Invoice\InvoiceMailingDtls.aspx" />
+    <Content Include="JavaScript\Pagescript.js" />
+    <Content Include="JavaScript\RetroScript.js" />
+    <Content Include="Loss\ExcessNonBillable.aspx" />
+    <Content Include="Loss\LossesReport.aspx" />
+    <Content Include="Loss\LossFundInfo.aspx" />
+    <Content Include="Loss\LossInfo.aspx" />
+    <Content Include="TPAManual\TPAManualPosting.aspx" />
+    <Content Include="TPAManual\TPAPostingMgmt.aspx" />
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService.wsdl" />
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService_schema1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService_schema2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService_schema3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService_schema4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS\CommunicationManagerService_schema5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS\DocumentCountSet.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS\ElectronicDocument.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService.wsdl" />
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService_schema1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService_schema2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService_schema3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService_schema4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\CommunicationManagerService_schema5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\DocumentCountSet.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\ElectronicDocument.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ZDWJavaWS_CAD\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcctMgmt\AdjustmentQC.aspx" />
+    <Content Include="AdjCalc\AdjustmentNumberTextMaintenance.aspx" />
+    <Content Include="AdjCalc\PreviewInvoice.aspx" />
+    <Content Include="App_Shared\NonAISAcctList.ascx" />
+    <Content Include="Invoice\DownloadFile.aspx" />
+    <Content Include="Invoice\InvoiceInquiry.aspx" />
+    <Content Include="Reports\srptAdjInvCombinedElements.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptAdjInvCombinedElements.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptARiEsPostingDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptARiEsPostingDetails.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptCHFMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCHFMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptCodingMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCodingMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptCombinedElementsMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCombinedElementsMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptEscrowMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEscrowMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptExcessMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptExcessMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptILRFInternalMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptILRFInternalMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptIntExtlMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptIntExtlMasterReport1.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptInvoiceMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInvoiceMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptLBAMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLBAMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptRevisionMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRevisionMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptRMLMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRMLMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptVoidMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptVoidMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptCesarCodingWorksheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptCesarCodingWorksheet.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptClaimHandlingFeeSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptClaimHandlingFeeSummary.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLegendSecond.rpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptLegendSecond.cs</LastGenOutput>
+    </Content>
+    <Content Include="Reports\srptAdjusInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptAdjusInvoice.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptBrokerLetter.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptBrokerLetter.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptCalcInfoLegend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptCalcInfoLegend.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptCombinedElements.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptCombinedElements.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptCumTotalsWorksheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptCumTotalsWorksheet.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptEscrowFundAdjustment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptEscrowFundAdjustment.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptExcessLoss.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptExcessLoss.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLossBasedAssessmentsCalculation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptLossBasedAssessmentsCalculation.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLRFExternal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptLRFExternal.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLRFInternal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptLRFInternal.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptProcessingCheckList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptProcessingCheckList.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptResidualMarkSubCharge.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptResidualMarkSubCharge.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptRetroPremAdjLegend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptRetroPremAdjLegend.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptRetroPremAdjustmentMain.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptRetroPremAdjustmentMain.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptWorkerCompTaxAssessKentOreg.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptWorkerCompTaxAssessKentOreg.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptILRFExternalTaxMasterReport.rpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptILRFInternalTaxMasterReport.rpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLRFExternaTax.rpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\srptLRFInternaTax.rpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="SecurityTest.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3924545A-F8E2-475A-B1A4-05175BC41E50}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\rptARiESMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptARiESMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptBrokerMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBrokerMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptCesarCodingMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCesarCodingMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptCumulativeMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCumulativeMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptILRFExternalMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptILRFExternalMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptSurchargesMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSurchargesMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptProcessChecklistRetroMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProcessChecklistRetroMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptRetroMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetroMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdjCalc\BuBrokerReview.aspx" />
+    <Content Include="AdjCalc\SurchargeAssesmentReview.aspx" />
+    <Content Include="AdjCalc\SurchargeReviewComments.aspx" />
+    <Content Include="App_Code\AISAmountTextbox.cs" />
+    <Content Include="App_Shared\AISModalUpdateProgress.ascx" />
+    <Content Include="App_Shared\AlertSessionTimeOut.ascx" />
+    <Content Include="images\ContinueButton.gif" />
+    <Content Include="images\ScreenWhite.gif" />
+    <Content Include="images\Warning.gif" />
+    <Content Include="images\z_logo_135_8.png" />
+    <Content Include="images\z_logo_170x106_16.png" />
+    <Content Include="images\z_logo_170x106_32x100.png" />
+    <Content Include="images\z_logo_170x106_8.png" />
+    <Content Include="images\z_logo_170x106_wb.jpg" />
+    <Content Include="JavaScript\AISAmount.js" />
+    <Content Include="Reports\rptRetroLegendMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRetroLegendMasterReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\ZurichLogo.jpg" />
+    <Content Include="Reports\srptRemittance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptRemittance.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\rptRemittanceMasterReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptRemittanceMasterReport2.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Reports\srptSurchargesAssessments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>srptSurchargesAssessments.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://calqfn40.amer.zurich.corp:9083/JWS/CommunicationManagerService/CommunicationManagerService.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ZDWJavaWS_CAD\</RelPath>
+      <UpdateFromURL>http://calqfn40.amer.zurich.corp:9083/JWS/CommunicationManagerService/CommunicationManagerService.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ZurichNA_AIS_WebSite_ZDWJavaWS_CAD_CommunicationManagerService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ZDWJavaWS\</RelPath>
+      <UpdateFromURL>http://shaqfn02.mega.us.zurich.com:19082/JWS/CommunicationManagerService/CommunicationManagerService.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ZurichNA_AIS_WebSite_ZDWJavaWS_CommunicationManagerService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13650</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

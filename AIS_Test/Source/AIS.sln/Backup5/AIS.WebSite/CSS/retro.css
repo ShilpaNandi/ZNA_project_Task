@@ -1,0 +1,281 @@
+﻿/* 	Retro CSS template
+	style sheet copyright 2007
+	Comments: CSS template for Retro web application
+*/
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#browsercheck
+{
+}
+#browsercheck .false
+{
+	color: red;
+	font-weight: bold;
+	border-right: blue thin solid;
+	padding-right: 4px;
+	border-top: blue thin solid;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	border-left: blue thin solid;
+	padding-top: 2px;
+	border-bottom: blue thin solid;
+	margin-bottom: 20px;
+}
+
+#header
+{
+	padding: 0px;
+	margin: 0;
+	width: 780px;
+	height: 50px;
+	background-color: #ffffff;
+	background-image: url( '../images/zurich_logo.gif' );
+	background-position: left top;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	text-align: right;
+	font-size: 12px;
+
+}
+#header img
+{
+	margin: 10px 20px 10px 10px;
+	border: none;
+}
+#header .title
+{
+	font-size: 19px;
+	color: Navy;
+	vertical-align: text-bottom;
+	font-family: Verdana, Arial, Helvetica;
+	text-align: left;
+	margin-left: 160px;
+	margin-top: 12px;
+	margin-right: 20px;
+	padding-top:12px;
+}
+
+.TxtHeaderWelcome
+{
+	vertical-align: text-bottom;
+	font-family: Verdana, Arial, Helvetica;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 22px;
+	color: Navy;
+	margin-right: 100px;
+	font-size: 12px;
+}
+.Hide
+{
+	display: none;
+}
+
+#activcontent
+{
+	text-align: left;
+	background-color: #F5F5F5;
+}
+
+#container
+{
+	margin: 0;
+	width: 800px;
+	text-align: left; /*    border: red 1px solid; /*Uncomment this border tag to see how much space you have in the layer. */
+}
+#left
+{
+	width: 140px;
+	float: left;
+	padding: 0px;
+	background-color: #CCD6EB;
+	color: #ffffff;
+	font-size: 11px;
+}
+#menucontrol
+{
+}
+
+#center
+{
+}
+
+/*
+* html #center {width:520px;width:500px;}
+* html #left {width:179px;width:160px;}
+*/
+
+.clear
+{
+	clear: both;
+	font-size: .1em;
+}
+
+#footer
+{
+	/*    margin: -2px auto 0 auto; */
+	margin: -2px auto 0 0; /* top right bottom left */
+	width: 800px;
+	height: 100px;
+	height: 15px;
+	line-height: 15px;
+	font-size: .8em;
+	text-align: center;
+}
+
+table th
+{
+	border-width: 0px;
+	border-color: black;
+	background-color: #CCCCCC;
+	color: Black;
+	font-weight: bold;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.TxtInput, .DropDown
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica;
+}
+.ValidationSummary
+{
+	border-color: Red;
+	border-width: 1px;
+	border-style: solid;
+	font-family: Verdana;
+	font-size: 11px;
+}
+#indicator
+{
+	background-image: url( '../images/wait.gif' );
+	width: 14px;
+	height: 14px;
+}
+
+.modalBackground
+{
+	background-color: Gray;
+}
+
+.UpdateProgressTable
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#indicator
+{
+	/*    margin: 0 auto; */
+	background-image: url( '../images/tab-right.gif' );
+	width: 14px;
+	height: 14px;
+}
+
+.FullPanel
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ItemTemplate
+{
+	background-color: #e7e7ff;
+	color: #000000;
+	height: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.AlternatingItemTemplate
+{
+	background-color: #f5f5f5;
+	color: #000000;
+	height: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+.SelectedItemTemplate
+{
+	background-color: #ffff82;
+	color: #000000;
+	height: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.LayoutTemplate
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*th
+{
+	position: relative;
+	top: expression(offsetParent.scrollTop);
+	z-index: 0; 
+}*/
+
+/*table tfoot tr
+{
+	position: relative; 
+    top: expression(parentNode.parentNode.offsetHeight >= offsetParent.offsetHeight ? 0 - parentNode.parentNode.offsetHeight + offsetParent.offsetHeight + offsetParent.scrollTop : 0);
+	z-index: 0;
+	border-color: black;
+	background-color: White;
+	color: Black;
+	font-weight: bold;
+}*/
+
+
+.LossReport
+{
+	position: static;
+	top: expression(offsetParent.scrollTop)-2;
+	z-index: 0;
+}
+.MaskedEditFocus
+{
+	background-color: #ffffcc;
+	color: #000000;
+}
+.MaskedEditMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+.MaskedEditError
+{
+	background-color: #ffcccc;
+}
+.MaskedEditFocusNegative
+{
+	background-color: #ffffcc;
+	color: #ff0000;
+}
+.MaskedEditBlurNegative
+{
+	color: #ff0000;
+}
+
+
+/*
+Added the fllowing class in order to fix the Menu issue in IE8 Browser
+as part of the BCE work order.
+*/
+.IE8Fix
+{
+	z-index: 100;
+}

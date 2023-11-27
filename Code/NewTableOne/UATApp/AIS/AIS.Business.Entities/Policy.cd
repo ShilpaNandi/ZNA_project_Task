@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZurichNA.AIS.Business.Entities.ARMISLossBE" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ARMISLossBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.ARMISLossDetailBE" Collapsed="true">
+    <Position X="11.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ARMISLossDetailBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.CombinedElementsBE" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gACKACAAAAAAACYGAIAAACAAAgAAAAiECAAAAAEgCAQ=</HashCode>
+      <FileName>CombinedElementsBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.DEPPolicyBE" Collapsed="true">
+    <Position X="11.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAACAAAAAIQAEAAAAAAFAAAAACAAAAgAIAAA=</HashCode>
+      <FileName>DEPPolicyBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.NonSubjectAuditPremiumBE" Collapsed="true">
+    <Position X="8.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonSubjectAuditPremiumBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PolicyAuditBE" Collapsed="true">
+    <Position X="14.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolicyAuditBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.PolicyBE" Collapsed="true">
+    <Position X="14.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gADKADRAAEzGAAQFMECQAgABAIEAQAQAAhgEJyIICQA=</HashCode>
+      <FileName>PolicyBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.SteppedFactorBE" Collapsed="true">
+    <Position X="11.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACCQAAEAAAAAAAAAAAEAAAAACAAAAgAAAAQ=</HashCode>
+      <FileName>SteppedFactorBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.SubjectAuditPremiumBE" Collapsed="true">
+    <Position X="8.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubjectAuditPremiumBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntity&lt;TEntity&gt;" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntityBase" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8920D73-5177-427F-872B-2EE7ECADFA6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIS.Unit.Test</RootNamespace>
+    <AssemblyName>AIS.Unit.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>WebTest</TestProjectType>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountBETest.cs" />
+    <Compile Include="AccountBSTest.cs" />
+    <Compile Include="AccountSearchBETest.cs" />
+    <Compile Include="AccountSearchBSTest.cs" />
+    <Compile Include="AcctSetupProcChklstBSTest.cs" />
+    <Compile Include="AcctSetupQCBSTest.cs" />
+    <Compile Include="AdjProcChklstBSTest.cs" />
+    <Compile Include="AdjQCBSTest.cs" />
+    <Compile Include="AdjustmentManagementBETest.cs" />
+    <Compile Include="AdjustmentManagementBSTest.cs" />
+    <Compile Include="AdjustmentParameterDetailBETest.cs" />
+    <Compile Include="AdjustmentParameterDetailsCHF.cs" />
+    <Compile Include="AdjustmentParameterDetailsLCF.cs" />
+    <Compile Include="AdjustmentParameterDetailsRML.cs" />
+    <Compile Include="AdjustmentParameterDetailsWAtax.cs" />
+    <Compile Include="AdjustmentParameterPolicyBETest.cs" />
+    <Compile Include="AdjustmentParameterSetupBETest.cs" />
+    <Compile Include="AdjustmentParameterSetupCHF.cs" />
+    <Compile Include="AdjustmentParameterSetupEscrow.cs" />
+    <Compile Include="AdjustmentParameterSetupLCF.cs" />
+    <Compile Include="AdjustmentRetroInfoTest.cs" />
+    <Compile Include="AdjustmentReviewCommentsBETest.cs" />
+    <Compile Include="AdjustmentReviewCommentsBSTest.cs" />
+    <Compile Include="Adj_Parameter_SetupBSTest.cs" />
+    <Compile Include="Adj_paramet_DtlBSTest.cs" />
+    <Compile Include="Adj_Paramet_PolBSTest.cs" />
+    <Compile Include="ApplicationStatusLogBETest.cs" />
+    <Compile Include="ApplicationStatusLogBSTest.cs" />
+    <Compile Include="ApplMenuBETest.cs" />
+    <Compile Include="ApplWebPageAudtBETest.cs" />
+    <Compile Include="ApplWebPageAudtBSTest.cs" />
+    <Compile Include="ApplWebPageAuthBETest.cs" />
+    <Compile Include="AppWebPageAuthBSTest.cs" />
+    <Compile Include="AriesClearingBETest.cs" />
+    <Compile Include="AriesClearingBSTest.cs" />
+    <Compile Include="ARMISLossBETest.cs" />
+    <Compile Include="ARMISLossDetailBETest.cs" />
+    <Compile Include="AssignContactsBETest.cs" />
+    <Compile Include="AssignContactsBSTest.cs" />
+    <Compile Include="AssignERPFormulaBETest.cs" />
+    <Compile Include="AssignERPFormulaBSTest.cs" />
+    <Compile Include="BLAccessTest.cs" />
+    <Compile Include="BrokerBETest.cs" />
+    <Compile Include="BrokerBSTest.cs" />
+    <Compile Include="BusinessUnitOfficeBETest.cs" />
+    <Compile Include="BusinessUnitOfficeBSTest.cs" />
+    <Compile Include="CombinedElementsBETest.cs" />
+    <Compile Include="CombinedElementsBSTest.cs" />
+    <Compile Include="Coml_AgmtBETest.cs" />
+    <Compile Include="Coml_AgmtBSTest.cs" />
+    <Compile Include="Coml_Agmt_AuDtBETest.cs" />
+    <Compile Include="Coml_Agmt_AuDtBSTest.cs" />
+    <Compile Include="CustomerCommentsBETest.cs" />
+    <Compile Include="CustomerCommentsBSTest.cs" />
+    <Compile Include="CustomerContactBETest.cs" />
+    <Compile Include="CustomerContactBSTest.cs" />
+    <Compile Include="CustomerDocumentBETest.cs" />
+    <Compile Include="CustomerDocumentBSTest.cs" />
+    <Compile Include="CustomerDocumentIssuesBETest.cs" />
+    <Compile Include="CustomerDocumentIssuesBSTest.cs" />
+    <Compile Include="DeductibleTaxesBETest.cs" />
+    <Compile Include="DeductibleTaxesBSTest.cs" />
+    <Compile Include="ExcessNonBillableBETest.cs" />
+    <Compile Include="ExcessNonBillableBSTest.cs" />
+    <Compile Include="ILRFFormulaBETest.cs" />
+    <Compile Include="ILRFFormulaBSTest.cs" />
+    <Compile Include="ILRFTaxSetupBETest.cs" />
+    <Compile Include="ILRFTaxSetupBSTest.cs" />
+    <Compile Include="InvoiceDriverBSTest.cs" />
+    <Compile Include="InvoiceExhibitBETest.cs" />
+    <Compile Include="InvoiceExhibitBSTest.cs" />
+    <Compile Include="InvoiceInquiryBETest.cs" />
+    <Compile Include="InvoiceInquiryBSTest.cs" />
+    <Compile Include="InvoiceMailingDtlsBETest.cs" />
+    <Compile Include="InvoiceMailingDtlsBSTest.cs" />
+    <Compile Include="KYORSetupBETest.cs" />
+    <Compile Include="KYORSetupBSTest.cs" />
+    <Compile Include="LookupBETest.cs" />
+    <Compile Include="LookupBSTest.cs" />
+    <Compile Include="LookupTypeBETest.cs" />
+    <Compile Include="LookupTypeBSTest.cs" />
+    <Compile Include="LossInfoBETest.cs" />
+    <Compile Include="LossInfoBSTest.cs" />
+    <Compile Include="LSIAllCustomersBETest.cs" />
+    <Compile Include="LSICustomerBETest.cs" />
+    <Compile Include="LSICustomersBSTest.cs" />
+    <Compile Include="MasterERPFormulaBETest.cs" />
+    <Compile Include="MasterERPFormulaBSTest.cs" />
+    <Compile Include="MenuBSTest.cs" />
+    <Compile Include="NonAisCustomerBETest.cs" />
+    <Compile Include="NonAisCustomerBSTest.cs" />
+    <Compile Include="NonSubjectAuditPremiumBETest.cs" />
+    <Compile Include="Non_Sub_Audt_PremBSTest.cs" />
+    <Compile Include="PaidLossBillingBETest.cs" />
+    <Compile Include="PaidLossBillingBSTest.cs" />
+    <Compile Include="PersonBETest.cs" />
+    <Compile Include="PersonBSTest.cs" />
+    <Compile Include="PersonDATest.cs" />
+    <Compile Include="PolicyAuditBETest.cs" />
+    <Compile Include="PolicyBETest.cs" />
+    <Compile Include="PolicyBSTest.cs" />
+    <Compile Include="PolicyDATest.cs" />
+    <Compile Include="PostAddressBSTest.cs" />
+    <Compile Include="PostAddressDATest.cs" />
+    <Compile Include="PostalAddressBETest.cs" />
+    <Compile Include="PostingTransactionTypeBETest.cs" />
+    <Compile Include="PostingTransactionTypeBSTest.cs" />
+    <Compile Include="PremAdjCommentBSTest.cs" />
+    <Compile Include="PremAdjustmentBSTest.cs" />
+    <Compile Include="PremiumAdjCombElementsBETest.cs" />
+    <Compile Include="PremiumAdjCombElementsBSTest.cs" />
+    <Compile Include="PremiumAdjLRFPostingBETest.cs" />
+    <Compile Include="PremiumAdjLRFPostingBSTest.cs" />
+    <Compile Include="PremiumAdjLRFPostingTaxBETest.cs" />
+    <Compile Include="PremiumAdjLRFPostingTaxBSTest.cs" />
+    <Compile Include="PremiumAdjMiscInvoiceBETest.cs" />
+    <Compile Include="PremiumAdjMiscInvoiceBSTest.cs" />
+    <Compile Include="PremiumAdjNYScndInjuryFundBETest.cs" />
+    <Compile Include="PremiumAdjNYScndInjuryFundBSTest.cs" />
+    <Compile Include="PremiumAdjustmentBETest.cs" />
+    <Compile Include="PremiumAdjustmentEscrowBETest.cs" />
+    <Compile Include="PremiumAdjustmentEscrowBSTest.cs" />
+    <Compile Include="PremiumAdjustmentPeriodBETest.cs" />
+    <Compile Include="PremiumAdjustmentPeriodBSTest.cs" />
+    <Compile Include="PremiumAdjustmentProgramStatusBETest.cs" />
+    <Compile Include="PremiumAdjustmentProgramStatusBSTest.cs" />
+    <Compile Include="PremiumAdjustmentStatusBETest.cs" />
+    <Compile Include="PremiumAdjustmentStatusBSTest.cs" />
+    <Compile Include="PremiumAdjustmetCommentBETest.cs" />
+    <Compile Include="PremiumAdjustmetLBABETest.cs" />
+    <Compile Include="PremiumAdjustmetLBADetailBETest.cs" />
+    <Compile Include="PremiumAdjustmetRetroBETest.cs" />
+    <Compile Include="PremiumAdjustmetSearchBETest.cs" />
+    <Compile Include="PremumAdjustdmentStatusDATest.cs" />
+    <Compile Include="Prem_Adj_PgmBETest.cs" />
+    <Compile Include="ProgramPeriodDATest.cs" />
+    <Compile Include="ProgramPeriodListBETest.cs" />
+    <Compile Include="ProgramPeriodsBSTest.cs" />
+    <Compile Include="ProgramPeriodSearchListBETest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCMasterIssueListBETest.cs" />
+    <Compile Include="QCMasterIssueListBSTest.cs" />
+    <Compile Include="Qtly_Cntrl_ChklistBETest.cs" />
+    <Compile Include="Qtly_Cntrl_ChklistBSTest.cs" />
+    <Compile Include="QualityControlChecklistBETest.cs" />
+    <Compile Include="RetroInfoBSTest.cs" />
+    <Compile Include="SteppedFactorBETest.cs" />
+    <Compile Include="SteppedFactorBSTest.cs" />
+    <Compile Include="SubjectAuditPremiumBETest.cs" />
+    <Compile Include="Sub_Audt_PremBSTest.cs" />
+    <Compile Include="TaxExemptionBETest.cs" />
+    <Compile Include="TaxExemptionBSTest.cs" />
+    <Compile Include="TPAManualPostingsBETest.cs" />
+    <Compile Include="TPAManualPostingsBSTest.cs" />
+    <Compile Include="TPAManualPostingsDetailBETest.cs" />
+    <Compile Include="TPAManualPostingsDetailBSTest.cs" />
+    <Compile Include="ZDWSearchBETest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthoringTests.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AIS.Business.Entities\AIS.Business.Entities.csproj">
+      <Project>{FD4A78D3-0B06-4BD7-BBFF-FDFB8EEAD733}</Project>
+      <Name>AIS.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIS.Business.Services\AIS.Business.Services.csproj">
+      <Project>{79D09AC7-D8EE-4BCA-96C0-2659E7DC6DFB}</Project>
+      <Name>AIS.Business.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIS.DAL.LINQModel\AIS.DAL.LINQModel.csproj">
+      <Project>{8C68BDA1-6658-41B4-8C5C-8CDCEED21FBF}</Project>
+      <Name>AIS.DAL.LINQModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIS.DAL.Logic\AIS.DAL.Logic.csproj">
+      <Project>{256DDBEA-36CA-4FAD-B5AA-1D7845AFEF6E}</Project>
+      <Name>AIS.DAL.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AIS.Exception\AIS.Exception.csproj">
+      <Project>{83230733-1DC3-4623-95BF-F733D0769207}</Project>
+      <Name>AIS.Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZurichNA.LSP.Framework\ZurichNA.LSP.Framework.csproj">
+      <Project>{43468BA4-E5B9-4000-8082-52E48971EA45}</Project>
+      <Name>ZurichNA.LSP.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Shadow Include="Test References\ZurichNA.AIS.Business.Logic.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZurichNA.AIS.Business.Entities.AccountBE" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAIAAAgAAABAACAEIBAASgAAAAAgAAg=</HashCode>
+      <FileName>AccountBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.AccountSearchBE" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAIAAAAAAABAACAAIAgAAQAAAAAgAAA=</HashCode>
+      <FileName>AccountBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.CustomerCommentBE" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerCommentBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.CustomerContactBE" Collapsed="true">
+    <Position X="9.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQKCEEAAAgACACBAAAAAAAAACAgAACAAAAQAAAAAAAg=</HashCode>
+      <FileName>CustomerContactBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.CustomerDocumentBE" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerDocumentBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.LSICustomerBE" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEAAEJEAgAAAAAAGAAAAAAAAAIAAEBgAAA=</HashCode>
+      <FileName>LSICustomerBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.TPAManualPostingsBE" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TPAManualPostingsBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.AIS.Business.Entities.TPAManualPostingsDetailBE" Collapsed="true">
+    <Position X="13" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TPAManualPostingsDetailBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntity&lt;TEntity&gt;" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ZurichNA.LSP.Framework.Business.BusinessEntityBase" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

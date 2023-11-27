@@ -1,0 +1,27 @@
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.pdb
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Projects_Retro\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.pdb
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.pdb
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.dll
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.dll
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.pdb
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.pdb
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Documents and Settings\pkonduru2\Desktop\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.pdb
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.Logic.pdb
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.dll
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.dll
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.DAL.LINQ.pdb
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\bin\Debug\ZurichNA.Retro.Business.Entities.pdb
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.dll
+C:\Documents and Settings\sthangaraj\Desktop\AIS (Retros)\DB and Appn\Retroweb28-0508\Retroweb\RetroSystem_DAL_BLL\RetroSystem_DAL_BLL\Retro.DAL\obj\Debug\ZurichNA.Retro.DAL.Logic.pdb

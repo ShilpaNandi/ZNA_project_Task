@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\brahma.swetha\Documents\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ZurichNA.AIS.DAL.Logic.dll" publishTime="12/17/2020 03:46:43" />
+    <file relUrl="bin/ZurichNA.AIS.DAL.LINQ.pdb" publishTime="12/17/2020 03:46:41" />
+    <file relUrl="bin/ZurichNA.LSP.Framework.pdb" publishTime="12/17/2020 03:46:40" />
+    <file relUrl="bin/ZurichNA.AIS.Business.Entities.dll" publishTime="12/17/2020 03:46:42" />
+    <file relUrl="bin/ZurichNA.AIS.Exception.dll" publishTime="12/17/2020 03:46:40" />
+    <file relUrl="bin/AISInvoiceSearch.pdb" publishTime="12/17/2020 03:46:43" />
+    <file relUrl="AISInvoiceSearch.asmx" publishTime="09/23/2020 06:12:42" />
+    <file relUrl="bin/log4net.dll" publishTime="09/23/2020 06:12:39" />
+    <file relUrl="bin/ZurichNA.AIS.Exception.pdb" publishTime="12/17/2020 03:46:40" />
+    <file relUrl="bin/AISInvoiceSearch.dll" publishTime="12/17/2020 03:46:44" />
+    <file relUrl="bin/ZurichNA.AIS.Business.Entities.pdb" publishTime="12/17/2020 03:46:42" />
+    <file relUrl="bin/ZurichNA.LSP.Framework.dll" publishTime="12/17/2020 03:46:40" />
+    <file relUrl="bin/ZurichNA.AIS.DAL.Logic.pdb" publishTime="12/17/2020 03:46:43" />
+    <file relUrl="Web.config" publishTime="12/17/2020 03:49:25" />
+    <file relUrl="bin/ZurichNA.AIS.DAL.LINQ.dll" publishTime="12/17/2020 03:46:41" />
+  </publishProfile>
+</publishData>

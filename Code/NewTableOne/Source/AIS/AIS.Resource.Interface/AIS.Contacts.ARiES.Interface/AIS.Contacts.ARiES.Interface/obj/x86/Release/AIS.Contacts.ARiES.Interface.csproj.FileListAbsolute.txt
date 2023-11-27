@@ -1,0 +1,6 @@
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\bin\Release\AIS.Contacts.ARiES.Interface.exe.config
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\bin\Release\AIS.Contacts.ARiES.Interface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\bin\Release\AIS.Contacts.ARiES.Interface.pdb
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\obj\x86\Release\AIS.Contacts.ARiES.Interface.csproj.CoreCompileInputs.cache
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\obj\x86\Release\AIS.Contacts.ARiES.Interface.exe
+C:\AIS_LATEST_EDGE_ETL_EAS50_EAS51\Source\AIS\AIS.Resource.Interface\AIS.Contacts.ARiES.Interface\AIS.Contacts.ARiES.Interface\obj\x86\Release\AIS.Contacts.ARiES.Interface.pdb

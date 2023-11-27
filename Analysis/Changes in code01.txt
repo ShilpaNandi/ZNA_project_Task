@@ -1,0 +1,772 @@
+Changes in code.. Dt: 10/26/2023
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities\AIS.Business.Entities.csproj
+#L133
+<Compile Include="Prem_Adj_Dpst_ChbxBE.cs" />
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Entities
+#New File created
+Prem_Adj_Dpst_ChbxBE.cs
+
+using System;
+using ZurichNA.AIS.DAL.LINQ;
+using ZurichNA.LSP.Framework.Business;
+
+namespace ZurichNA.AIS.Business.Entities
+{
+    public class Prem_Adj_Dpst_ChbxBE : BusinessEntity<PREM_ADJ_DPST_CHBX>
+    {
+        public Prem_Adj_Dpst_ChbxBE()
+            : base()
+        {
+
+        }
+        public int prem_adj_dpst_chbx_id { get { return Entity.prem_adj_dpst_chbx_id; } set { Entity.prem_adj_dpst_chbx_id = value; } }        
+        public int prem_adj_pgm_setup_id { get { return Entity.prem_adj_pgm_setup_id; } set { Entity.prem_adj_pgm_setup_id = value; } }
+        public int prem_adj_pgm_id { get { return Entity.prem_adj_pgm_id; } set { Entity.prem_adj_pgm_id = value; } }
+        public Boolean? dpst_ind { get { return Entity.dpst_ind; } set { Entity.dpst_ind = value; } }
+        public int Cstmr_Id { get { return Entity.custmr_id; } set { Entity.custmr_id = value; } }
+        public int? UPDATE_USER_ID { get { return Entity.updt_user_id; } set { Entity.updt_user_id = value; } }
+        public DateTime? UPDATE_DATE { get { return Entity.updt_dt; } set { Entity.updt_dt = value; } }
+        public int CREATE_USER_ID { get { return Entity.crte_user_id; } set { Entity.crte_user_id = value; } }
+        public DateTime CREATE_DATE { get { return Entity.crte_dt; } set { Entity.crte_dt = value; } }
+        public int? AdjparameterTypeID { get { return Entity.adj_parmet_typ_id; } set { Entity.adj_parmet_typ_id = value; } }
+               
+    }
+}
+
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Services\AIS.Business.Services.csproj
+#L127
+<Compile Include="Prem_Adj_Dpst_ChbxBS.cs" />
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.Business.Services
+#New File created
+Prem_Adj_Dpst_ChbxBS.cs
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZurichNA.AIS.Business.Entities;
+using ZurichNA.AIS.DAL.Logic;
+using ZurichNA.AIS.DAL.LINQ;
+using ZurichNA.AIS.ExceptionHandling;
+using ZurichNA.LSP.Framework.Business;
+using ZurichNA.AIS.DAL.Logic.Queries;
+
+namespace ZurichNA.AIS.Business.Logic
+{
+    public class Prem_Adj_Dpst_ChbxBS : BusinessServicesBase<Prem_Adj_Dpst_ChbxBE, Prem_Adj_Dpst_ChbxDA>
+    {
+        private LookupBS lookup;
+        public Prem_Adj_Dpst_ChbxBS()
+        {
+            lookup = new LookupBS();
+        }
+
+        /// <summary>
+        /// Get Adjparameter setup details for a Program Period and Customer ID
+        /// </summary>
+        /// <param name="ProgramPeriodID"></param>
+        /// <param name="CstmrID"></param>
+        /// <returns></returns>
+        public IList<Prem_Adj_Dpst_ChbxBE> getAdjDpstChbx(int PremAdjPgmSetupID, int PremAdjPgmID, int CstmrID)
+        {
+            IList<Prem_Adj_Dpst_ChbxBE> PremAdjDpstChbx;
+            try
+            {
+                PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxDA().getAdjDpstChbxInfo(PremAdjPgmSetupID, PremAdjPgmID, CstmrID);
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                RetroDatabaseException myException = new RetroDatabaseException(ex.Message, ex);
+                throw myException;
+            }
+            return (PremAdjDpstChbx);
+        }        
+
+        /// <summary>
+        /// Load single record using framework
+        /// for Adjustment Parameter Setup using primary key Adjustment paramater Settup ID
+        /// </summary>
+        /// <param name="adjPrmsetupID"></param>
+        /// <returns></returns>
+        public Prem_Adj_Dpst_ChbxBE getAdjParamRow(int premAdjDpstChbxID)
+        {
+            Prem_Adj_Dpst_ChbxBE PremAdjDpstChbxRow = new Prem_Adj_Dpst_ChbxBE();
+            PremAdjDpstChbxRow = DA.Load(premAdjDpstChbxID);
+
+            return PremAdjDpstChbxRow;
+        }
+
+        /// <summary>
+        /// UPDate or Add Adjustment Parameter Setup values 
+        /// </summary>
+        /// <param name="LBAadjinfo"></param>
+        /// <returns></returns>
+        public bool Update(Prem_Adj_Dpst_ChbxBE adjInfo)
+        {
+            bool suceeded = false;
+            try
+            {
+                if (adjInfo.prem_adj_dpst_chbx_id > 0)
+                {
+                    suceeded = DA.Update(adjInfo);
+                }
+                else
+                {
+                    suceeded = DA.Add(adjInfo);
+                }
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                RetroDatabaseException myException = new RetroDatabaseException(ex.Message, ex);
+                throw myException;
+            }
+
+            return suceeded;
+        }
+        public bool deletePol(int custmrID, int adjParmSetupID)
+        {
+            bool policydelete;
+            try
+            {
+                policydelete = new Adj_paramet_PolDA().deleteAdjParmetPol(custmrID, adjParmSetupID);
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                RetroDatabaseException myException = new RetroDatabaseException(ex.Message, ex);
+                throw myException;
+            }
+            return (policydelete);
+
+        }
+        public IList<Prem_Adj_Dpst_ChbxBE> getAdjReviewEscrow(int AdjPgmSetupID, int PremAdjPgmID, int CstmrID, int adjParamTypeID)
+        {
+            IList<Prem_Adj_Dpst_ChbxBE> PremAdjDpstChbx;
+            try
+            {
+                PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxDA().getAdjDpstChbxInfo(AdjPgmSetupID, PremAdjPgmID, CstmrID);
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                RetroDatabaseException myException = new RetroDatabaseException(ex.Message, ex);
+                throw myException;
+            }
+            PremAdjDpstChbx = PremAdjDpstChbx.Where(adjDpstChbx => adjDpstChbx.AdjparameterTypeID == adjParamTypeID).ToList();
+            return (PremAdjDpstChbx);
+        }   
+
+        //Method used for concurrency check
+        public int getAdjParamResult(int AdjPgmSetupID, int PremAdjPgmID, int CstmrID, int? adjParamTypeID)
+        {
+            int idResult = 0;
+            try
+            {
+                idResult = new Prem_Adj_Dpst_ChbxDA().getAdjDpstChbxResult(AdjPgmSetupID, PremAdjPgmID, CstmrID, adjParamTypeID);
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                RetroDatabaseException myException = new RetroDatabaseException(ex.Message, ex);
+                throw myException;
+            }
+            return (idResult);
+        }
+    }
+}
+
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.LINQModel\AISDatabaseLINQ.designer.cs
+#L788
+public System.Data.Linq.Table<PREM_ADJ_DPST_CHBX> PREM_ADJ_DPST_CHBXs
+        {
+            get
+            {
+                return this.GetTable<PREM_ADJ_DPST_CHBX>();
+            }
+        }
+#L38642
+private EntitySet<PREM_ADJ_DPST_CHBX> _PREM_ADJ_DPST_CHBXs;
+#L38725
+this._PREM_ADJ_DPST_CHBXs = new EntitySet<PREM_ADJ_DPST_CHBX>(new Action<PREM_ADJ_DPST_CHBX>(this.attach_PREM_ADJ_DPST_CHBXs), new Action<PREM_ADJ_DPST_CHBX>(this.detach_PREM_ADJ_DPST_CHBXs));
+#L39371
+[Association(Name = "PREM_ADJ_PGM_SETUP_PREM_ADJ_DPST_CHBX", Storage = "_PREM_ADJ_DPST_CHBXs", ThisKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", OtherKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id")]
+        public EntitySet<PREM_ADJ_DPST_CHBX> PREM_ADJ_DPST_CHBXs
+        {
+            get
+            {
+                return this._PREM_ADJ_DPST_CHBXs;
+            }
+            set
+            {
+                this._PREM_ADJ_DPST_CHBXs.Assign(value);
+            }
+        }
+#L39638
+private void attach_PREM_ADJ_DPST_CHBXs(PREM_ADJ_DPST_CHBX entity)
+        {
+            this.SendPropertyChanging();
+            entity.PREM_ADJ_PGM_SETUP = this;
+        }
+private void detach_PREM_ADJ_DPST_CHBXs(PREM_ADJ_DPST_CHBX entity)
+        {
+            this.SendPropertyChanging();
+            entity.PREM_ADJ_PGM_SETUP = null;
+        }
+#L46859
+[Table(Name = "dbo.PREM_ADJ_DPST_CHBX")]
+    public partial class PREM_ADJ_DPST_CHBX : LinqEntity, INotifyPropertyChanging, INotifyPropertyChanged
+    {
+
+        private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+
+        private int _prem_adj_dpst_chbx_id;
+
+        private int _prem_adj_pgm_setup_id;
+
+        private int _prem_adj_pgm_id;
+
+        private int _custmr_id;
+
+        private System.Nullable<int> _adj_parmet_typ_id;
+
+        private System.Nullable<int> _updt_user_id;
+
+        private System.Nullable<System.DateTime> _updt_dt;
+
+        private int _crte_user_id;
+
+        private System.DateTime _crte_dt;
+
+        private System.Nullable<bool> _dpst_ind;
+
+        private EntityRef<PREM_ADJ_PGM_SETUP> _PREM_ADJ_PGM_SETUP;
+
+        private EntityRef<LKUP> _LKUP;
+
+        #region Extensibility Method Definitions
+        partial void OnLoaded();
+        partial void OnValidate(System.Data.Linq.ChangeAction action);
+        partial void OnCreated();
+        partial void Onprem_adj_dpst_chbx_idChanging(int value);
+        partial void Onprem_adj_dpst_chbx_idChanged();
+        partial void Onprem_adj_pgm_setup_idChanging(int value);
+        partial void Onprem_adj_pgm_setup_idChanged();
+        partial void Onprem_adj_pgm_idChanging(int value);
+        partial void Onprem_adj_pgm_idChanged();
+        partial void Oncustmr_idChanging(int value);
+        partial void Oncustmr_idChanged();
+        partial void Onadj_parmet_typ_idChanging(System.Nullable<int> value);
+        partial void Onadj_parmet_typ_idChanged();
+        partial void Onupdt_user_idChanging(System.Nullable<int> value);
+        partial void Onupdt_user_idChanged();
+        partial void Onupdt_dtChanging(System.Nullable<System.DateTime> value);
+        partial void Onupdt_dtChanged();
+        partial void Oncrte_user_idChanging(int value);
+        partial void Oncrte_user_idChanged();
+        partial void Oncrte_dtChanging(System.DateTime value);
+        partial void Oncrte_dtChanged();
+        partial void Ondpst_indChanging(System.Nullable<bool> value);
+        partial void Ondpst_indChanged();
+        #endregion
+
+        public PREM_ADJ_DPST_CHBX()
+        {
+            this._LKUP = default(EntityRef<LKUP>);
+            this._PREM_ADJ_PGM_SETUP = default(EntityRef<PREM_ADJ_PGM_SETUP>);
+            OnCreated();
+        }
+
+        [Column(Storage = "_prem_adj_dpst_chbx_id", AutoSync = AutoSync.OnInsert, DbType = "Int NOT NULL IDENTITY", IsPrimaryKey = true, IsDbGenerated = true)]
+        public int prem_adj_dpst_chbx_id
+        {
+            get
+            {
+                return this._prem_adj_dpst_chbx_id;
+            }
+            set
+            {
+                if ((this._prem_adj_dpst_chbx_id != value))
+                {
+                    this.Onprem_adj_dpst_chbx_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_dpst_chbx_id = value;
+                    this.SendPropertyChanged("prem_adj_dpst_chbx_id");
+                    this.Onprem_adj_dpst_chbx_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_prem_adj_pgm_setup_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int prem_adj_pgm_setup_id
+        {
+            get
+            {
+                return this._prem_adj_pgm_setup_id;
+            }
+            set
+            {
+                if ((this._prem_adj_pgm_setup_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onprem_adj_pgm_setup_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_pgm_setup_id = value;
+                    this.SendPropertyChanged("prem_adj_pgm_setup_id");
+                    this.Onprem_adj_pgm_setup_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_prem_adj_pgm_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int prem_adj_pgm_id
+        {
+            get
+            {
+                return this._prem_adj_pgm_id;
+            }
+            set
+            {
+                if ((this._prem_adj_pgm_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onprem_adj_pgm_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._prem_adj_pgm_id = value;
+                    this.SendPropertyChanged("prem_adj_pgm_id");
+                    this.Onprem_adj_pgm_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_custmr_id", DbType = "Int NOT NULL", IsPrimaryKey = true)]
+        public int custmr_id
+        {
+            get
+            {
+                return this._custmr_id;
+            }
+            set
+            {
+                if ((this._custmr_id != value))
+                {
+                    if (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Oncustmr_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._custmr_id = value;
+                    this.SendPropertyChanged("custmr_id");
+                    this.Oncustmr_idChanged();
+                }
+            }
+        }
+
+
+        [Column(Storage = "_adj_parmet_typ_id", DbType = "Int")]
+        public System.Nullable<int> adj_parmet_typ_id
+        {
+            get
+            {
+                return this._adj_parmet_typ_id;
+            }
+            set
+            {
+                if ((this._adj_parmet_typ_id != value))
+                {
+                    if (this._LKUP.HasLoadedOrAssignedValue)
+                    {
+                        throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+                    }
+                    this.Onadj_parmet_typ_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._adj_parmet_typ_id = value;
+                    this.SendPropertyChanged("adj_parmet_typ_id");
+                    this.Onadj_parmet_typ_idChanged();
+                }
+            }
+        }
+
+
+        [Column(Storage = "_updt_user_id", DbType = "Int")]
+        public System.Nullable<int> updt_user_id
+        {
+            get
+            {
+                return this._updt_user_id;
+            }
+            set
+            {
+                if ((this._updt_user_id != value))
+                {
+                    this.Onupdt_user_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._updt_user_id = value;
+                    this.SendPropertyChanged("updt_user_id");
+                    this.Onupdt_user_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_updt_dt", DbType = "DateTime")]
+        public System.Nullable<System.DateTime> updt_dt
+        {
+            get
+            {
+                return this._updt_dt;
+            }
+            set
+            {
+                if ((this._updt_dt != value))
+                {
+                    this.Onupdt_dtChanging(value);
+                    this.SendPropertyChanging();
+                    this._updt_dt = value;
+                    this.SendPropertyChanged("updt_dt");
+                    this.Onupdt_dtChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_crte_user_id", DbType = "Int NOT NULL")]
+        public int crte_user_id
+        {
+            get
+            {
+                return this._crte_user_id;
+            }
+            set
+            {
+                if ((this._crte_user_id != value))
+                {
+                    this.Oncrte_user_idChanging(value);
+                    this.SendPropertyChanging();
+                    this._crte_user_id = value;
+                    this.SendPropertyChanged("crte_user_id");
+                    this.Oncrte_user_idChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_crte_dt", DbType = "DateTime NOT NULL")]
+        public System.DateTime crte_dt
+        {
+            get
+            {
+                return this._crte_dt;
+            }
+            set
+            {
+                if ((this._crte_dt != value))
+                {
+                    this.Oncrte_dtChanging(value);
+                    this.SendPropertyChanging();
+                    this._crte_dt = value;
+                    this.SendPropertyChanged("crte_dt");
+                    this.Oncrte_dtChanged();
+                }
+            }
+        }
+
+        [Column(Storage = "_dpst_ind", DbType = "Bit")]
+        public System.Nullable<bool> dpst_ind
+        {
+            get
+            {
+                return this._dpst_ind;
+            }
+            set
+            {
+                if ((this._dpst_ind != value))
+                {
+                    this.Ondpst_indChanging(value);
+                    this.SendPropertyChanging();
+                    this._dpst_ind = value;
+                    this.SendPropertyChanged("dpst_ind");
+                    this.Ondpst_indChanged();
+                }
+            }
+        }
+
+
+        [Association(Name = "PREM_ADJ_PGM_SETUP_PREM_ADJ_DPST_CHBX", Storage = "_PREM_ADJ_PGM_SETUP", ThisKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", OtherKey = "prem_adj_pgm_setup_id,prem_adj_pgm_id,custmr_id", IsForeignKey = true)]
+        public PREM_ADJ_PGM_SETUP PREM_ADJ_PGM_SETUP
+        {
+            get
+            {
+                return this._PREM_ADJ_PGM_SETUP.Entity;
+            }
+            set
+            {
+                PREM_ADJ_PGM_SETUP previousValue = this._PREM_ADJ_PGM_SETUP.Entity;
+                if (((previousValue != value)
+                            || (this._PREM_ADJ_PGM_SETUP.HasLoadedOrAssignedValue == false)))
+                {
+                    this.SendPropertyChanging();
+                    if ((previousValue != null))
+                    {
+                        this._PREM_ADJ_PGM_SETUP.Entity = null;
+                        previousValue.PREM_ADJ_DPST_CHBXs.Remove(this);
+                    }
+                    this._PREM_ADJ_PGM_SETUP.Entity = value;
+                    if ((value != null))
+                    {
+                        value.PREM_ADJ_DPST_CHBXs.Add(this);
+                        this._prem_adj_pgm_setup_id = value.prem_adj_pgm_setup_id;
+                        this._prem_adj_pgm_id = value.prem_adj_pgm_id;
+                        this._custmr_id = value.custmr_id;
+                    }
+                    else
+                    {
+                        this._prem_adj_pgm_setup_id = default(int);
+                        this._prem_adj_pgm_id = default(int);
+                        this._custmr_id = default(int);
+                    }
+                    this.SendPropertyChanged("PREM_ADJ_PGM_SETUP");
+                }
+            }
+        }
+               
+        public event PropertyChangingEventHandler PropertyChanging;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void SendPropertyChanging()
+        {
+            if ((this.PropertyChanging != null))
+            {
+                this.PropertyChanging(this, emptyChangingEventArgs);
+            }
+        }
+
+        protected virtual void SendPropertyChanged(String propertyName)
+        {
+            if ((this.PropertyChanged != null))
+            {
+                this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\AIS.DAL.Logic.csproj
+#L101
+<Compile Include="Queries\Prem_Adj_Dpst_ChbxDA.cs" />
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.DAL.Logic\Queries
+#New File created
+Prem_Adj_Dpst_ChbxDA.cs
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZurichNA.AIS.Business.Entities;
+using ZurichNA.AIS.DAL.LINQ;
+using ZurichNA.LSP.Framework.DataAccess;
+
+namespace ZurichNA.AIS.DAL.Logic.Queries
+{
+    public class Prem_Adj_Dpst_ChbxDA : DataAccessor<PREM_ADJ_DPST_CHBX, Prem_Adj_Dpst_ChbxBE, AISDatabaseLINQDataContext>
+    {
+        public IList<Prem_Adj_Dpst_ChbxBE> getAdjDpstChbxInfo(int PremAdjPgmSetupID, int PremAdjPgmID, int CstmrID)
+        {
+            IList<Prem_Adj_Dpst_ChbxBE> resultl = new List<Prem_Adj_Dpst_ChbxBE>();
+
+            IQueryable<Prem_Adj_Dpst_ChbxBE> query = this.BuildQuery();
+
+            if (PremAdjPgmSetupID > 0 || CstmrID > 0 || PremAdjPgmID > 0)
+            {
+                query = query.Where(PremAdjDpstChbx => PremAdjDpstChbx.prem_adj_pgm_setup_id == PremAdjPgmSetupID);
+                query = query.Where(PremAdjDpstChbx => PremAdjDpstChbx.prem_adj_pgm_id == PremAdjPgmID);
+                query = query.Where(PremAdjDpstChbx => PremAdjDpstChbx.Cstmr_Id == CstmrID);
+                if (query.Count() > 0)
+                    resultl = query.ToList();
+
+            }
+            else
+            {
+                resultl = null;
+            }
+
+            return resultl;
+        }
+        private IQueryable<Prem_Adj_Dpst_ChbxBE> BuildQuery()
+        {
+
+            if (this.Context == null)
+                this.Initialize();
+            IQueryable<Prem_Adj_Dpst_ChbxBE> query = from PremAdjDpstchbx in this.Context.PREM_ADJ_DPST_CHBXs
+                                                     select new Prem_Adj_Dpst_ChbxBE
+                                                     {
+                                                               prem_adj_dpst_chbx_id = PremAdjDpstchbx.prem_adj_dpst_chbx_id,
+                                                               prem_adj_pgm_setup_id = PremAdjDpstchbx.prem_adj_pgm_setup_id,                                                               
+                                                               Cstmr_Id = PremAdjDpstchbx.custmr_id,                                                               
+                                                               AdjparameterTypeID = PremAdjDpstchbx.adj_parmet_typ_id,
+                                                               dpst_ind = PremAdjDpstchbx.dpst_ind,
+                                                               CREATE_DATE = PremAdjDpstchbx.crte_dt,
+                                                               CREATE_USER_ID = PremAdjDpstchbx.crte_user_id,
+                                                               UPDATE_DATE = PremAdjDpstchbx.updt_dt,
+                                                               UPDATE_USER_ID = PremAdjDpstchbx.updt_user_id
+                                                           };
+            return query;
+        }
+        public string getAdjDpstChbxResult(int AdjPgmSetupID, int PremAdjPgmID, int CstmrID, int adjParamTypeID)
+        {
+            Prem_Adj_Dpst_ChbxBE result = new Prem_Adj_Dpst_ChbxBE();
+
+            IQueryable<Prem_Adj_Dpst_ChbxBE> query = (from aps in this.Context.PREM_ADJ_DPST_CHBXs
+                                                      where aps.prem_adj_pgm_setup_id == AdjPgmSetupID && aps.prem_adj_pgm_id == PremAdjPgmID && aps.custmr_id == CstmrID && aps.adj_parmet_typ_id == adjParamTypeID
+                                                            select new Prem_Adj_Dpst_ChbxBE
+                                                            {
+                                                                prem_adj_pgm_setup_id = aps.prem_adj_pgm_setup_id,
+
+                                                            });
+            if (query.Count() > 0)
+            {
+                return "true";
+            }
+            else
+                return "false";
+
+        }
+    }
+}
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx
+#L1669
+<th>
+	Use Deposit
+</th>
+#L1721
+<td style="vertical-align: middle">
+<asp:CheckBox ID="rbtnCHFUseDpst" runat="server" Checked="false" Enabled="true" >
+	</asp:CheckBox>
+</td>
+#L1775
+<td style="vertical-align: middle">
+<asp:CheckBox ID="rbtnCHFUseDpst2" runat="server" Checked="false" Enabled="true" >
+	</asp:CheckBox>
+</td>
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx.designer.cs
+#L1180
+/// <summary>
+    /// rbtnCHFUseDpst control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox rbtnCHFUseDpst;
+#L1297
+/// <summary>
+    /// rbtnCHFUseDpst2 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox rbtnCHFUseDpst2;
+
+//C:\Workspace\AIS_Test\Source\AIS\AIS.WebSite\AdjParams\ParameterSetup.aspx.cs
+#L110
+Prem_Adj_Dpst_ChbxBS premAdjDpstChbxBS;
+    private Prem_Adj_Dpst_ChbxBS PremAdjDpstChbxBS
+    {
+        get
+        {
+            if (premAdjDpstChbxBS == null)
+            {
+                premAdjDpstChbxBS = new Prem_Adj_Dpst_ChbxBS();
+                premAdjDpstChbxBS.AppTransactionWrapper = AdjParameterTransactionWrapper;
+            }
+            return premAdjDpstChbxBS;
+        }
+        set
+        {
+            premAdjDpstChbxBS = value;
+        }
+	}
+
+#L215
+Prem_Adj_Dpst_ChbxBE premAdjDpstChbxBE;
+    private Prem_Adj_Dpst_ChbxBE PremAdjDpstChbxBE
+    {
+        get
+        {
+            if (premAdjDpstChbxBE == null)
+            {
+                premAdjDpstChbxBE = new Prem_Adj_Dpst_ChbxBE();
+            }
+            return premAdjDpstChbxBE;
+        }
+        set
+        {
+            premAdjDpstChbxBE = value;
+        }
+    }
+#L607
+Prem_Adj_Dpst_ChbxBE PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxBE();
+#L615
+if (AdjCompareLBA.clm_hndl_fee_basis_id == Convert.ToInt32(ddCHFBasisCharged.SelectedValue) &&
+AdjCompareLBA.depst_amt == CHFDeposit &&
+PremAdjDpstChbx.dpst_ind == bool.Parse(rbtnCHFUseDpst.Checked.ToString()))
+#L735
+Prem_Adj_Dpst_ChbxBE PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxBE();
+#L743
+if (AdjCompareLBA.clm_hndl_fee_basis_id == Convert.ToInt32(ddCHFBasisCharged2.SelectedValue) &&
+AdjCompareLBA.depst_amt == chfDeposit2 &&
+PremAdjDpstChbx.dpst_ind == bool.Parse(rbtnCHFUseDpst2.Checked.ToString()))
+#L2393
+rbtnCHFUseDpst.Checked = false;
+rbtnCHFUseDpst2.Checked = false;
+#L2477
+this.rbtnCHFUseDpst.Enabled = true;
+#L2484
+this.rbtnCHFUseDpst2.Enabled = true;
+#L2992
+Prem_Adj_Dpst_ChbxBE PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxBE();
+#L3000
+rbtnCHFUseDpst.Checked = true;
+#L3016
+rbtnCHFUseDpst.Enabled = true;
+#L3038
+rbtnCHFUseDpst.Enabled = false;
+#L3073
+rbtnCHFUseDpst2.Checked = false;
+#L3089
+rbtnCHFUseDpst2.Enabled = true;
+#L3113
+rbtnCHFUseDpst2.Enabled = false;
+#L5344
+Prem_Adj_Dpst_ChbxBE PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxBE();
+        if (rbtnCHFUseDpst.Checked == true)
+        {
+            PremAdjDpstChbx.dpst_ind = true;
+        }
+        else
+        {
+            PremAdjDpstChbx.dpst_ind = false;
+        }
+#L5363
+PremAdjDpstChbx.dpst_ind = true;
+#L5560
+Prem_Adj_Dpst_ChbxBE PremAdjDpstChbx = new Prem_Adj_Dpst_ChbxBE();
+        if (rbtnCHFUseDpst.Checked == true)
+        {
+            PremAdjDpstChbx.dpst_ind = true;
+        }
+        else
+        {
+            PremAdjDpstChbx.dpst_ind = false;
+        }
+#L5578
+PremAdjDpstChbx.dpst_ind = true;

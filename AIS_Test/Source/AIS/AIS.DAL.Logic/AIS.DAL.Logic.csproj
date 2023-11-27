@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{256DDBEA-36CA-4FAD-B5AA-1D7845AFEF6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZurichNA.AIS.DAL.Logic</RootNamespace>
+    <AssemblyName>ZurichNA.AIS.DAL.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Queries\AdjustmentManagementDA.cs" />
+    <Compile Include="Queries\ApplicationStatusLogDA.cs" />
+    <Compile Include="Queries\AriesClearingDA.cs" />
+    <Compile Include="Queries\BuBrokerReviewDA.cs" />
+    <Compile Include="Queries\CustmrDocIssuesDA.cs" />
+    <Compile Include="Queries\ILRFTaxSetupDA.cs" />
+    <Compile Include="Queries\DeductibleTaxesDA.cs" />
+    <Compile Include="Queries\InvoiceDriverDA.cs" />
+    <Compile Include="Queries\InvoiceExhibitDA.cs" />
+    <Compile Include="Queries\InvoiceInquiryDA.cs" />
+    <Compile Include="Queries\InvoiceMailingDtlsDA.cs" />
+    <Compile Include="Queries\KYORSetupDA.cs" />
+    <Compile Include="Queries\NonAisCusotmerDA.cs" />
+    <Compile Include="Queries\PremiumAdjCombElementsDA.cs" />
+    <Compile Include="Queries\PremiumAdjLRFPostingDA.cs" />
+    <Compile Include="Queries\PremiumAdjLRFPostingTaxDA.cs" />
+    <Compile Include="Queries\PremiumAdjMiscInvoiceDA.cs" />
+    <Compile Include="Queries\PremiumAdjNYScndInjuryFundDA.cs" />
+    <Compile Include="Queries\QLTY_CNTRL_MSTR_ISSU_LISTDA.cs" />
+    <Compile Include="Queries\PostringTransactionTypeDA.cs" />
+    <Compile Include="Queries\AdjustmentReviewCommentsDA.cs" />
+    <Compile Include="Queries\PaidLossBillingDA.cs" />
+    <Compile Include="Queries\PremAdjustmentDA.cs" />
+    <Compile Include="Queries\ExcessNonBillableDA.cs" />
+    <Compile Include="Queries\PremAdjCommentDA.cs" />
+    <Compile Include="Queries\AppWebPageAuthDA.cs" />
+    <Compile Include="Queries\AssignContactsDA.cs" />
+    <Compile Include="Queries\GlobalConstants.cs" />
+    <Compile Include="Queries\AdjQCDA.cs" />
+    <Compile Include="Queries\AdjProcChklstDA.cs" />
+    <Compile Include="Queries\LossInfoDA.cs" />
+    <Compile Include="Queries\PremiumAdjustmentEscrowDA.cs" />
+    <Compile Include="Queries\PremiumAdjustmentPeriodDA.cs" />
+    <Compile Include="Queries\PremiumAdjustmentProgramStatusDA.cs" />
+    <Compile Include="Queries\QCMasterIssueListDA.cs" />
+    <Compile Include="Queries\Qtly_Cntrol_ChklistDA.cs" />
+    <Compile Include="Queries\AcctSetupProcChklstDA.cs" />
+    <Compile Include="Queries\AcctSetupQCDA.cs" />
+    <Compile Include="Queries\Coml_AgmtDA.cs" />
+    <Compile Include="Queries\Coml_Agmt_AuDtDA.cs" />
+    <Compile Include="Queries\CustomerCommentsDA.cs" />
+    <Compile Include="Queries\CustomerDocumentDA.cs" />
+    <Compile Include="Queries\Non_Sub_Audt_PremDA.cs" />
+    <Compile Include="Queries\PremumAdjustmentStatusDA.cs" />
+    <Compile Include="Queries\BusinessUnitOfficeDA.cs" />
+    <Compile Include="Queries\LookupTypeDA.cs" />
+    <Compile Include="Queries\ILRFFormulaDA.cs" />
+    <Compile Include="Queries\PostAddressDA.cs" />
+    <Compile Include="Queries\Adjt_paramet_DtlDA.cs" />
+    <Compile Include="Queries\Adj_paramet_PolDA.cs" />
+    <Compile Include="Queries\AssignERPFormulaDA.cs" />
+    <Compile Include="Queries\Adj_Parameter_setupDA.cs" />
+    <Compile Include="Queries\AISTransactionWrapper.cs" />
+    <Compile Include="Queries\ApplWebPageAudtDA.cs" />
+    <Compile Include="Queries\BrokerDA.cs" />
+    <Compile Include="Queries\AccountDA.cs" />
+    <Compile Include="Queries\CombinedElementsDA.cs" />
+    <Compile Include="Queries\CustomerContactDA.cs" />
+    <Compile Include="Queries\LookupDA.cs" />
+    <Compile Include="Queries\LSICustomersDA.cs" />
+    <Compile Include="Queries\MasterERPFormulaDA.cs" />
+    <Compile Include="Queries\MenuDA.cs" />
+    <Compile Include="Queries\PersonDA.cs" />
+    <Compile Include="Queries\PolicyDA.cs" />
+    <Compile Include="Queries\ProgramPeriodDA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\RetroInfoDA.cs" />
+    <Compile Include="Queries\SteppedFactorsDA.cs" />
+    <Compile Include="Queries\Sub_Audt_PremDA.cs" />
+    <Compile Include="Queries\SurchargeDetailsDA.cs" />
+    <Compile Include="Queries\SurchargesDA.cs" />
+    <Compile Include="Queries\TaxExemptionDA.cs" />
+    <Compile Include="Queries\TPAManualPostingsDA.cs" />
+    <Compile Include="Queries\TPAManualPostingsDetailDA.cs" />
+    <Compile Include="Queries\ZDWSearchDA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Retro.DAL.Logic.csproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIS.Business.Entities\AIS.Business.Entities.csproj">
+      <Project>{FD4A78D3-0B06-4BD7-BBFF-FDFB8EEAD733}</Project>
+      <Name>AIS.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.DAL.LINQModel\AIS.DAL.LINQModel.csproj">
+      <Project>{8C68BDA1-6658-41B4-8C5C-8CDCEED21FBF}</Project>
+      <Name>AIS.DAL.LINQModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIS.Exception\AIS.Exception.csproj">
+      <Project>{83230733-1DC3-4623-95BF-F733D0769207}</Project>
+      <Name>AIS.Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZurichNA.LSP.Framework\ZurichNA.LSP.Framework.csproj">
+      <Project>{43468BA4-E5B9-4000-8082-52E48971EA45}</Project>
+      <Name>ZurichNA.LSP.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

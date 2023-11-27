@@ -1,0 +1,91 @@
+﻿/* 	Retro CSS template
+	style sheet copyright 2007
+	Comments: CSS template for Retro web application
+              Styles for the #center layer.
+              Define HTML tags and user-defined classes so that ASP can 
+                access them through the CssClass attribute. Other ASP accessible
+                classes defined here.			
+*/
+
+
+
+#center h1, h2, h3, .h1, .h2, .h3{ color:Navy; font-family: Verdana, Arial, Helvetica; text-align:left; }
+#center h1, .h1 {font-size:19px; font-weight:normal; padding-bottom:20px; } 
+#center h2, .h2 {font-size:14px; font-weight:bold; text-align:left; }
+#center h3, .h3 {font-size:12px; font-weight:bold;}
+#center .buttonStyle { margin: 2px; padding:0px; }
+
+#center table, tr, td {
+	font-size: 10px;
+	font-family:  Verdana, Arial, Helvetica;
+	font-weight: normal;
+	text-decoration: none;
+    vertical-align  : top;
+
+}
+#center table
+{
+    padding: 0px 10px 0px 10px;
+}
+
+#center tr
+{
+    padding: 0px 1px 0px 3px;
+ 
+}
+#center td, th 
+{
+
+    padding: 0px 1px 0px 1px;
+} 
+    
+#center th {font-weight:bold;}
+
+#center .gridView
+{
+    border-right: gray 1px solid;
+    border-top: gray 1px solid;
+    border-left: gray 1px solid;
+    border-bottom: gray 1px solid;
+    border-collapse: separate;
+}
+
+a.linkButtonStyle:link {
+	color: #0000FF;
+}
+
+a.linkButtonStyle:visited {
+	color: #0000FF;
+}
+
+#linkstyle{
+	 background-color:Blue;
+	 color:Green;
+}
+
+input 
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica;
+}
+Div.policyInformationHeader
+{
+	font-weight: bold;
+	background-color: #608CC8;
+	text-align: left;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+
+.watermark
+{
+	background: Gray;
+}
+
+.modelbackground
+{
+	background-color:Silver;
+    filter:alpha(opacity=70);
+    opacity:0.70;   
+}
